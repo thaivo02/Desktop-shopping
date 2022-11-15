@@ -146,7 +146,7 @@
             this.picChange2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.picChange2.TabIndex = 70;
             this.picChange2.TabStop = false;
-            this.picChange2.Click += new System.EventHandler(this.picChange);
+            this.picChange2.Click += new System.EventHandler(this.pic2);
             // 
             // picChange1
             // 
@@ -160,7 +160,7 @@
             this.picChange1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.picChange1.TabIndex = 70;
             this.picChange1.TabStop = false;
-            this.picChange1.Click += new System.EventHandler(this.picChange);
+            this.picChange1.Click += new System.EventHandler(this.pic1);
             // 
             // btnAdd_to_cart
             // 

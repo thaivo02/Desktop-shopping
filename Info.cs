@@ -23,9 +23,17 @@ namespace Sneakerz
             this.Close();
         }
 
-        private void picChange(object sender, EventArgs e)
+        private void pic1(object sender, EventArgs e)
         {
-            this.picDefault.Image = ((GunaPictureBox)sender).Image;
+            Image image = picDefault.Image;
+            picDefault.Image = picChange1.Image;
+            picChange1.Image = image;
+        }
+        private void pic2(object sender, EventArgs e)
+        {
+            Image image = picDefault.Image;
+            picDefault.Image = picChange2.Image;
+            picChange2.Image = image;
         }
     }
 }
