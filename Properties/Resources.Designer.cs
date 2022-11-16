@@ -73,6 +73,146 @@ namespace Sneakerz.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap dbasketball_don_issue_3 {
+            get {
+                object obj = ResourceManager.GetObject("dbasketball_don_issue_3", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap dbasketball_don_issue_4 {
+            get {
+                object obj = ResourceManager.GetObject("dbasketball_don_issue_4", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap dbasketball_drose_son_of_chi {
+            get {
+                object obj = ResourceManager.GetObject("dbasketball_drose_son_of_chi", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap dbasketball_harden_stepback_3 {
+            get {
+                object obj = ResourceManager.GetObject("dbasketball_harden_stepback_3", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap dbasketball_harden_vol_6 {
+            get {
+                object obj = ResourceManager.GetObject("dbasketball_harden_vol_6", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap dbasketball_super_dame_8 {
+            get {
+                object obj = ResourceManager.GetObject("dbasketball_super_dame_8", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap dbasketball_trae_young_2_0 {
+            get {
+                object obj = ResourceManager.GetObject("dbasketball_trae_young_2.0", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap dlifestyle_hoops_3_0_low {
+            get {
+                object obj = ResourceManager.GetObject("dlifestyle_hoops_3.0_low", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap dlifestyle_nmd_r1_v2 {
+            get {
+                object obj = ResourceManager.GetObject("dlifestyle_nmd_r1_v2", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap dlifestyle_ozella {
+            get {
+                object obj = ResourceManager.GetObject("dlifestyle_ozella", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap dlifestyle_questar_flow_nxt {
+            get {
+                object obj = ResourceManager.GetObject("dlifestyle_questar_flow_nxt", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap dlifestyle_stan_smith {
+            get {
+                object obj = ResourceManager.GetObject("dlifestyle_stan_smith", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap dlifestyle_swift_run {
+            get {
+                object obj = ResourceManager.GetObject("dlifestyle_swift_run", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap dlifestyle_ultraboost_dna {
+            get {
+                object obj = ResourceManager.GetObject("dlifestyle_ultraboost_dna", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap drunning_4dfwd_2 {
             get {
                 object obj = ResourceManager.GetObject("drunning_4dfwd_2", resourceCulture);
