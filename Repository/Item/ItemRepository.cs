@@ -30,4 +30,9 @@ public class ItemRepository : Repository<Entity.Item, string>, IItemRepository
         return items.ToList();
     }
 
+    public Entity.Item GetItemDetail(string id)
+    {
+        var item = GetAll().FirstOrDefault(i => i.Id == id);
+        return item;
+    }
 }

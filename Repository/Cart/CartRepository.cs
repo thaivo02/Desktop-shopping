@@ -1,8 +1,28 @@
-﻿namespace Sneakerz.Repository.Cart;
+﻿using Sneakerz.Repository.CartDetail;
 
-public class CartRepository : Repository<Entity.Cart, int>,ICartRepository
+namespace Sneakerz.Repository.Cart;
+
+public class CartRepository : Repository<Entity.Cart, int>, ICartRepository
 {
-    public CartRepository(ApplicationDbContext dbContext) : base(dbContext)
+    private readonly ICartDetailRepository _cartDetailRepository;
+    public CartRepository(
+        ApplicationDbContext dbContext, 
+        ICartDetailRepository cartDetailRepository
+        ) : base(dbContext)
     {
+        _cartDetailRepository = cartDetailRepository;
+    }
+
+    public int AddToCart(Entity.Cart cart)
+    {
+        Add(cart);
+        SaveChanges();
+        return cart.Id;
+    }
+
+    public Entity.Cart GetCart(int userId)
+    {
+        var cart = GetAll().FirstOrDefault(c => c.UserId == userId);
+        return cart;
     }
 }
