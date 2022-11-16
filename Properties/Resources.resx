@@ -127,11 +127,14 @@
   <data name="drunning_adizero_adios_pro_3" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\bin\Debug\shoes\running\drunning_adizero_adios_pro_3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="nrunning_freerun_5(2)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\shoes\running\nrunning_freerun_5(2).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="drunning_ultraboost_22" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\bin\Debug\shoes\running\drunning_ultraboost_22.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="nrunning_pegasus_trial_4" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\bin\Debug\shoes\running\nrunning_pegasus_trial_4.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="notfavourite" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\img\notfavourite.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="nlifestyle_vapormax_2021_flyknit" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\bin\Debug\shoes\lifestyle\nlifestyle_vapormax_2021_flyknit.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -166,6 +169,9 @@
   <data name="nbasketball_kd15" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\bin\Debug\shoes\basketball\nbasketball_kd15.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="nrunning_pegasus_trial_4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\shoes\running\nrunning_pegasus_trial_4.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="nike" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\bin\Debug\img\logo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -174,6 +180,9 @@
   </data>
   <data name="landscape" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\bin\Debug\img\Landscape.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="nrunning_freerun_5(1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\shoes\running\nrunning_freerun_5(1).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="nbasketball_cosmic_unity_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\bin\Debug\shoes\basketball\nbasketball_cosmic_unity_2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -226,7 +235,7 @@
   <data name="nbasketball_lebron_xx" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\bin\Debug\shoes\basketball\nbasketball_lebron_xx.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="notfavourite" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\bin\Debug\img\notfavourite.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="rsz_2drunning_4dfwd_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\shoes\running\rsz_2drunning_4dfwd_2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>
