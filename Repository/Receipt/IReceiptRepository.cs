@@ -1,6 +1,6 @@
 ﻿namespace Sneakerz.Repository.Receipt;
 
-public interface IReceiptRepository
+public interface IReceiptRepository : IRepository<Entity.Receipt, int>
 {
     
 }
