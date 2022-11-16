@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "PpLli8KOo+MRi3a0gWovfZm7b3yMVyMWy4AYITXg29ruJmnTopV2i4EnuyEGiYRmlfewcaq8wNZzPfkiQLcz4g==",
+  "dgSpecHash": "9kD71G4fW7YdNSsgMihodnjd7eLQ4Zu7qwP0PpdFRF95JRz2GRFmOVxM3MZ1GIiBQ8B8eRlzc6R49PUV+IOvdw==",
   "success": true,
-  "projectFilePath": "F:\\Experiment\\UIT\\Năm III\\CS511\\Sneakerz\\Sneakerz.csproj",
+  "projectFilePath": "F:\\Experiment\\UIT\\Năm III\\CS511\\Desktop-shopping\\Sneakerz.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\LENOVO\\.nuget\\packages\\guna.ui2.winforms\\2.0.3.5\\guna.ui2.winforms.2.0.3.5.nupkg.sha512"
   ],

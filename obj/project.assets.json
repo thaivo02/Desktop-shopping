@@ -40,11 +40,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "F:\\Experiment\\UIT\\Năm III\\CS511\\Sneakerz\\Sneakerz.csproj",
+      "projectUniqueName": "F:\\Experiment\\UIT\\Năm III\\CS511\\Desktop-shopping\\Sneakerz.csproj",
       "projectName": "Sneakerz",
-      "projectPath": "F:\\Experiment\\UIT\\Năm III\\CS511\\Sneakerz\\Sneakerz.csproj",
+      "projectPath": "F:\\Experiment\\UIT\\Năm III\\CS511\\Desktop-shopping\\Sneakerz.csproj",
       "packagesPath": "C:\\Users\\LENOVO\\.nuget\\packages\\",
-      "outputPath": "F:\\Experiment\\UIT\\Năm III\\CS511\\Sneakerz\\obj\\",
+      "outputPath": "F:\\Experiment\\UIT\\Năm III\\CS511\\Desktop-shopping\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\LENOVO\\AppData\\Roaming\\NuGet\\NuGet.Config",
