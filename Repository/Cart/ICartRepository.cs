@@ -1,6 +1,6 @@
 ﻿namespace Sneakerz.Repository.Cart;
 
-public interface ICartRepository
+public interface ICartRepository : IRepository<Entity.Cart, int>
 {
     
 }

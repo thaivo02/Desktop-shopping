@@ -92,6 +92,9 @@ namespace Sneakerz.Migrations
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
 
+                    b.Property<int>("CaregoryId")
+                        .HasColumnType("int");
+
                     b.Property<double>("Cash")
                         .HasColumnType("float");
 

@@ -1,6 +1,6 @@
 ﻿namespace Sneakerz.Repository.Account;
 
-public interface IAccountRepository
+public interface IAccountRepository : IRepository<Entity.Account, int>
 {
     
 }
