@@ -294,6 +294,7 @@
             this.btnExit.Size = new System.Drawing.Size(160, 52);
             this.btnExit.TabIndex = 35;
             this.btnExit.Text = "EXIT";
+            this.btnExit.Click += new System.EventHandler(this.btnExit_Click);
             // 
             // guna2HtmlLabel21
             // 

@@ -353,6 +353,26 @@ namespace Sneakerz.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap nrunning_freerun_5_1_ {
+            get {
+                object obj = ResourceManager.GetObject("nrunning_freerun_5(1)", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap nrunning_freerun_5_2_ {
+            get {
+                object obj = ResourceManager.GetObject("nrunning_freerun_5(2)", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap nrunning_pegasus_39 {
             get {
                 object obj = ResourceManager.GetObject("nrunning_pegasus_39", resourceCulture);
@@ -416,6 +436,16 @@ namespace Sneakerz.Properties {
         internal static System.Drawing.Bitmap right {
             get {
                 object obj = ResourceManager.GetObject("right", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap rsz_2drunning_4dfwd_2 {
+            get {
+                object obj = ResourceManager.GetObject("rsz_2drunning_4dfwd_2", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

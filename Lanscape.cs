@@ -1,3 +1,5 @@
+using System.Windows.Forms;
+
 namespace Sneakerz
 {
     public partial class Lanscape : Form
@@ -26,7 +28,9 @@ namespace Sneakerz
             Info frm = new Info() { Dock = DockStyle.Fill, TopLevel = false, TopMost= true };
             this.panelMain.Controls.Add(frm);
             frm.BringToFront();
+            frm.Closed += (s, args) => this.Close();
             frm.Show();
+            
         }
     }
 }
