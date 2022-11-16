@@ -1,6 +1,6 @@
 ﻿namespace Sneakerz.Entity;
 
-public class AggressiveRoot
+public class AggressiveRoot<T>
 {
-    public int Id { get; set; }
+    public T Id { get; set; }
 }

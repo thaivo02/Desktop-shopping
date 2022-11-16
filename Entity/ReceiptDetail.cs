@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Sneakerz.Entity
 {
-    public class ReceiptDetail : AggressiveRoot
+    public class ReceiptDetail : AggressiveRoot<int>
     {
         public int Amount { get; set; }
         public int ItemId { get; set; }

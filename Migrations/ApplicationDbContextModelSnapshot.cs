@@ -46,7 +46,23 @@ namespace Sneakerz.Migrations
                     b.ToTable("Accounts");
                 });
 
-            modelBuilder.Entity("Sneakerz.Entity.CardDetail", b =>
+            modelBuilder.Entity("Sneakerz.Entity.CartRepository", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<int>("UserId")
+                        .HasColumnType("int");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("Carts");
+                });
+
+            modelBuilder.Entity("Sneakerz.Entity.CartDetail", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
@@ -68,22 +84,6 @@ namespace Sneakerz.Migrations
                     b.ToTable("CardDetails");
                 });
 
-            modelBuilder.Entity("Sneakerz.Entity.Cart", b =>
-                {
-                    b.Property<int>("Id")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("int");
-
-                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
-
-                    b.Property<int>("UserId")
-                        .HasColumnType("int");
-
-                    b.HasKey("Id");
-
-                    b.ToTable("Carts");
-                });
-
             modelBuilder.Entity("Sneakerz.Entity.Item", b =>
                 {
                     b.Property<int>("Id")
@@ -96,6 +96,10 @@ namespace Sneakerz.Migrations
                         .HasColumnType("float");
 
                     b.Property<string>("Description")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("ImageUrl")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 

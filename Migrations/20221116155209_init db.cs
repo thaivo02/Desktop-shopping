@@ -62,6 +62,7 @@ namespace Sneakerz.Migrations
                     Name = table.Column<string>(type: "nvarchar(max)", nullable: false),
                     ReleaseDate = table.Column<long>(type: "bigint", nullable: false),
                     Description = table.Column<string>(type: "nvarchar(max)", nullable: false),
+                    ImageUrl = table.Column<string>(type: "nvarchar(max)", nullable: false),
                     Cash = table.Column<double>(type: "float", nullable: false)
                 },
                 constraints: table =>

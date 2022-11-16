@@ -1,6 +1,6 @@
 ﻿namespace Sneakerz.Entity;
 
-public class CardDetail : AggressiveRoot
+public class CartDetail : AggressiveRoot<int>
 {
     public int Amount { get; set; }
     public int ItemId { get; set; }

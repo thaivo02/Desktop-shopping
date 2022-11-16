@@ -1,12 +1,23 @@
 using Microsoft.EntityFrameworkCore;
-using System.ComponentModel;
+using Microsoft.Extensions.DependencyInjection;
+using Microsoft.Extensions.Hosting;
+using Sneakerz.Repository;
 
 namespace Sneakerz
 {
     public class Program : Form
     {
         private static ApplicationDbContext? _dbContext;
-        
+
+        private static readonly IHost _host = Host.CreateDefaultBuilder()
+            .ConfigureServices(services =>
+            {
+                services.AddDbContext<ApplicationDbContext>(c =>
+                {
+                    c.UseSqlServer("Server=localhost;Database=Store;Trusted_Connection=True;Encrypt=False");
+                });
+                services.AddRepository();
+            }).Build();
         
         /// <summary>
         ///  The main entry point for the application.
@@ -16,20 +27,9 @@ namespace Sneakerz
         {
             // To customize application configuration such as set high DPI settings or default font,
             // see https://aka.ms/applicationconfiguration.
+            _host.Start();
             ApplicationConfiguration.Initialize();
             Application.Run(new Lanscape());
-        }
-
-        protected override void OnLoad(EventArgs e)
-        {   
-            base.OnLoad(e);
-
-            _dbContext = new ApplicationDbContext();
-
-            // Uncomment the line below to start fresh with a new database.
-            // this.dbContext.Database.EnsureDeleted();
-            _dbContext.Database.EnsureCreated();
-            _dbContext.Items.Load();
         }
     }
 }
