@@ -10,10 +10,10 @@ public static class RepositoryExtension
 {
     public static IServiceCollection AddRepository(this IServiceCollection services)
     {
-        services.AddSingleton<IItemRepository, ItemRepository>();
-        services.AddSingleton<IAccountRepository, AccountRepository>();
-        services.AddSingleton<ICartRepository, CartRepository>();
-        services.AddSingleton<IReceiptRepository, ReceiptRepository>();
+        services.AddScoped(typeof(IItemRepository), typeof(ItemRepository));
+        services.AddScoped(typeof(IAccountRepository), typeof(AccountRepository));
+        services.AddScoped(typeof(ICartRepository), typeof(CartRepository));
+        services.AddScoped(typeof(IReceiptRepository), typeof(ReceiptRepository));
         return services;
     }
 }

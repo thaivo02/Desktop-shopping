@@ -46,7 +46,7 @@ namespace Sneakerz.Migrations
                     b.ToTable("Accounts");
                 });
 
-            modelBuilder.Entity("Sneakerz.Entity.CartRepository", b =>
+            modelBuilder.Entity("Sneakerz.Entity.Cart", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()

@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "F:\\Experiment\\UIT\\Năm III\\CS511\\Desktop-shopping\\Sneakerz.csproj": {}
+    "E:\\workspace\\Helper\\Desktop-shopping\\Sneakerz.csproj": {}
   },
   "projects": {
-    "F:\\Experiment\\UIT\\Năm III\\CS511\\Desktop-shopping\\Sneakerz.csproj": {
+    "E:\\workspace\\Helper\\Desktop-shopping\\Sneakerz.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "F:\\Experiment\\UIT\\Năm III\\CS511\\Desktop-shopping\\Sneakerz.csproj",
+        "projectUniqueName": "E:\\workspace\\Helper\\Desktop-shopping\\Sneakerz.csproj",
         "projectName": "Sneakerz",
-        "projectPath": "F:\\Experiment\\UIT\\Năm III\\CS511\\Desktop-shopping\\Sneakerz.csproj",
-        "packagesPath": "C:\\Users\\LENOVO\\.nuget\\packages\\",
-        "outputPath": "F:\\Experiment\\UIT\\Năm III\\CS511\\Desktop-shopping\\obj\\",
+        "projectPath": "E:\\workspace\\Helper\\Desktop-shopping\\Sneakerz.csproj",
+        "packagesPath": "C:\\Users\\caoda\\.nuget\\packages\\",
+        "outputPath": "E:\\workspace\\Helper\\Desktop-shopping\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\LENOVO\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\caoda\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -45,6 +45,12 @@
               "version": "[2.0.3.5, )"
             },
             "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
               "target": "Package",
               "version": "[7.0.0, )"
             },
@@ -86,7 +92,7 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
         }
       }
     }

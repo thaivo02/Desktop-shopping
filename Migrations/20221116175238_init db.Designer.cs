@@ -11,7 +11,7 @@ using Sneakerz;
 namespace Sneakerz.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    [Migration("20221116155209_init db")]
+    [Migration("20221116175238_init db")]
     partial class initdb
     {
         /// <inheritdoc />
@@ -49,7 +49,7 @@ namespace Sneakerz.Migrations
                     b.ToTable("Accounts");
                 });
 
-            modelBuilder.Entity("Sneakerz.Entity.CartRepository", b =>
+            modelBuilder.Entity("Sneakerz.Entity.Cart", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()

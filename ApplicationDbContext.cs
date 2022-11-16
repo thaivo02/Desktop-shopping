@@ -1,4 +1,5 @@
-﻿using Microsoft.EntityFrameworkCore;
+﻿using System.Reflection;
+using Microsoft.EntityFrameworkCore;
 using Sneakerz.Entity;
 
 namespace Sneakerz
@@ -19,6 +20,8 @@ namespace Sneakerz
         
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         { 
+            base.OnModelCreating(modelBuilder);
+            modelBuilder.ApplyConfigurationsFromAssembly(Assembly.GetExecutingAssembly());
         }
     }
 }
