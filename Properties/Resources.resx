@@ -193,9 +193,6 @@
   <data name="nrunning_zoomx_varpofly" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\bin\Debug\shoes\running\nrunning_zoomx_varpofly.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="rsz_2drunning_4dfwd_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\bin\Debug\shoes\running\rsz_2drunning_4dfwd_2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="dlifestyle_hoops_3.0_low" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\bin\Debug\shoes\lifestyle\dlifestyle_hoops_3.0_low.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>

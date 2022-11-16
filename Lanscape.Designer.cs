@@ -29,6 +29,7 @@
         private void InitializeComponent()
         {
             this.panelMain = new Guna.UI2.WinForms.Guna2Panel();
+            this.txtSearch = new System.Windows.Forms.TextBox();
             this.btnHome = new Guna.UI2.WinForms.Guna2Button();
             this.btnMen = new Guna.UI2.WinForms.Guna2Button();
             this.btnSearch = new Guna.UI2.WinForms.Guna2Button();
@@ -112,6 +113,7 @@
             this.panelMain.BackColor = System.Drawing.Color.Transparent;
             this.panelMain.BackgroundImage = global::Sneakerz.Properties.Resources.landscape;
             this.panelMain.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.panelMain.Controls.Add(this.txtSearch);
             this.panelMain.Controls.Add(this.btnHome);
             this.panelMain.Controls.Add(this.btnMen);
             this.panelMain.Controls.Add(this.btnSearch);
@@ -170,6 +172,18 @@
             this.panelMain.Size = new System.Drawing.Size(1707, 886);
             this.panelMain.TabIndex = 1;
             // 
+            // txtSearch
+            // 
+            this.txtSearch.BackColor = System.Drawing.Color.Gainsboro;
+            this.txtSearch.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.txtSearch.Font = new System.Drawing.Font("Segoe UI Semibold", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.txtSearch.ForeColor = System.Drawing.Color.Black;
+            this.txtSearch.Location = new System.Drawing.Point(165, 31);
+            this.txtSearch.Name = "txtSearch";
+            this.txtSearch.Size = new System.Drawing.Size(305, 32);
+            this.txtSearch.TabIndex = 86;
+            this.txtSearch.Visible = false;
+            // 
             // btnHome
             // 
             this.btnHome.BackColor = System.Drawing.Color.Transparent;
@@ -217,6 +231,7 @@
             this.btnSearch.Size = new System.Drawing.Size(160, 52);
             this.btnSearch.TabIndex = 40;
             this.btnSearch.Text = "SEARCH";
+            this.btnSearch.Click += new System.EventHandler(this.btnSearch_Click);
             // 
             // btnWomen
             // 
@@ -950,5 +965,6 @@
         private Guna.UI2.WinForms.Guna2PictureBox picBall2;
         private Guna.UI2.WinForms.Guna2PictureBox picLife2;
         private Guna.UI2.WinForms.Guna2PictureBox picLife3;
+        private TextBox txtSearch;
     }
 }
