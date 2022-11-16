@@ -31,11 +31,11 @@
             this.panelMain = new Guna.UI2.WinForms.Guna2Panel();
             this.txtSearch = new System.Windows.Forms.TextBox();
             this.btnHome = new Guna.UI2.WinForms.Guna2Button();
-            this.btnMen = new Guna.UI2.WinForms.Guna2Button();
+            this.btnNike = new Guna.UI2.WinForms.Guna2Button();
             this.btnSearch = new Guna.UI2.WinForms.Guna2Button();
-            this.btnWomen = new Guna.UI2.WinForms.Guna2Button();
+            this.btnAdidas = new Guna.UI2.WinForms.Guna2Button();
             this.btnCart = new Guna.UI2.WinForms.Guna2Button();
-            this.btnKids = new Guna.UI2.WinForms.Guna2Button();
+            this.btnPuma = new Guna.UI2.WinForms.Guna2Button();
             this.picLogo = new Guna.UI2.WinForms.Guna2PictureBox();
             this.btnExit = new Guna.UI2.WinForms.Guna2Button();
             this.guna2HtmlLabel21 = new Guna.UI2.WinForms.Guna2HtmlLabel();
@@ -115,11 +115,11 @@
             this.panelMain.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.panelMain.Controls.Add(this.txtSearch);
             this.panelMain.Controls.Add(this.btnHome);
-            this.panelMain.Controls.Add(this.btnMen);
+            this.panelMain.Controls.Add(this.btnNike);
             this.panelMain.Controls.Add(this.btnSearch);
-            this.panelMain.Controls.Add(this.btnWomen);
+            this.panelMain.Controls.Add(this.btnAdidas);
             this.panelMain.Controls.Add(this.btnCart);
-            this.panelMain.Controls.Add(this.btnKids);
+            this.panelMain.Controls.Add(this.btnPuma);
             this.panelMain.Controls.Add(this.picLogo);
             this.panelMain.Controls.Add(this.btnExit);
             this.panelMain.Controls.Add(this.guna2HtmlLabel21);
@@ -199,22 +199,24 @@
             this.btnHome.Size = new System.Drawing.Size(160, 52);
             this.btnHome.TabIndex = 34;
             this.btnHome.Text = "HOME";
+            this.btnHome.Click += new System.EventHandler(this.btnHome_Click);
             // 
-            // btnMen
+            // btnNike
             // 
-            this.btnMen.BackColor = System.Drawing.Color.Transparent;
-            this.btnMen.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            this.btnMen.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.btnMen.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.btnMen.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.btnMen.FillColor = System.Drawing.Color.Transparent;
-            this.btnMen.Font = new System.Drawing.Font("Segoe UI Semibold", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.btnMen.ForeColor = System.Drawing.Color.White;
-            this.btnMen.Location = new System.Drawing.Point(626, 24);
-            this.btnMen.Name = "btnMen";
-            this.btnMen.Size = new System.Drawing.Size(160, 52);
-            this.btnMen.TabIndex = 64;
-            this.btnMen.Text = "NIKE";
+            this.btnNike.BackColor = System.Drawing.Color.Transparent;
+            this.btnNike.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.btnNike.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.btnNike.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.btnNike.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.btnNike.FillColor = System.Drawing.Color.Transparent;
+            this.btnNike.Font = new System.Drawing.Font("Segoe UI Semibold", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.btnNike.ForeColor = System.Drawing.Color.White;
+            this.btnNike.Location = new System.Drawing.Point(626, 24);
+            this.btnNike.Name = "btnNike";
+            this.btnNike.Size = new System.Drawing.Size(160, 52);
+            this.btnNike.TabIndex = 64;
+            this.btnNike.Text = "NIKE";
+            this.btnNike.Click += new System.EventHandler(this.btnNike_Click);
             // 
             // btnSearch
             // 
@@ -233,21 +235,22 @@
             this.btnSearch.Text = "SEARCH";
             this.btnSearch.Click += new System.EventHandler(this.btnSearch_Click);
             // 
-            // btnWomen
+            // btnAdidas
             // 
-            this.btnWomen.BackColor = System.Drawing.Color.Transparent;
-            this.btnWomen.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            this.btnWomen.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.btnWomen.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.btnWomen.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.btnWomen.FillColor = System.Drawing.Color.Transparent;
-            this.btnWomen.Font = new System.Drawing.Font("Segoe UI Semibold", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.btnWomen.ForeColor = System.Drawing.Color.White;
-            this.btnWomen.Location = new System.Drawing.Point(794, 24);
-            this.btnWomen.Name = "btnWomen";
-            this.btnWomen.Size = new System.Drawing.Size(160, 52);
-            this.btnWomen.TabIndex = 39;
-            this.btnWomen.Text = "ADIDAS";
+            this.btnAdidas.BackColor = System.Drawing.Color.Transparent;
+            this.btnAdidas.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.btnAdidas.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.btnAdidas.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.btnAdidas.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.btnAdidas.FillColor = System.Drawing.Color.Transparent;
+            this.btnAdidas.Font = new System.Drawing.Font("Segoe UI Semibold", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.btnAdidas.ForeColor = System.Drawing.Color.White;
+            this.btnAdidas.Location = new System.Drawing.Point(794, 24);
+            this.btnAdidas.Name = "btnAdidas";
+            this.btnAdidas.Size = new System.Drawing.Size(160, 52);
+            this.btnAdidas.TabIndex = 39;
+            this.btnAdidas.Text = "ADIDAS";
+            this.btnAdidas.Click += new System.EventHandler(this.btnAdidas_Click);
             // 
             // btnCart
             // 
@@ -265,21 +268,21 @@
             this.btnCart.Size = new System.Drawing.Size(56, 52);
             this.btnCart.TabIndex = 41;
             // 
-            // btnKids
+            // btnPuma
             // 
-            this.btnKids.BackColor = System.Drawing.Color.Transparent;
-            this.btnKids.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            this.btnKids.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.btnKids.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.btnKids.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.btnKids.FillColor = System.Drawing.Color.Transparent;
-            this.btnKids.Font = new System.Drawing.Font("Segoe UI Semibold", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.btnKids.ForeColor = System.Drawing.Color.White;
-            this.btnKids.Location = new System.Drawing.Point(962, 24);
-            this.btnKids.Name = "btnKids";
-            this.btnKids.Size = new System.Drawing.Size(160, 52);
-            this.btnKids.TabIndex = 38;
-            this.btnKids.Text = "PUMA";
+            this.btnPuma.BackColor = System.Drawing.Color.Transparent;
+            this.btnPuma.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.btnPuma.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.btnPuma.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.btnPuma.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.btnPuma.FillColor = System.Drawing.Color.Transparent;
+            this.btnPuma.Font = new System.Drawing.Font("Segoe UI Semibold", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.btnPuma.ForeColor = System.Drawing.Color.White;
+            this.btnPuma.Location = new System.Drawing.Point(962, 24);
+            this.btnPuma.Name = "btnPuma";
+            this.btnPuma.Size = new System.Drawing.Size(160, 52);
+            this.btnPuma.TabIndex = 38;
+            this.btnPuma.Text = "PUMA";
             // 
             // picLogo
             // 
@@ -588,7 +591,7 @@
             this.picRun1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.picRun1.TabIndex = 76;
             this.picRun1.TabStop = false;
-            this.picRun1.Click += new System.EventHandler(this.picRun1_Click);
+            this.picRun1.Click += new System.EventHandler(this.picInfo_Click);
             // 
             // picRun3
             // 
@@ -603,6 +606,7 @@
             this.picRun3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.picRun3.TabIndex = 65;
             this.picRun3.TabStop = false;
+            this.picRun3.Click += new System.EventHandler(this.picInfo_Click);
             // 
             // picBall7
             // 
@@ -617,6 +621,7 @@
             this.picBall7.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.picBall7.TabIndex = 72;
             this.picBall7.TabStop = false;
+            this.picBall7.Click += new System.EventHandler(this.picInfo_Click);
             // 
             // picBall6
             // 
@@ -631,6 +636,7 @@
             this.picBall6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.picBall6.TabIndex = 73;
             this.picBall6.TabStop = false;
+            this.picBall6.Click += new System.EventHandler(this.picInfo_Click);
             // 
             // picLife7
             // 
@@ -645,6 +651,7 @@
             this.picLife7.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.picLife7.TabIndex = 83;
             this.picLife7.TabStop = false;
+            this.picLife7.Click += new System.EventHandler(this.picInfo_Click);
             // 
             // picLife6
             // 
@@ -659,6 +666,7 @@
             this.picLife6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.picLife6.TabIndex = 82;
             this.picLife6.TabStop = false;
+            this.picLife6.Click += new System.EventHandler(this.picInfo_Click);
             // 
             // picRun2
             // 
@@ -673,6 +681,7 @@
             this.picRun2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.picRun2.TabIndex = 66;
             this.picRun2.TabStop = false;
+            this.picRun2.Click += new System.EventHandler(this.picInfo_Click);
             // 
             // picBall5
             // 
@@ -687,6 +696,7 @@
             this.picBall5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.picBall5.TabIndex = 85;
             this.picBall5.TabStop = false;
+            this.picBall5.Click += new System.EventHandler(this.picInfo_Click);
             // 
             // picRun4
             // 
@@ -702,6 +712,7 @@
             this.picRun4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.picRun4.TabIndex = 67;
             this.picRun4.TabStop = false;
+            this.picRun4.Click += new System.EventHandler(this.picInfo_Click);
             // 
             // picRun5
             // 
@@ -716,6 +727,7 @@
             this.picRun5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.picRun5.TabIndex = 84;
             this.picRun5.TabStop = false;
+            this.picRun5.Click += new System.EventHandler(this.picInfo_Click);
             // 
             // picBall4
             // 
@@ -730,6 +742,7 @@
             this.picBall4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.picBall4.TabIndex = 81;
             this.picBall4.TabStop = false;
+            this.picBall4.Click += new System.EventHandler(this.picInfo_Click);
             // 
             // picLife5
             // 
@@ -744,6 +757,7 @@
             this.picLife5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.picLife5.TabIndex = 79;
             this.picLife5.TabStop = false;
+            this.picLife5.Click += new System.EventHandler(this.picInfo_Click);
             // 
             // picRun7
             // 
@@ -758,6 +772,7 @@
             this.picRun7.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.picRun7.TabIndex = 77;
             this.picRun7.TabStop = false;
+            this.picRun7.Click += new System.EventHandler(this.picInfo_Click);
             // 
             // picRun6
             // 
@@ -772,6 +787,7 @@
             this.picRun6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.picRun6.TabIndex = 78;
             this.picRun6.TabStop = false;
+            this.picRun6.Click += new System.EventHandler(this.picInfo_Click);
             // 
             // picBall1
             // 
@@ -786,6 +802,7 @@
             this.picBall1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.picBall1.TabIndex = 69;
             this.picBall1.TabStop = false;
+            this.picBall1.Click += new System.EventHandler(this.picInfo_Click);
             // 
             // picBall3
             // 
@@ -800,6 +817,7 @@
             this.picBall3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.picBall3.TabIndex = 80;
             this.picBall3.TabStop = false;
+            this.picBall3.Click += new System.EventHandler(this.picInfo_Click);
             // 
             // picLife1
             // 
@@ -814,6 +832,7 @@
             this.picLife1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.picLife1.TabIndex = 68;
             this.picLife1.TabStop = false;
+            this.picLife1.Click += new System.EventHandler(this.picInfo_Click);
             // 
             // picLife4
             // 
@@ -828,6 +847,7 @@
             this.picLife4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.picLife4.TabIndex = 75;
             this.picLife4.TabStop = false;
+            this.picLife4.Click += new System.EventHandler(this.picInfo_Click);
             // 
             // picBall2
             // 
@@ -842,6 +862,7 @@
             this.picBall2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.picBall2.TabIndex = 71;
             this.picBall2.TabStop = false;
+            this.picBall2.Click += new System.EventHandler(this.picInfo_Click);
             // 
             // picLife2
             // 
@@ -856,6 +877,7 @@
             this.picLife2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.picLife2.TabIndex = 70;
             this.picLife2.TabStop = false;
+            this.picLife2.Click += new System.EventHandler(this.picInfo_Click);
             // 
             // picLife3
             // 
@@ -870,6 +892,7 @@
             this.picLife3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.picLife3.TabIndex = 74;
             this.picLife3.TabStop = false;
+            this.picLife3.Click += new System.EventHandler(this.picInfo_Click);
             // 
             // Lanscape
             // 
@@ -913,11 +936,11 @@
 
         private Guna.UI2.WinForms.Guna2Panel panelMain;
         private Guna.UI2.WinForms.Guna2Button btnHome;
-        private Guna.UI2.WinForms.Guna2Button btnMen;
+        private Guna.UI2.WinForms.Guna2Button btnNike;
         private Guna.UI2.WinForms.Guna2Button btnSearch;
-        private Guna.UI2.WinForms.Guna2Button btnWomen;
+        private Guna.UI2.WinForms.Guna2Button btnAdidas;
         private Guna.UI2.WinForms.Guna2Button btnCart;
-        private Guna.UI2.WinForms.Guna2Button btnKids;
+        private Guna.UI2.WinForms.Guna2Button btnPuma;
         private Guna.UI2.WinForms.Guna2PictureBox picLogo;
         private Guna.UI2.WinForms.Guna2Button btnExit;
         private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel21;

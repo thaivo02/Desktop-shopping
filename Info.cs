@@ -35,5 +35,14 @@ namespace Sneakerz
             picDefault.Image = picChange2.Image;
             picChange2.Image = image;
         }
+
+        private void btnHome_Click(object sender, EventArgs e)
+        {
+            Lanscape frm = new Lanscape() { Dock = DockStyle.Fill, TopLevel = false, TopMost = true };
+            this.panelMain.Controls.Add(frm);
+            frm.BringToFront();
+            frm.Closed += (s, args) => this.Close();
+            frm.Show();
+        }
     }
 }
