@@ -17,4 +17,9 @@ public class ItemServices : IItemServices
         var items = _itemRepository.GetAllItems(queryData);
         return items;
     }
+
+    public Entity.Item GetItemDetail(string id)
+    {
+        return _itemRepository.GetItemDetail(id);
+    }
 }
