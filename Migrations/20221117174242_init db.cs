@@ -57,13 +57,13 @@ namespace Sneakerz.Migrations
                 name: "Items",
                 columns: table => new
                 {
-                    Id = table.Column<int>(type: "int", nullable: false)
-                        .Annotation("SqlServer:Identity", "1, 1"),
+                    Id = table.Column<string>(type: "nvarchar(450)", nullable: false),
                     Name = table.Column<string>(type: "nvarchar(max)", nullable: false),
                     ReleaseDate = table.Column<long>(type: "bigint", nullable: false),
                     Description = table.Column<string>(type: "nvarchar(max)", nullable: false),
                     ImageUrl = table.Column<string>(type: "nvarchar(max)", nullable: false),
-                    Cash = table.Column<double>(type: "float", nullable: false)
+                    Cash = table.Column<double>(type: "float", nullable: false),
+                    CaregoryId = table.Column<int>(type: "int", nullable: false)
                 },
                 constraints: table =>
                 {

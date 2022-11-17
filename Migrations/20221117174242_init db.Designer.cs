@@ -11,8 +11,8 @@ using Sneakerz;
 namespace Sneakerz.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    [Migration("20221116180551_add category for item")]
-    partial class addcategoryforitem
+    [Migration("20221117174242_init db")]
+    partial class initdb
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -89,11 +89,8 @@ namespace Sneakerz.Migrations
 
             modelBuilder.Entity("Sneakerz.Entity.Item", b =>
                 {
-                    b.Property<int>("Id")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("int");
-
-                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+                    b.Property<string>("Id")
+                        .HasColumnType("nvarchar(450)");
 
                     b.Property<int>("CaregoryId")
                         .HasColumnType("int");

@@ -86,11 +86,8 @@ namespace Sneakerz.Migrations
 
             modelBuilder.Entity("Sneakerz.Entity.Item", b =>
                 {
-                    b.Property<int>("Id")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("int");
-
-                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+                    b.Property<string>("Id")
+                        .HasColumnType("nvarchar(450)");
 
                     b.Property<int>("CaregoryId")
                         .HasColumnType("int");
