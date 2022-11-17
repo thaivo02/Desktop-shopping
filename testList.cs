@@ -104,12 +104,6 @@ namespace Sneakerz
             frm.Show();
         }
 
-        private void btnSearch_Click(object sender, EventArgs e)
-        {
-            txtSearch.Visible = true;
-            btnSearch.Visible = false;
-        }
-
         private void btnHome_Click(object sender, EventArgs e)
         {
             this.Home();

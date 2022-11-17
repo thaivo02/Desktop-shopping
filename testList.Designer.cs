@@ -213,7 +213,6 @@
             this.btnSearch.Size = new System.Drawing.Size(160, 52);
             this.btnSearch.TabIndex = 40;
             this.btnSearch.Text = "SEARCH";
-            this.btnSearch.Click += new System.EventHandler(this.btnSearch_Click);
             // 
             // btnAdidas
             // 
