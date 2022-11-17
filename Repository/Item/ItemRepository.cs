@@ -9,6 +9,12 @@ public class ItemRepository : Repository<Entity.Item, string>, IItemRepository
     {
     }
 
+    public void AddItem(Entity.Item item)
+    {
+        Add(item);
+        SaveChanges();
+    }
+    
     public List<Entity.Item> GetAllItems(ItemQuery queryData)
     {
         var items = GetAll();

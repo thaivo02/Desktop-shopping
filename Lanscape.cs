@@ -1,10 +1,14 @@
 using Guna.UI2.WinForms;
 using Sneakerz.Entity;
+using System.Windows.Forms;
+using Sneakerz.Repository.Item;
 
 namespace Sneakerz
 {
     public partial class Lanscape : Form
     {
+        private readonly IItemRepository _itemRepository;
+        
         protected override CreateParams CreateParams
         {
             get
@@ -39,8 +43,9 @@ namespace Sneakerz
             b = temp;
         }
 
-        public Lanscape()
+        public Lanscape(IItemRepository itemRepository)
         {
+            _itemRepository = itemRepository;
             InitializeComponent();
             this.Home();
 
@@ -52,6 +57,11 @@ namespace Sneakerz
             //}
         }
 
+        public Lanscape()
+        {
+            
+        }
+        
         private void Home()
         {
             List<Item> items = new List<Item>();
@@ -101,6 +111,11 @@ namespace Sneakerz
             picBall5.Image = Image.FromFile(picBall5.ImageLocation = items[32].ImageUrl);
             picBall6.Image = Image.FromFile(picBall6.ImageLocation = items[33].ImageUrl);
             picBall7.Image = Image.FromFile(picBall7.ImageLocation = items[34].ImageUrl);
+
+            //items.ForEach(i =>
+            //{
+              //  _itemRepository.Add(i);
+            //});
         }
 
         private void btnExit_Click(object sender, EventArgs e)

@@ -1,6 +1,7 @@
 ﻿using Microsoft.Extensions.DependencyInjection;
 using Sneakerz.Services.Cart;
 using Sneakerz.Services.Item;
+using Sneakerz.Services.Receipt;
 
 namespace Sneakerz.Services;
 
@@ -11,6 +12,7 @@ public static class ServicesExtension
         services
             .AddTransient(typeof(IItemServices), typeof(ItemServices))
             .AddTransient(typeof(ICartServices), typeof(CartServices))
+            .AddTransient(typeof(IReceiptServices),typeof(ReceiptServices))
             ;
         return services;
     }

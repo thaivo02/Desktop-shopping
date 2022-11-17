@@ -11,6 +11,13 @@ public class ItemServices : IItemServices
     {
         _itemRepository = itemRepository;
     }
+    
+    // Ví dụ t muốn thêm item
+    // Từ service mới gọi repo
+    public void AddItem(Entity.Item item)
+    {
+        _itemRepository.AddItem(item);
+    }
 
     public List<Entity.Item> GetListItem(ItemQuery queryData)
     {
