@@ -1,11 +1,14 @@
 using Guna.UI2.WinForms;
 using Sneakerz.Entity;
 using System.Windows.Forms;
+using Sneakerz.Repository.Item;
 
 namespace Sneakerz
 {
     public partial class Lanscape : Form
     {
+        private readonly IItemRepository _itemRepository;
+        
         protected override CreateParams CreateParams
         {
             get
@@ -40,8 +43,9 @@ namespace Sneakerz
             b = temp;
         }
 
-        public Lanscape()
+        public Lanscape(IItemRepository itemRepository)
         {
+            _itemRepository = itemRepository;
             InitializeComponent();
             this.Home();
 
@@ -53,6 +57,11 @@ namespace Sneakerz
             //}
         }
 
+        public Lanscape()
+        {
+            
+        }
+        
         private void Home()
         {
             List<Item> items = new List<Item>();

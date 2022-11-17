@@ -11,11 +11,11 @@ public static class RepositoryExtension
 {
     public static IServiceCollection AddRepository(this IServiceCollection services)
     {
-        services.AddScoped(typeof(IItemRepository), typeof(ItemRepository));
-        services.AddScoped(typeof(IAccountRepository), typeof(AccountRepository));
-        services.AddScoped(typeof(ICartRepository), typeof(CartRepository));
-        services.AddScoped(typeof(IReceiptRepository), typeof(ReceiptRepository));
-        services.AddScoped(typeof(ICartDetailRepository), typeof(CartDetailRepository));
+        services.AddTransient(typeof(IItemRepository), typeof(ItemRepository));
+        services.AddTransient(typeof(IAccountRepository), typeof(AccountRepository));
+        services.AddTransient(typeof(ICartRepository), typeof(CartRepository));
+        services.AddTransient(typeof(IReceiptRepository), typeof(ReceiptRepository));
+        services.AddTransient(typeof(ICartDetailRepository), typeof(CartDetailRepository));
         return services;
     }
 }
