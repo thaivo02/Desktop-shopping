@@ -1,4 +1,5 @@
-﻿using Sneakerz.Model;
+﻿
+using Sneakerz.Model;
 using Sneakerz.Repository.Cart;
 using Sneakerz.Repository.CartDetail;
 
@@ -29,4 +30,5 @@ public class CartServices : ICartServices
         };
         return cartDto;
     }
+
 }
