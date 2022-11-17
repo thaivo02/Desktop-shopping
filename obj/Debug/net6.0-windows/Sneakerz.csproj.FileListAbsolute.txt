@@ -189,4 +189,5 @@ E:\workspace\Helper\Desktop-shopping\obj\Debug\net6.0-windows\refint\Sneakerz.dl
 E:\workspace\Helper\Desktop-shopping\obj\Debug\net6.0-windows\Sneakerz.pdb
 E:\workspace\Helper\Desktop-shopping\obj\Debug\net6.0-windows\Sneakerz.genruntimeconfig.cache
 E:\workspace\Helper\Desktop-shopping\obj\Debug\net6.0-windows\ref\Sneakerz.dll
-E:\workspace\Helper\Desktop-shopping\obj\Debug\net6.0-windows\Sneakerz.testList.resources
+F:\Experiment\UIT\Năm III\CS511\Desktop-shopping\obj\Debug\net6.0-windows\Sneakerz.CartForm.resources
+F:\Experiment\UIT\Năm III\CS511\Desktop-shopping\obj\Debug\net6.0-windows\Sneakerz.testList.resources

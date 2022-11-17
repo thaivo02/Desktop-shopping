@@ -19,15 +19,15 @@ namespace Sneakerz
             }
         }
 
-        private String[] running = { "freerun_5", "pegasus_39", "pegasus_turbo_", "pegasus_trial_4", "react_infinity_run_flyknit_3", "zoom_fly", "zoomx_varpofly", "4dfwd_2", "adistar_1", "adizero_adios_pro_3", "adizero_prime_x", "pureboost_22", "supernova_2", "ultraboost_22" };
-        private String[] lifestyle = { "air_force_1", "air_max_90", "air_max_97", "air_max_flyknit_racer", "airmax_plus", "blazer_mid_77", "vapormax_2021_flyknit", "hoops_3.0_low", "nmd_r1_v2", "ozella", "questar_flow_nxt", "stan_smith", "swift_run", "ultraboost_dna" };
-        private String[] basketball = { "cosmic_unity_2", "jordan_why_not_5", "kd15", "lebron_xx", "pg6", "zoom_freak_4", "zoom_gt_cut_2", "don_issue_3", "don_issue_4", "drose_son_of_chi", "harden_stepback_3", "harden_vol_6", "super_dame_8", "trae_young_2.0" };
-        private String[] nike_running = { "freerun_5", "pegasus_39", "pegasus_turbo_", "pegasus_trial_4", "react_infinity_run_flyknit_3", "zoom_fly", "zoomx_varpofly" };
-        private String[] nike_lifestyle = { "air_force_1_", "air_max_90", "air_max_97", "air_max_flyknit_racer", "airmax_plus", "blazer_mid_77", "vapormax_2021_flyknit" };
-        private String[] nike_basketball = { "cosmic_unity_2", "jordan_why_not_5", "kd15", "lebron_xx", "pg6", "zoom_freak_4", "zoom_gt_cut_2" };
-        private String[] adidas_running = { "4dfwd_2", "adistar_1", "adizero_adios_pro_3", "adizero_prime_x", "pureboost_22", "supernove_2", "ultraboost_22" };
-        private String[] adidas_lifestyle = { "hoops_3.0_low", "nmd_r1_v2", "ozella", "questar_flow_nxt", "stan_smith", "swift_run", "ultraboost_dna" };
-        private String[] adidas_basketball = { "don_issue_3", "don_issue_4", "drose_son_of_chi", "harden_stepback_3", "harden_vol_6", "super_dame_8", "trae_young_2.0" };
+        private String[] running = { "Nike Air Zoom Alphafly NEXT% 2", "Nike Air Zoom Pegasus 39 Shield", "Nike Free Run 5.0", "Nike Pegasus Turbo Next Nature", "Nike React Infinity Run Flyknit 3", "Nike React Pegasus Trail 4 GORE-TEX", "Nike ZoomX Vaporfly NEXT% 2", "Adidas 4DFWD 2", "Adidas ADISTAR 1 REFUEL", "Adidas ADIZERO ADIOS PRO 3", "Adidas ADIZERO PRIME X", "Adidas PUREBOOST 22", "Adidas SUPERNOVA 2", "Adidas ULTRABOOST 22 COLD.RDY 2.0" };
+        private String[] lifestyle = { "Nike Air Force 1", "Nike Air Max 90", "Nike Air Max 97", "Nike Air Max Flyknit Racer", "Nike Air Max Plus", "Nike Blazer Mid", "Nike Vapormax 2021 Flyknit", "Adidas HOOPS 3.0 LOW CLASSIC", "Adidas NMD_R1 V2", "Adidas OZELIA", "Adidas QUESTAR FLOW NXT", "Adidas STAN SMITH", "Adidas SWIFT RUN", "Adidas ULTRABOOST DNA CLIMACOOL" };
+        private String[] basketball = { "Nike Air Zoom G.T. Cut 2", "Nike Comis Unity 2", "Nike Jordan Why Not Zero", "Nike KD15", "Nike LeBron XX", "Nike PG 6", "Nike Zoom Freak 4", "Adidas D ROSE SON OF CHI CHRISTMAS", "Adidas D.O.N. ISSUE #4", "Adidas HARDEN STEPBACK 3", "Adidas HARDEN VOL. 6", "Adidas LUNAR NEW YEAR D.O.N ISSUE 3", "Adidas SUPER DAME 8", "Adidas TRAE YOUNG 2.0" };
+        private String[] nike_running = { "Air Zoom Alphafly NEXT% 2", "Air Zoom Pegasus 39 Shield", "Free Run 5.0", "Pegasus Turbo Next Nature", "React Infinity Run Flyknit 3", "React Pegasus Trail 4 GORE-TEX", "ZoomX Vaporfly NEXT% 2" };
+        private String[] nike_lifestyle = { "Air Force 1", "Air Max 90", "Air Max 97", "Air Max Flyknit Racer", "Air Max Plus", "Blazer Mid", "Vapormax 2021 Flyknit" };
+        private String[] nike_basketball = { "Air Zoom G.T. Cut 2", "Comis Unity 2", "Jordan Why Not Zero", "KD15", "LeBron XX", "PG 6", "Zoom Freak 4" };
+        private String[] adidas_running = { "4DFWD 2", "ADISTAR 1 REFUEL", "ADIZERO ADIOS PRO 3", "ADIZERO PRIME X", "PUREBOOST 22", "SUPERNOVA 2", "ULTRABOOST 22 COLD.RDY 2.0" };
+        private String[] adidas_lifestyle = { "HOOPS 3.0 LOW CLASSIC", "NMD_R1 V2", "OZELIA", "QUESTAR FLOW NXT", "STAN SMITH", "SWIFT RUN", "ULTRABOOST DNA CLIMACOOL" };
+        private String[] adidas_basketball = { "D ROSE SON OF CHI CHRISTMAS", "D.O.N. ISSUE #4", "HARDEN STEPBACK 3", "HARDEN VOL. 6", "LUNAR NEW YEAR D.O.N ISSUE 3", "SUPER DAME 8", "TRAE YOUNG 2.0" };
 
         private void shuffleImages(String[] items)
         {
@@ -59,7 +59,8 @@ namespace Sneakerz
 
         public Lanscape()
         {
-            
+            InitializeComponent();
+            this.Home();
         }
         
         private void Home()
@@ -69,11 +70,26 @@ namespace Sneakerz
             shuffleImages(lifestyle);
             shuffleImages(basketball);
             for (int i = 0; i < 14; i++)
-                items.Add(new Item() { Id = i.ToString(), CaregoryId = 1, Cash = 100, Description = "", ImageUrl = "../shoes/running/" + running[i] + ".png", Name = "Sneaker", ReleaseDate = 2021 });
+            {
+                String shoeLocation = running[i];
+                int space = shoeLocation.IndexOf(" ");
+                shoeLocation = shoeLocation.Remove(space, 1).Insert(space, "/");
+                items.Add(new Item() { Id = i.ToString(), CaregoryId = 1, Cash = 100, Description = "", ImageUrl = "../shoes/running/" + shoeLocation + ".png", Name = running[i], ReleaseDate = 2021 }); 
+            }
             for (int i = 14; i < 28; i++)
-                items.Add(new Item() { Id = i.ToString(), CaregoryId = 1, Cash = 100, Description = "", ImageUrl = "../shoes/lifestyle/" + lifestyle[i - 14] + ".png", Name = "Sneaker", ReleaseDate = 2021 });
+            {
+                String shoeLocation = lifestyle[i - 14];
+                int space = shoeLocation.IndexOf(" ");
+                shoeLocation = shoeLocation.Remove(space, 1).Insert(space, "/");
+                items.Add(new Item() { Id = i.ToString(), CaregoryId = 2, Cash = 100, Description = "", ImageUrl = "../shoes/lifestyle/" + shoeLocation + ".png", Name = lifestyle[i - 14], ReleaseDate = 2021 });
+            }
             for (int i = 28; i < 42; i++)
-                items.Add(new Item() { Id = i.ToString(), CaregoryId = 1, Cash = 100, Description = "", ImageUrl = "../shoes/basketball/" + basketball[i - 28] + ".png", Name = "Sneaker", ReleaseDate = 2021 });
+            {
+                String shoeLocation = basketball[i - 28];
+                int space = shoeLocation.IndexOf(" ");
+                shoeLocation = shoeLocation.Remove(space, 1).Insert(space, "/");
+                items.Add(new Item() { Id = i.ToString(), CaregoryId = 3, Cash = 100, Description = "", ImageUrl = "../shoes/basketball/" + shoeLocation + ".png", Name = basketball[i - 28], ReleaseDate = 2021 });
+            }
 
             picRun1.Image = Image.FromFile(picRun1.ImageLocation = items[0].ImageUrl);
             picRun2.Image = Image.FromFile(picRun2.ImageLocation = items[1].ImageUrl);
@@ -97,10 +113,10 @@ namespace Sneakerz
             picBall6.Image = Image.FromFile(picBall6.ImageLocation = items[33].ImageUrl);
             picBall7.Image = Image.FromFile(picBall7.ImageLocation = items[34].ImageUrl);
 
-            //items.ForEach(i =>
-            //{
-              //  _itemRepository.Add(i);
-            //});
+            items.ForEach(i =>
+            {
+                _itemRepository.AddItem(i);
+            });
         }
 
         private void btnExit_Click(object sender, EventArgs e)
@@ -137,11 +153,26 @@ namespace Sneakerz
             shuffleImages(nike_lifestyle);
             shuffleImages(nike_basketball);
             for (int i = 0; i < 7; i++)
-                items.Add(new Item() { Id = i.ToString(), CaregoryId = 1, Cash = 100, Description = "", ImageUrl = "../shoes/running/" + nike_running[i] + ".png", Name = "Nike", ReleaseDate = 2021 });
+            {
+                String name = "Nike";
+                String shoeLocation = name + "/"  + nike_running[i];
+                String shoeName = name + " "  + nike_running[i];
+                items.Add(new Item() { Id = i.ToString(), CaregoryId = 1, Cash = 100, Description = "", ImageUrl = "../shoes/running/" + shoeLocation + ".png", Name = shoeName, ReleaseDate = 2021 });
+            }
             for (int i = 7; i < 14; i++)
-                items.Add(new Item() { Id = i.ToString(), CaregoryId = 1, Cash = 100, Description = "", ImageUrl = "../shoes/lifestyle/" + nike_lifestyle[i - 7] + ".png", Name = "Nike", ReleaseDate = 2021 });
+            {
+                String name = "Nike";
+                String shoeLocation = name + "/" + nike_lifestyle[i - 7];
+                String shoeName = name + " " + nike_lifestyle[i - 7];
+                items.Add(new Item() { Id = i.ToString(), CaregoryId = 2, Cash = 100, Description = "", ImageUrl = "../shoes/lifestyle/" + shoeLocation + ".png", Name = shoeName, ReleaseDate = 2021 });
+            }
             for (int i = 14; i < 21; i++)
-                items.Add(new Item() { Id = i.ToString(), CaregoryId = 1, Cash = 100, Description = "", ImageUrl = "../shoes/basketball/" + nike_basketball[i - 14] + ".png", Name = "Nike", ReleaseDate = 2021 });
+            {
+                String name = "Nike";
+                String shoeLocation = name + "/" + nike_basketball[i - 14];
+                String shoeName = name + " " + nike_basketball[i - 14];
+                items.Add(new Item() { Id = i.ToString(), CaregoryId = 3, Cash = 100, Description = "", ImageUrl = "../shoes/basketball/" + shoeLocation + ".png", Name = shoeName, ReleaseDate = 2021 });
+            }
 
             picRun1.Image = Image.FromFile(picRun1.ImageLocation = items[0].ImageUrl);
             picRun2.Image = Image.FromFile(picRun2.ImageLocation = items[1].ImageUrl);
@@ -173,11 +204,26 @@ namespace Sneakerz
             shuffleImages(adidas_lifestyle);
             shuffleImages(adidas_basketball);
             for (int i = 0; i < 7; i++)
-                items.Add(new Item() { Id = i.ToString(), CaregoryId = 1, Cash = 100, Description = "", ImageUrl = "../shoes/running/" + adidas_running[i] + ".png", Name = "Adidas", ReleaseDate = 2021 });
+            {
+                String name = "Adidas";
+                String shoeLocation = name + "/" + adidas_running[i];
+                String shoeName = name + " " + adidas_running[i];
+                items.Add(new Item() { Id = i.ToString(), CaregoryId = 1, Cash = 100, Description = "", ImageUrl = "../shoes/running/" + shoeLocation + ".png", Name = shoeName, ReleaseDate = 2021 });
+            }
             for (int i = 7; i < 14; i++)
-                items.Add(new Item() { Id = i.ToString(), CaregoryId = 1, Cash = 100, Description = "", ImageUrl = "../shoes/lifestyle/" + adidas_lifestyle[i - 7] + ".png", Name = "Adidas", ReleaseDate = 2021 });
+            {
+                String name = "Adidas";
+                String shoeLocation = name + "/" + adidas_lifestyle[i - 7];
+                String shoeName = name + " " + adidas_lifestyle[i - 7];
+                items.Add(new Item() { Id = i.ToString(), CaregoryId = 2, Cash = 100, Description = "", ImageUrl = "../shoes/lifestyle/" + shoeLocation + ".png", Name = shoeName, ReleaseDate = 2021 });
+            }
             for (int i = 14; i < 21; i++)
-                items.Add(new Item() { Id = i.ToString(), CaregoryId = 1, Cash = 100, Description = "", ImageUrl = "../shoes/basketball/" + adidas_basketball[i - 14] + ".png", Name = "Adidas", ReleaseDate = 2021 });
+            {
+                String name = "Adidas";
+                String shoeLocation = name + "/" + adidas_basketball[i - 14];
+                String shoeName = name + " " + adidas_basketball[i - 14];
+                items.Add(new Item() { Id = i.ToString(), CaregoryId = 3, Cash = 100, Description = "", ImageUrl = "../shoes/basketball/" + shoeLocation + ".png", Name = shoeName, ReleaseDate = 2021 });
+            }
 
             picRun1.Image = Image.FromFile(picRun1.ImageLocation = items[0].ImageUrl);
             picRun2.Image = Image.FromFile(picRun2.ImageLocation = items[1].ImageUrl);
