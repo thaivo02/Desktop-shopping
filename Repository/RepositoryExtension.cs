@@ -4,6 +4,7 @@ using Sneakerz.Repository.Cart;
 using Sneakerz.Repository.CartDetail;
 using Sneakerz.Repository.Item;
 using Sneakerz.Repository.Receipt;
+using Sneakerz.Repository.ReceiptDetail;
 
 namespace Sneakerz.Repository;
 
@@ -16,6 +17,7 @@ public static class RepositoryExtension
         services.AddTransient(typeof(ICartRepository), typeof(CartRepository));
         services.AddTransient(typeof(IReceiptRepository), typeof(ReceiptRepository));
         services.AddTransient(typeof(ICartDetailRepository), typeof(CartDetailRepository));
+        services.AddTransient(typeof(IReceiptDetailRepository), typeof(ReceiptDetailRepository));
         return services;
     }
 }
