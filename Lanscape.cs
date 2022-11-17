@@ -2,12 +2,13 @@ using Guna.UI2.WinForms;
 using Sneakerz.Entity;
 using System.Windows.Forms;
 using Sneakerz.Repository.Item;
+using Sneakerz.Services.Item;
 
 namespace Sneakerz
 {
     public partial class Lanscape : Form
     {
-        private readonly IItemRepository _itemRepository;
+        private readonly IItemServices _itemServices;
         
         protected override CreateParams CreateParams
         {
@@ -43,26 +44,13 @@ namespace Sneakerz
             b = temp;
         }
 
-        public Lanscape(IItemRepository itemRepository)
+        public Lanscape(IItemServices itemServices)
         {
-            _itemRepository = itemRepository;
-            InitializeComponent();
-            this.Home();
-
-            //if (OnKeyPress)
-            //{
-            //    var searchitem = _itemservice.search
-            //    Search frm = new Search(searchitem);
-            //    Form search.show();
-            //}
-        }
-
-        public Lanscape()
-        {
+            _itemServices = itemServices;
             InitializeComponent();
             this.Home();
         }
-        
+
         private void Home()
         {
             List<Item> items = new List<Item>();
@@ -74,21 +62,21 @@ namespace Sneakerz
                 String shoeLocation = running[i];
                 int space = shoeLocation.IndexOf(" ");
                 shoeLocation = shoeLocation.Remove(space, 1).Insert(space, "/");
-                items.Add(new Item() { Id = i.ToString(), CaregoryId = 1, Cash = 100, Description = "", ImageUrl = "../shoes/running/" + shoeLocation + ".png", Name = running[i], ReleaseDate = 2021 }); 
+                items.Add(new Item() { Id = (i+1).ToString(), CaregoryId = 1, Cash = 100, Description = "", ImageUrl = "../shoes/running/" + shoeLocation + ".png", Name = running[i], ReleaseDate = 2021 }); 
             }
             for (int i = 14; i < 28; i++)
             {
                 String shoeLocation = lifestyle[i - 14];
                 int space = shoeLocation.IndexOf(" ");
                 shoeLocation = shoeLocation.Remove(space, 1).Insert(space, "/");
-                items.Add(new Item() { Id = i.ToString(), CaregoryId = 2, Cash = 100, Description = "", ImageUrl = "../shoes/lifestyle/" + shoeLocation + ".png", Name = lifestyle[i - 14], ReleaseDate = 2021 });
+                items.Add(new Item() { Id = (i+1).ToString(), CaregoryId = 2, Cash = 100, Description = "", ImageUrl = "../shoes/lifestyle/" + shoeLocation + ".png", Name = lifestyle[i - 14], ReleaseDate = 2021 });
             }
             for (int i = 28; i < 42; i++)
             {
                 String shoeLocation = basketball[i - 28];
                 int space = shoeLocation.IndexOf(" ");
                 shoeLocation = shoeLocation.Remove(space, 1).Insert(space, "/");
-                items.Add(new Item() { Id = i.ToString(), CaregoryId = 3, Cash = 100, Description = "", ImageUrl = "../shoes/basketball/" + shoeLocation + ".png", Name = basketball[i - 28], ReleaseDate = 2021 });
+                items.Add(new Item() { Id = (i+1).ToString(), CaregoryId = 3, Cash = 100, Description = "", ImageUrl = "../shoes/basketball/" + shoeLocation + ".png", Name = basketball[i - 28], ReleaseDate = 2021 });
             }
 
             picRun1.Image = Image.FromFile(picRun1.ImageLocation = items[0].ImageUrl);
@@ -113,10 +101,10 @@ namespace Sneakerz
             picBall6.Image = Image.FromFile(picBall6.ImageLocation = items[33].ImageUrl);
             picBall7.Image = Image.FromFile(picBall7.ImageLocation = items[34].ImageUrl);
 
-            items.ForEach(i =>
-            {
-                _itemRepository.AddItem(i);
-            });
+            // items.ForEach(i =>
+            // {
+            //     _itemServices.AddItem(i);
+            // });
         }
 
         private void btnExit_Click(object sender, EventArgs e)

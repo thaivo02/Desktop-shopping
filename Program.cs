@@ -2,6 +2,7 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Sneakerz.Repository;
+using Sneakerz.Services;
 
 namespace Sneakerz
 {
@@ -9,7 +10,17 @@ namespace Sneakerz
     {
         private static ApplicationDbContext? _dbContext;
 
-            
+        public static IHost _host = Host.CreateDefaultBuilder()
+        .ConfigureServices(services =>
+        {
+            services.AddDbContext<ApplicationDbContext>(c =>
+            {
+                c.UseSqlServer("Server=localhost;Database=Store;Trusted_Connection=True;Encrypt=False");
+            });
+            services.AddRepository();
+            services.AddServices();
+            services.AddTransient<Lanscape>();
+        }).Build(); 
         
         /// <summary>
         ///  The main entry point for the application.
@@ -19,19 +30,9 @@ namespace Sneakerz
         {
             // To customize application configuration such as set high DPI settings or default font,
             // see https://aka.ms/applicationconfiguration.
-            var host = Host.CreateDefaultBuilder()
-                .ConfigureServices(services =>
-                {
-                    services.AddDbContext<ApplicationDbContext>(c =>
-                    {
-                        c.UseSqlServer("Server=localhost;Database=Store;Trusted_Connection=True;Encrypt=False");
-                    });
-                    services.AddRepository();
-                    services.AddTransient<Lanscape>();
-                }).Build(); 
-            host.Start();
+            _host.Start();
             ApplicationConfiguration.Initialize();
-            Application.Run(host.Services.GetRequiredService<Lanscape>());
+            Application.Run(_host.Services.GetRequiredService<Lanscape>());
         }
     }
 }

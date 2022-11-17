@@ -1,4 +1,5 @@
 ﻿using Guna.UI2.WinForms;
+using Microsoft.Extensions.DependencyInjection;
 
 namespace Sneakerz
 {
@@ -28,7 +29,11 @@ namespace Sneakerz
 
         private void btnHome_Click(object sender, EventArgs e)
         {
-            Lanscape frm = new Lanscape() { Dock = DockStyle.Fill, TopLevel = false, TopMost = true };
+            // Lanscape frm = new Lanscape() { Dock = DockStyle.Fill, TopLevel = false, TopMost = true };
+            Lanscape frm = Program._host.Services.GetRequiredService<Lanscape>();
+            frm.Dock = DockStyle.Fill;
+            frm.TopLevel = false;
+            frm.TopMost = true;
             this.panelMain.Controls.Add(frm);
             frm.BringToFront();
             frm.Closed += (s, args) => this.Close();
