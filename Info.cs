@@ -1,21 +1,17 @@
 ﻿using Guna.UI2.WinForms;
-using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using System.Windows.Forms;
 
 namespace Sneakerz
 {
     public partial class Info : Form
     {
-        public Info()
+        public Info(String location)
         {
             InitializeComponent();
+            picDefault.Image = Image.FromFile(location);
+            String first = location.Insert(location.Length - 4, "(1)");
+            String second = location.Insert(location.Length - 4, "(2)");
+            picChange1.Image = Image.FromFile(first);
+            picChange2.Image = Image.FromFile(second);
         }
 
         private void btnExit_Click(object sender, EventArgs e)
@@ -23,17 +19,11 @@ namespace Sneakerz
             this.Close();
         }
 
-        private void pic1(object sender, EventArgs e)
+        private void picChange(object sender, EventArgs e)
         {
             Image image = picDefault.Image;
-            picDefault.Image = picChange1.Image;
-            picChange1.Image = image;
-        }
-        private void pic2(object sender, EventArgs e)
-        {
-            Image image = picDefault.Image;
-            picDefault.Image = picChange2.Image;
-            picChange2.Image = image;
+            picDefault.Image = ((Guna2PictureBox)sender).Image;
+            ((Guna2PictureBox)sender).Image = image;
         }
 
         private void btnHome_Click(object sender, EventArgs e)

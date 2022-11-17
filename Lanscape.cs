@@ -1,6 +1,5 @@
 using Guna.UI2.WinForms;
 using Sneakerz.Entity;
-using System.Windows.Forms;
 
 namespace Sneakerz
 {
@@ -16,15 +15,15 @@ namespace Sneakerz
             }
         }
 
-        private String[] running = { "nrunning_freerun_5", "nrunning_pegasus_39", "nrunning_pegasus_turbo_", "nrunning_pegasus_trial_4", "nrunning_react_infinity_run_flyknit_3", "nrunning_zoom_fly", "nrunning_zoomx_varpofly", "drunning_4dfwd_2", "drunning_adistar_1", "drunning_adizero_adios_pro_3", "drunning_adizero_prime_x", "drunning_pureboost_22", "drunning_supernove_2", "drunning_ultraboost_22" };
-        private String[] lifestyle = { "nlifestyle_air_force_1_", "nlifestyle_air_max_90", "nlifestyle_air_max_97", "nlifestyle_air_max_flyknit_racer", "nlifestyle_airmax_plus", "nlifestyle_blazer_mid_77", "nlifestyle_vapormax_2021_flyknit", "dlifestyle_hoops_3.0_low", "dlifestyle_nmd_r1_v2", "dlifestyle_ozella", "dlifestyle_questar_flow_nxt", "dlifestyle_stan_smith", "dlifestyle_swift_run", "dlifestyle_ultraboost_dna" };
-        private String[] basketball = { "nbasketball_cosmic_unity_2", "nbasketball_jordan_why_not_5", "nbasketball_kd15", "nbasketball_lebron_xx", "nbasketball_pg6", "nbasketball_zoom_freak_4", "nbasketball_zoom_gt_cut_2", "dbasketball_don_issue_3", "dbasketball_don_issue_4", "dbasketball_drose_son_of_chi", "dbasketball_harden_stepback_3", "dbasketball_harden_vol_6", "dbasketball_super_dame_8", "dbasketball_trae_young_2.0" };
-        private String[] nike_running = { "nrunning_freerun_5", "nrunning_pegasus_39", "nrunning_pegasus_turbo_", "nrunning_pegasus_trial_4", "nrunning_react_infinity_run_flyknit_3", "nrunning_zoom_fly", "nrunning_zoomx_varpofly" };
-        private String[] nike_lifestyle = { "nlifestyle_air_force_1_", "nlifestyle_air_max_90", "nlifestyle_air_max_97", "nlifestyle_air_max_flyknit_racer", "nlifestyle_airmax_plus", "nlifestyle_blazer_mid_77", "nlifestyle_vapormax_2021_flyknit" };
-        private String[] nike_basketball = { "nbasketball_cosmic_unity_2", "nbasketball_jordan_why_not_5", "nbasketball_kd15", "nbasketball_lebron_xx", "nbasketball_pg6", "nbasketball_zoom_freak_4", "nbasketball_zoom_gt_cut_2" };
-        private String[] adidas_running = { "drunning_4dfwd_2", "drunning_adistar_1", "drunning_adizero_adios_pro_3", "drunning_adizero_prime_x", "drunning_pureboost_22", "drunning_supernove_2", "drunning_ultraboost_22" };
-        private String[] adidas_lifestyle = { "dlifestyle_hoops_3.0_low", "dlifestyle_nmd_r1_v2", "dlifestyle_ozella", "dlifestyle_questar_flow_nxt", "dlifestyle_stan_smith", "dlifestyle_swift_run", "dlifestyle_ultraboost_dna" };
-        private String[] adidas_basketball = { "dbasketball_don_issue_3", "dbasketball_don_issue_4", "dbasketball_drose_son_of_chi", "dbasketball_harden_stepback_3", "dbasketball_harden_vol_6", "dbasketball_super_dame_8", "dbasketball_trae_young_2.0" };
+        private String[] running = { "freerun_5", "pegasus_39", "pegasus_turbo_", "pegasus_trial_4", "react_infinity_run_flyknit_3", "zoom_fly", "zoomx_varpofly", "4dfwd_2", "adistar_1", "adizero_adios_pro_3", "adizero_prime_x", "pureboost_22", "supernova_2", "ultraboost_22" };
+        private String[] lifestyle = { "air_force_1", "air_max_90", "air_max_97", "air_max_flyknit_racer", "airmax_plus", "blazer_mid_77", "vapormax_2021_flyknit", "hoops_3.0_low", "nmd_r1_v2", "ozella", "questar_flow_nxt", "stan_smith", "swift_run", "ultraboost_dna" };
+        private String[] basketball = { "cosmic_unity_2", "jordan_why_not_5", "kd15", "lebron_xx", "pg6", "zoom_freak_4", "zoom_gt_cut_2", "don_issue_3", "don_issue_4", "drose_son_of_chi", "harden_stepback_3", "harden_vol_6", "super_dame_8", "trae_young_2.0" };
+        private String[] nike_running = { "freerun_5", "pegasus_39", "pegasus_turbo_", "pegasus_trial_4", "react_infinity_run_flyknit_3", "zoom_fly", "zoomx_varpofly" };
+        private String[] nike_lifestyle = { "air_force_1_", "air_max_90", "air_max_97", "air_max_flyknit_racer", "airmax_plus", "blazer_mid_77", "vapormax_2021_flyknit" };
+        private String[] nike_basketball = { "cosmic_unity_2", "jordan_why_not_5", "kd15", "lebron_xx", "pg6", "zoom_freak_4", "zoom_gt_cut_2" };
+        private String[] adidas_running = { "4dfwd_2", "adistar_1", "adizero_adios_pro_3", "adizero_prime_x", "pureboost_22", "supernove_2", "ultraboost_22" };
+        private String[] adidas_lifestyle = { "hoops_3.0_low", "nmd_r1_v2", "ozella", "questar_flow_nxt", "stan_smith", "swift_run", "ultraboost_dna" };
+        private String[] adidas_basketball = { "don_issue_3", "don_issue_4", "drose_son_of_chi", "harden_stepback_3", "harden_vol_6", "super_dame_8", "trae_young_2.0" };
 
         private void shuffleImages(String[] items)
         {
@@ -66,27 +65,27 @@ namespace Sneakerz
             for (int i = 28; i < 42; i++)
                 items.Add(new Item() { Id = i.ToString(), CaregoryId = 1, Cash = 100, Description = "", ImageUrl = "../shoes/basketball/" + basketball[i - 28] + ".png", Name = "Sneaker", ReleaseDate = 2021 });
 
-            picRun1.Image = Image.FromFile(items[0].ImageUrl);
-            picRun2.Image = Image.FromFile(items[1].ImageUrl);
-            picRun3.Image = Image.FromFile(items[2].ImageUrl);
-            picRun4.Image = Image.FromFile(items[3].ImageUrl);
-            picRun5.Image = Image.FromFile(items[4].ImageUrl);
-            picRun6.Image = Image.FromFile(items[5].ImageUrl);
-            picRun7.Image = Image.FromFile(items[6].ImageUrl);
-            picLife1.Image = Image.FromFile(items[14].ImageUrl);
-            picLife2.Image = Image.FromFile(items[15].ImageUrl);
-            picLife3.Image = Image.FromFile(items[16].ImageUrl);
-            picLife4.Image = Image.FromFile(items[17].ImageUrl);
-            picLife5.Image = Image.FromFile(items[18].ImageUrl);
-            picLife6.Image = Image.FromFile(items[19].ImageUrl);
-            picLife7.Image = Image.FromFile(items[20].ImageUrl);
-            picBall1.Image = Image.FromFile(items[28].ImageUrl);
-            picBall2.Image = Image.FromFile(items[29].ImageUrl);
-            picBall3.Image = Image.FromFile(items[30].ImageUrl);
-            picBall4.Image = Image.FromFile(items[31].ImageUrl);
-            picBall5.Image = Image.FromFile(items[32].ImageUrl);
-            picBall6.Image = Image.FromFile(items[33].ImageUrl);
-            picBall7.Image = Image.FromFile(items[34].ImageUrl);
+            picRun1.Image = Image.FromFile(picRun1.ImageLocation = items[0].ImageUrl);
+            picRun2.Image = Image.FromFile(picRun2.ImageLocation = items[1].ImageUrl);
+            picRun3.Image = Image.FromFile(picRun3.ImageLocation = items[2].ImageUrl);
+            picRun4.Image = Image.FromFile(picRun4.ImageLocation = items[3].ImageUrl);
+            picRun5.Image = Image.FromFile(picRun5.ImageLocation = items[4].ImageUrl);
+            picRun6.Image = Image.FromFile(picRun6.ImageLocation = items[5].ImageUrl);
+            picRun7.Image = Image.FromFile(picRun7.ImageLocation = items[6].ImageUrl);
+            picLife1.Image = Image.FromFile(picLife1.ImageLocation = items[14].ImageUrl);
+            picLife2.Image = Image.FromFile(picLife2.ImageLocation = items[15].ImageUrl);
+            picLife3.Image = Image.FromFile(picLife3.ImageLocation = items[16].ImageUrl);
+            picLife4.Image = Image.FromFile(picLife4.ImageLocation = items[17].ImageUrl);
+            picLife5.Image = Image.FromFile(picLife5.ImageLocation = items[18].ImageUrl);
+            picLife6.Image = Image.FromFile(picLife6.ImageLocation = items[19].ImageUrl);
+            picLife7.Image = Image.FromFile(picLife7.ImageLocation = items[20].ImageUrl);
+            picBall1.Image = Image.FromFile(picBall1.ImageLocation = items[28].ImageUrl);
+            picBall2.Image = Image.FromFile(picBall2.ImageLocation = items[29].ImageUrl);
+            picBall3.Image = Image.FromFile(picBall3.ImageLocation = items[30].ImageUrl);
+            picBall4.Image = Image.FromFile(picBall4.ImageLocation = items[31].ImageUrl);
+            picBall5.Image = Image.FromFile(picBall5.ImageLocation = items[32].ImageUrl);
+            picBall6.Image = Image.FromFile(picBall6.ImageLocation = items[33].ImageUrl);
+            picBall7.Image = Image.FromFile(picBall7.ImageLocation = items[34].ImageUrl);
         }
 
         private void btnExit_Click(object sender, EventArgs e)
@@ -96,7 +95,9 @@ namespace Sneakerz
 
         private void picInfo_Click(object sender, EventArgs e)
         {
-            Info frm = new Info() { Dock = DockStyle.Fill, TopLevel = false, TopMost= true };
+            Guna2PictureBox pressed = (Guna2PictureBox)sender;
+            String location = pressed.ImageLocation;
+            Info frm = new Info(location) { Dock = DockStyle.Fill, TopLevel = false, TopMost = true };
             this.panelMain.Controls.Add(frm);
             frm.BringToFront();
             frm.Closed += (s, args) => this.Close();
@@ -127,27 +128,27 @@ namespace Sneakerz
             for (int i = 14; i < 21; i++)
                 items.Add(new Item() { Id = i.ToString(), CaregoryId = 1, Cash = 100, Description = "", ImageUrl = "../shoes/basketball/" + nike_basketball[i - 14] + ".png", Name = "Nike", ReleaseDate = 2021 });
 
-            picRun1.Image = Image.FromFile(items[0].ImageUrl);
-            picRun2.Image = Image.FromFile(items[1].ImageUrl);
-            picRun3.Image = Image.FromFile(items[2].ImageUrl);
-            picRun4.Image = Image.FromFile(items[3].ImageUrl);
-            picRun5.Image = Image.FromFile(items[4].ImageUrl);
-            picRun6.Image = Image.FromFile(items[5].ImageUrl);
-            picRun7.Image = Image.FromFile(items[6].ImageUrl);
-            picLife1.Image = Image.FromFile(items[7].ImageUrl);
-            picLife2.Image = Image.FromFile(items[8].ImageUrl);
-            picLife3.Image = Image.FromFile(items[9].ImageUrl);
-            picLife4.Image = Image.FromFile(items[10].ImageUrl);
-            picLife5.Image = Image.FromFile(items[11].ImageUrl);
-            picLife6.Image = Image.FromFile(items[12].ImageUrl);
-            picLife7.Image = Image.FromFile(items[13].ImageUrl);
-            picBall1.Image = Image.FromFile(items[14].ImageUrl);
-            picBall2.Image = Image.FromFile(items[15].ImageUrl);
-            picBall3.Image = Image.FromFile(items[16].ImageUrl);
-            picBall4.Image = Image.FromFile(items[17].ImageUrl);
-            picBall5.Image = Image.FromFile(items[18].ImageUrl);
-            picBall6.Image = Image.FromFile(items[19].ImageUrl);
-            picBall7.Image = Image.FromFile(items[20].ImageUrl);
+            picRun1.Image = Image.FromFile(picRun1.ImageLocation = items[0].ImageUrl);
+            picRun2.Image = Image.FromFile(picRun2.ImageLocation = items[1].ImageUrl);
+            picRun3.Image = Image.FromFile(picRun3.ImageLocation = items[2].ImageUrl);
+            picRun4.Image = Image.FromFile(picRun4.ImageLocation = items[3].ImageUrl);
+            picRun5.Image = Image.FromFile(picRun5.ImageLocation = items[4].ImageUrl);
+            picRun6.Image = Image.FromFile(picRun6.ImageLocation = items[5].ImageUrl);
+            picRun7.Image = Image.FromFile(picRun7.ImageLocation = items[6].ImageUrl);
+            picLife1.Image = Image.FromFile(picLife1.ImageLocation = items[7].ImageUrl);
+            picLife2.Image = Image.FromFile(picLife2.ImageLocation = items[8].ImageUrl);
+            picLife3.Image = Image.FromFile(picLife3.ImageLocation = items[9].ImageUrl);
+            picLife4.Image = Image.FromFile(picLife4.ImageLocation = items[10].ImageUrl);
+            picLife5.Image = Image.FromFile(picLife5.ImageLocation = items[11].ImageUrl);
+            picLife6.Image = Image.FromFile(picLife6.ImageLocation = items[12].ImageUrl);
+            picLife7.Image = Image.FromFile(picLife7.ImageLocation = items[13].ImageUrl);
+            picBall1.Image = Image.FromFile(picBall1.ImageLocation = items[14].ImageUrl);
+            picBall2.Image = Image.FromFile(picBall2.ImageLocation = items[15].ImageUrl);
+            picBall3.Image = Image.FromFile(picBall3.ImageLocation = items[16].ImageUrl);
+            picBall4.Image = Image.FromFile(picBall4.ImageLocation = items[17].ImageUrl);
+            picBall5.Image = Image.FromFile(picBall5.ImageLocation = items[18].ImageUrl);
+            picBall6.Image = Image.FromFile(picBall6.ImageLocation = items[19].ImageUrl);
+            picBall7.Image = Image.FromFile(picBall7.ImageLocation = items[20].ImageUrl);
         }
 
         private void btnAdidas_Click(object sender, EventArgs e)
@@ -163,27 +164,27 @@ namespace Sneakerz
             for (int i = 14; i < 21; i++)
                 items.Add(new Item() { Id = i.ToString(), CaregoryId = 1, Cash = 100, Description = "", ImageUrl = "../shoes/basketball/" + adidas_basketball[i - 14] + ".png", Name = "Adidas", ReleaseDate = 2021 });
 
-            picRun1.Image = Image.FromFile(items[0].ImageUrl);
-            picRun2.Image = Image.FromFile(items[1].ImageUrl);
-            picRun3.Image = Image.FromFile(items[2].ImageUrl);
-            picRun4.Image = Image.FromFile(items[3].ImageUrl);
-            picRun5.Image = Image.FromFile(items[4].ImageUrl);
-            picRun6.Image = Image.FromFile(items[5].ImageUrl);
-            picRun7.Image = Image.FromFile(items[6].ImageUrl);
-            picLife1.Image = Image.FromFile(items[7].ImageUrl);
-            picLife2.Image = Image.FromFile(items[8].ImageUrl);
-            picLife3.Image = Image.FromFile(items[9].ImageUrl);
-            picLife4.Image = Image.FromFile(items[10].ImageUrl);
-            picLife5.Image = Image.FromFile(items[11].ImageUrl);
-            picLife6.Image = Image.FromFile(items[12].ImageUrl);
-            picLife7.Image = Image.FromFile(items[13].ImageUrl);
-            picBall1.Image = Image.FromFile(items[14].ImageUrl);
-            picBall2.Image = Image.FromFile(items[15].ImageUrl);
-            picBall3.Image = Image.FromFile(items[16].ImageUrl);
-            picBall4.Image = Image.FromFile(items[17].ImageUrl);
-            picBall5.Image = Image.FromFile(items[18].ImageUrl);
-            picBall6.Image = Image.FromFile(items[19].ImageUrl);
-            picBall7.Image = Image.FromFile(items[20].ImageUrl);
+            picRun1.Image = Image.FromFile(picRun1.ImageLocation = items[0].ImageUrl);
+            picRun2.Image = Image.FromFile(picRun2.ImageLocation = items[1].ImageUrl);
+            picRun3.Image = Image.FromFile(picRun3.ImageLocation = items[2].ImageUrl);
+            picRun4.Image = Image.FromFile(picRun4.ImageLocation = items[3].ImageUrl);
+            picRun5.Image = Image.FromFile(picRun5.ImageLocation = items[4].ImageUrl);
+            picRun6.Image = Image.FromFile(picRun6.ImageLocation = items[5].ImageUrl);
+            picRun7.Image = Image.FromFile(picRun7.ImageLocation = items[6].ImageUrl);
+            picLife1.Image = Image.FromFile(picLife1.ImageLocation = items[7].ImageUrl);
+            picLife2.Image = Image.FromFile(picLife2.ImageLocation = items[8].ImageUrl);
+            picLife3.Image = Image.FromFile(picLife3.ImageLocation = items[9].ImageUrl);
+            picLife4.Image = Image.FromFile(picLife4.ImageLocation = items[10].ImageUrl);
+            picLife5.Image = Image.FromFile(picLife5.ImageLocation = items[11].ImageUrl);
+            picLife6.Image = Image.FromFile(picLife6.ImageLocation = items[12].ImageUrl);
+            picLife7.Image = Image.FromFile(picLife7.ImageLocation = items[13].ImageUrl);
+            picBall1.Image = Image.FromFile(picBall1.ImageLocation = items[14].ImageUrl);
+            picBall2.Image = Image.FromFile(picBall2.ImageLocation = items[15].ImageUrl);
+            picBall3.Image = Image.FromFile(picBall3.ImageLocation = items[16].ImageUrl);
+            picBall4.Image = Image.FromFile(picBall4.ImageLocation = items[17].ImageUrl);
+            picBall5.Image = Image.FromFile(picBall5.ImageLocation = items[18].ImageUrl);
+            picBall6.Image = Image.FromFile(picBall6.ImageLocation = items[19].ImageUrl);
+            picBall7.Image = Image.FromFile(picBall7.ImageLocation = items[20].ImageUrl);
         }
     }
 }
