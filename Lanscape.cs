@@ -96,6 +96,11 @@ namespace Sneakerz
             picBall5.Image = Image.FromFile(picBall5.ImageLocation = items[32].ImageUrl);
             picBall6.Image = Image.FromFile(picBall6.ImageLocation = items[33].ImageUrl);
             picBall7.Image = Image.FromFile(picBall7.ImageLocation = items[34].ImageUrl);
+
+            //items.ForEach(i =>
+            //{
+              //  _itemRepository.Add(i);
+            //});
         }
 
         private void btnExit_Click(object sender, EventArgs e)
