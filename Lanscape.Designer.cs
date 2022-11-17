@@ -58,7 +58,7 @@
             this.guna2HtmlLabel13 = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.guna2HtmlLabel5 = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.guna2HtmlLabel2 = new Guna.UI2.WinForms.Guna2HtmlLabel();
-            this.guna2HtmlLabel1 = new Guna.UI2.WinForms.Guna2HtmlLabel();
+            this.txtRun1 = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.labelRun = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.labelLife = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.labelBall = new Guna.UI2.WinForms.Guna2HtmlLabel();
@@ -142,7 +142,7 @@
             this.panelMain.Controls.Add(this.guna2HtmlLabel13);
             this.panelMain.Controls.Add(this.guna2HtmlLabel5);
             this.panelMain.Controls.Add(this.guna2HtmlLabel2);
-            this.panelMain.Controls.Add(this.guna2HtmlLabel1);
+            this.panelMain.Controls.Add(this.txtRun1);
             this.panelMain.Controls.Add(this.labelRun);
             this.panelMain.Controls.Add(this.labelLife);
             this.panelMain.Controls.Add(this.labelBall);
@@ -534,16 +534,16 @@
             this.guna2HtmlLabel2.TabIndex = 47;
             this.guna2HtmlLabel2.Text = "100$";
             // 
-            // guna2HtmlLabel1
+            // txtRun1
             // 
-            this.guna2HtmlLabel1.BackColor = System.Drawing.Color.Transparent;
-            this.guna2HtmlLabel1.Font = new System.Drawing.Font("Segoe UI Semilight", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point);
-            this.guna2HtmlLabel1.ForeColor = System.Drawing.Color.White;
-            this.guna2HtmlLabel1.Location = new System.Drawing.Point(43, 324);
-            this.guna2HtmlLabel1.Name = "guna2HtmlLabel1";
-            this.guna2HtmlLabel1.Size = new System.Drawing.Size(44, 30);
-            this.guna2HtmlLabel1.TabIndex = 48;
-            this.guna2HtmlLabel1.Text = "100$";
+            this.txtRun1.BackColor = System.Drawing.Color.Transparent;
+            this.txtRun1.Font = new System.Drawing.Font("Segoe UI Semilight", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point);
+            this.txtRun1.ForeColor = System.Drawing.Color.White;
+            this.txtRun1.Location = new System.Drawing.Point(43, 324);
+            this.txtRun1.Name = "txtRun1";
+            this.txtRun1.Size = new System.Drawing.Size(44, 30);
+            this.txtRun1.TabIndex = 48;
+            this.txtRun1.Text = "100$";
             // 
             // labelRun
             // 
@@ -583,7 +583,7 @@
             this.picRun1.BackColor = System.Drawing.Color.Transparent;
             this.picRun1.Cursor = System.Windows.Forms.Cursors.Hand;
             this.picRun1.FillColor = System.Drawing.Color.Transparent;
-            this.picRun1.Image = global::Sneakerz.Properties.Resources.nrunning_freerun_5;
+            this.picRun1.Image = global::Sneakerz.Properties.Resources.logo;
             this.picRun1.ImageRotate = 0F;
             this.picRun1.Location = new System.Drawing.Point(43, 184);
             this.picRun1.Name = "picRun1";
@@ -598,7 +598,7 @@
             this.picRun3.BackColor = System.Drawing.Color.Transparent;
             this.picRun3.Cursor = System.Windows.Forms.Cursors.Hand;
             this.picRun3.FillColor = System.Drawing.Color.Transparent;
-            this.picRun3.Image = global::Sneakerz.Properties.Resources.drunning_supernove_2;
+            this.picRun3.Image = global::Sneakerz.Properties.Resources.logo;
             this.picRun3.ImageRotate = 0F;
             this.picRun3.Location = new System.Drawing.Point(543, 184);
             this.picRun3.Name = "picRun3";
@@ -613,7 +613,7 @@
             this.picBall7.BackColor = System.Drawing.Color.Transparent;
             this.picBall7.Cursor = System.Windows.Forms.Cursors.Hand;
             this.picBall7.FillColor = System.Drawing.Color.Transparent;
-            this.picBall7.Image = global::Sneakerz.Properties.Resources.nbasketball_pg6;
+            this.picBall7.Image = global::Sneakerz.Properties.Resources.logo;
             this.picBall7.ImageRotate = 0F;
             this.picBall7.Location = new System.Drawing.Point(1543, 634);
             this.picBall7.Name = "picBall7";
@@ -628,7 +628,7 @@
             this.picBall6.BackColor = System.Drawing.Color.Transparent;
             this.picBall6.Cursor = System.Windows.Forms.Cursors.Hand;
             this.picBall6.FillColor = System.Drawing.Color.Transparent;
-            this.picBall6.Image = global::Sneakerz.Properties.Resources.dbasketball_trae_young_2_0;
+            this.picBall6.Image = global::Sneakerz.Properties.Resources.logo;
             this.picBall6.ImageRotate = 0F;
             this.picBall6.Location = new System.Drawing.Point(1293, 634);
             this.picBall6.Name = "picBall6";
@@ -643,7 +643,7 @@
             this.picLife7.BackColor = System.Drawing.Color.Transparent;
             this.picLife7.Cursor = System.Windows.Forms.Cursors.Hand;
             this.picLife7.FillColor = System.Drawing.Color.Transparent;
-            this.picLife7.Image = global::Sneakerz.Properties.Resources.nlifestyle_vapormax_2021_flyknit;
+            this.picLife7.Image = global::Sneakerz.Properties.Resources.logo;
             this.picLife7.ImageRotate = 0F;
             this.picLife7.Location = new System.Drawing.Point(1543, 409);
             this.picLife7.Name = "picLife7";
@@ -658,7 +658,7 @@
             this.picLife6.BackColor = System.Drawing.Color.Transparent;
             this.picLife6.Cursor = System.Windows.Forms.Cursors.Hand;
             this.picLife6.FillColor = System.Drawing.Color.Transparent;
-            this.picLife6.Image = global::Sneakerz.Properties.Resources.dlifestyle_nmd_r1_v2;
+            this.picLife6.Image = global::Sneakerz.Properties.Resources.logo;
             this.picLife6.ImageRotate = 0F;
             this.picLife6.Location = new System.Drawing.Point(1293, 409);
             this.picLife6.Name = "picLife6";
@@ -673,7 +673,7 @@
             this.picRun2.BackColor = System.Drawing.Color.Transparent;
             this.picRun2.Cursor = System.Windows.Forms.Cursors.Hand;
             this.picRun2.FillColor = System.Drawing.Color.Transparent;
-            this.picRun2.Image = global::Sneakerz.Properties.Resources.drunning_adizero_adios_pro_3;
+            this.picRun2.Image = global::Sneakerz.Properties.Resources.logo;
             this.picRun2.ImageRotate = 0F;
             this.picRun2.Location = new System.Drawing.Point(293, 184);
             this.picRun2.Name = "picRun2";
@@ -688,7 +688,7 @@
             this.picBall5.BackColor = System.Drawing.Color.Transparent;
             this.picBall5.Cursor = System.Windows.Forms.Cursors.Hand;
             this.picBall5.FillColor = System.Drawing.Color.Transparent;
-            this.picBall5.Image = global::Sneakerz.Properties.Resources.nbasketball_zoom_gt_cut_2;
+            this.picBall5.Image = global::Sneakerz.Properties.Resources.logo;
             this.picBall5.ImageRotate = 0F;
             this.picBall5.Location = new System.Drawing.Point(1043, 634);
             this.picBall5.Name = "picBall5";
@@ -703,9 +703,9 @@
             this.picRun4.BackColor = System.Drawing.Color.Transparent;
             this.picRun4.Cursor = System.Windows.Forms.Cursors.Hand;
             this.picRun4.FillColor = System.Drawing.Color.Transparent;
-            this.picRun4.Image = global::Sneakerz.Properties.Resources.nrunning_pegasus_trial_4;
+            this.picRun4.Image = global::Sneakerz.Properties.Resources.logo;
             this.picRun4.ImageRotate = 0F;
-            this.picRun4.InitialImage = global::Sneakerz.Properties.Resources.nrunning_pegasus_trial_4;
+            //this.picRun4.InitialImage = global::Sneakerz.Properties.Resources.nrunning_pegasus_trial_4;
             this.picRun4.Location = new System.Drawing.Point(793, 184);
             this.picRun4.Name = "picRun4";
             this.picRun4.Size = new System.Drawing.Size(120, 120);
@@ -719,7 +719,7 @@
             this.picRun5.BackColor = System.Drawing.Color.Transparent;
             this.picRun5.Cursor = System.Windows.Forms.Cursors.Hand;
             this.picRun5.FillColor = System.Drawing.Color.Transparent;
-            this.picRun5.Image = global::Sneakerz.Properties.Resources.drunning_adizero_prime_x;
+            this.picRun5.Image = global::Sneakerz.Properties.Resources.logo;
             this.picRun5.ImageRotate = 0F;
             this.picRun5.Location = new System.Drawing.Point(1043, 184);
             this.picRun5.Name = "picRun5";
@@ -734,7 +734,7 @@
             this.picBall4.BackColor = System.Drawing.Color.Transparent;
             this.picBall4.Cursor = System.Windows.Forms.Cursors.Hand;
             this.picBall4.FillColor = System.Drawing.Color.Transparent;
-            this.picBall4.Image = global::Sneakerz.Properties.Resources.nbasketball_cosmic_unity_2;
+            this.picBall4.Image = global::Sneakerz.Properties.Resources.logo;
             this.picBall4.ImageRotate = 0F;
             this.picBall4.Location = new System.Drawing.Point(793, 634);
             this.picBall4.Name = "picBall4";
@@ -749,7 +749,7 @@
             this.picLife5.BackColor = System.Drawing.Color.Transparent;
             this.picLife5.Cursor = System.Windows.Forms.Cursors.Hand;
             this.picLife5.FillColor = System.Drawing.Color.Transparent;
-            this.picLife5.Image = global::Sneakerz.Properties.Resources.nlifestyle_blazer_mid_77;
+            this.picLife5.Image = global::Sneakerz.Properties.Resources.logo;
             this.picLife5.ImageRotate = 0F;
             this.picLife5.Location = new System.Drawing.Point(1043, 409);
             this.picLife5.Name = "picLife5";
@@ -764,7 +764,7 @@
             this.picRun7.BackColor = System.Drawing.Color.Transparent;
             this.picRun7.Cursor = System.Windows.Forms.Cursors.Hand;
             this.picRun7.FillColor = System.Drawing.Color.Transparent;
-            this.picRun7.Image = global::Sneakerz.Properties.Resources.nrunning_zoomx_varpofly;
+            this.picRun7.Image = global::Sneakerz.Properties.Resources.logo;
             this.picRun7.ImageRotate = 0F;
             this.picRun7.Location = new System.Drawing.Point(1543, 184);
             this.picRun7.Name = "picRun7";
@@ -779,7 +779,7 @@
             this.picRun6.BackColor = System.Drawing.Color.Transparent;
             this.picRun6.Cursor = System.Windows.Forms.Cursors.Hand;
             this.picRun6.FillColor = System.Drawing.Color.Transparent;
-            this.picRun6.Image = global::Sneakerz.Properties.Resources.nrunning_react_infinity_run_flyknit_3;
+            this.picRun6.Image = global::Sneakerz.Properties.Resources.logo;
             this.picRun6.ImageRotate = 0F;
             this.picRun6.Location = new System.Drawing.Point(1293, 184);
             this.picRun6.Name = "picRun6";
@@ -794,7 +794,7 @@
             this.picBall1.BackColor = System.Drawing.Color.Transparent;
             this.picBall1.Cursor = System.Windows.Forms.Cursors.Hand;
             this.picBall1.FillColor = System.Drawing.Color.Transparent;
-            this.picBall1.Image = global::Sneakerz.Properties.Resources.dbasketball_drose_son_of_chi;
+            this.picBall1.Image = global::Sneakerz.Properties.Resources.logo;
             this.picBall1.ImageRotate = 0F;
             this.picBall1.Location = new System.Drawing.Point(43, 634);
             this.picBall1.Name = "picBall1";
@@ -809,7 +809,7 @@
             this.picBall3.BackColor = System.Drawing.Color.Transparent;
             this.picBall3.Cursor = System.Windows.Forms.Cursors.Hand;
             this.picBall3.FillColor = System.Drawing.Color.Transparent;
-            this.picBall3.Image = global::Sneakerz.Properties.Resources.dbasketball_super_dame_8;
+            this.picBall3.Image = global::Sneakerz.Properties.Resources.logo;
             this.picBall3.ImageRotate = 0F;
             this.picBall3.Location = new System.Drawing.Point(543, 634);
             this.picBall3.Name = "picBall3";
@@ -824,7 +824,7 @@
             this.picLife1.BackColor = System.Drawing.Color.Transparent;
             this.picLife1.Cursor = System.Windows.Forms.Cursors.Hand;
             this.picLife1.FillColor = System.Drawing.Color.Transparent;
-            this.picLife1.Image = global::Sneakerz.Properties.Resources.dlifestyle_questar_flow_nxt;
+            this.picLife1.Image = global::Sneakerz.Properties.Resources.logo;
             this.picLife1.ImageRotate = 0F;
             this.picLife1.Location = new System.Drawing.Point(43, 409);
             this.picLife1.Name = "picLife1";
@@ -839,7 +839,7 @@
             this.picLife4.BackColor = System.Drawing.Color.Transparent;
             this.picLife4.Cursor = System.Windows.Forms.Cursors.Hand;
             this.picLife4.FillColor = System.Drawing.Color.Transparent;
-            this.picLife4.Image = global::Sneakerz.Properties.Resources.dlifestyle_ultraboost_dna;
+            this.picLife4.Image = global::Sneakerz.Properties.Resources.logo;
             this.picLife4.ImageRotate = 0F;
             this.picLife4.Location = new System.Drawing.Point(793, 409);
             this.picLife4.Name = "picLife4";
@@ -854,7 +854,7 @@
             this.picBall2.BackColor = System.Drawing.Color.Transparent;
             this.picBall2.Cursor = System.Windows.Forms.Cursors.Hand;
             this.picBall2.FillColor = System.Drawing.Color.Transparent;
-            this.picBall2.Image = global::Sneakerz.Properties.Resources.dbasketball_don_issue_3;
+            this.picBall2.Image = global::Sneakerz.Properties.Resources.logo;
             this.picBall2.ImageRotate = 0F;
             this.picBall2.Location = new System.Drawing.Point(293, 634);
             this.picBall2.Name = "picBall2";
@@ -869,7 +869,7 @@
             this.picLife2.BackColor = System.Drawing.Color.Transparent;
             this.picLife2.Cursor = System.Windows.Forms.Cursors.Hand;
             this.picLife2.FillColor = System.Drawing.Color.Transparent;
-            this.picLife2.Image = global::Sneakerz.Properties.Resources.nlifestyle_air_max_flyknit_racer;
+            this.picLife2.Image = global::Sneakerz.Properties.Resources.logo;
             this.picLife2.ImageRotate = 0F;
             this.picLife2.Location = new System.Drawing.Point(293, 409);
             this.picLife2.Name = "picLife2";
@@ -884,7 +884,7 @@
             this.picLife3.BackColor = System.Drawing.Color.Transparent;
             this.picLife3.Cursor = System.Windows.Forms.Cursors.Hand;
             this.picLife3.FillColor = System.Drawing.Color.Transparent;
-            this.picLife3.Image = global::Sneakerz.Properties.Resources.dlifestyle_swift_run;
+            this.picLife3.Image = global::Sneakerz.Properties.Resources.logo;
             this.picLife3.ImageRotate = 0F;
             this.picLife3.Location = new System.Drawing.Point(543, 409);
             this.picLife3.Name = "picLife3";
@@ -963,7 +963,7 @@
         private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel13;
         private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel5;
         private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel2;
-        private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel1;
+        private Guna.UI2.WinForms.Guna2HtmlLabel txtRun1;
         private Guna.UI2.WinForms.Guna2HtmlLabel labelRun;
         private Guna.UI2.WinForms.Guna2HtmlLabel labelLife;
         private Guna.UI2.WinForms.Guna2HtmlLabel labelBall;

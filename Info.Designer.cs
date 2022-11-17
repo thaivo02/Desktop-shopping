@@ -125,7 +125,7 @@
             // picDefault
             // 
             this.picDefault.FillColor = System.Drawing.Color.Transparent;
-            this.picDefault.Image = global::Sneakerz.Properties.Resources.nrunning_freerun_5;
+            this.picDefault.Image = global::Sneakerz.Properties.Resources.logo;
             this.picDefault.ImageRotate = 0F;
             this.picDefault.Location = new System.Drawing.Point(737, 101);
             this.picDefault.Name = "picDefault";
@@ -138,7 +138,7 @@
             // 
             this.picChange2.Cursor = System.Windows.Forms.Cursors.Hand;
             this.picChange2.FillColor = System.Drawing.Color.Transparent;
-            this.picChange2.Image = global::Sneakerz.Properties.Resources.nrunning_freerun_5_2_;
+            this.picChange2.Image = global::Sneakerz.Properties.Resources.logo;
             this.picChange2.ImageRotate = 0F;
             this.picChange2.Location = new System.Drawing.Point(264, 706);
             this.picChange2.Name = "picChange2";
@@ -146,13 +146,13 @@
             this.picChange2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.picChange2.TabIndex = 70;
             this.picChange2.TabStop = false;
-            this.picChange2.Click += new System.EventHandler(this.pic2);
+            this.picChange2.Click += new System.EventHandler(this.picChange);
             // 
             // picChange1
             // 
             this.picChange1.Cursor = System.Windows.Forms.Cursors.Hand;
             this.picChange1.FillColor = System.Drawing.Color.Transparent;
-            this.picChange1.Image = global::Sneakerz.Properties.Resources.nrunning_freerun_5_1_;
+            this.picChange1.Image = global::Sneakerz.Properties.Resources.logo;
             this.picChange1.ImageRotate = 0F;
             this.picChange1.Location = new System.Drawing.Point(60, 706);
             this.picChange1.Name = "picChange1";
@@ -160,7 +160,7 @@
             this.picChange1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.picChange1.TabIndex = 70;
             this.picChange1.TabStop = false;
-            this.picChange1.Click += new System.EventHandler(this.pic1);
+            this.picChange1.Click += new System.EventHandler(this.picChange);
             // 
             // btnAdd_to_cart
             // 
