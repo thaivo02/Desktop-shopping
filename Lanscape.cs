@@ -4,7 +4,6 @@ using System.Windows.Forms;
 using Sneakerz.Model;
 using Sneakerz.Repository.Item;
 using Sneakerz.Services.Item;
-using System.Reflection;
 
 namespace Sneakerz
 {
@@ -116,7 +115,8 @@ namespace Sneakerz
             Guna2PictureBox pressed = (Guna2PictureBox)sender;
             var picName = pressed.ImageLocation.ToString().Split("/");
             //String location = pressed.ImageLocation;
-            Info frm = new Info(pressed) { Dock = DockStyle.Fill, TopLevel = false, TopMost = true };
+            var item = items.FirstOrDefault(i => i.ImageUrl == pressed.ImageLocation.ToString());
+            Info frm = new Info(pressed, item) { Dock = DockStyle.Fill, TopLevel = false, TopMost = true };
             this.panelMain.Controls.Add(frm);
             frm.BringToFront();
             frm.Closed += (s, args) => this.Close();

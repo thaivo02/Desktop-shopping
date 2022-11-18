@@ -1,21 +1,24 @@
 ﻿using Guna.UI2.WinForms;
 using Microsoft.Extensions.DependencyInjection;
+using Sneakerz.Entity;
 
 namespace Sneakerz
 {
     public partial class Info : Form
     {
-        public Info(Guna2PictureBox pressed)
+        public Info(Guna2PictureBox pressed, Item item)
         {
             InitializeComponent();
-            int space = pressed.Name.IndexOf(' ');
-            //String brand = pressed.Name.Substring(0, space);
-            //String name = pressed.Name.Substring(space + 1, pressed.Name.Length - space);
+            // String brand = pressed.Name.Substring(0, space);
+            // String name = pressed.Name.Substring(space + 1, pressed.Name.Length - space);
             String location = pressed.ImageLocation;
             picDefault.Image = Image.FromFile(location);
             String first = location.Insert(location.Length - 4, "(1)");
             String second = location.Insert(location.Length - 4, "(2)");
-            //labelBrand.Text= brand;
+            int space = item.Name.IndexOf(" ", StringComparison.Ordinal);
+            labelBrand.Text= item.Brand.Substring(0, space);
+            var lenName = item.Name.Length - space;
+            labelName.Text = item.Name.Substring(space + 1);
             picChange1.Image = Image.FromFile(first);
             picChange2.Image = Image.FromFile(second);
         }
