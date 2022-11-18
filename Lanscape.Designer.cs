@@ -62,50 +62,50 @@
             this.labelRun = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.labelLife = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.labelBall = new Guna.UI2.WinForms.Guna2HtmlLabel();
-            this.picRun1 = new Guna.UI2.WinForms.Guna2PictureBox();
-            this.picRun3 = new Guna.UI2.WinForms.Guna2PictureBox();
-            this.picBall7 = new Guna.UI2.WinForms.Guna2PictureBox();
-            this.picBall6 = new Guna.UI2.WinForms.Guna2PictureBox();
-            this.picLife7 = new Guna.UI2.WinForms.Guna2PictureBox();
-            this.picLife6 = new Guna.UI2.WinForms.Guna2PictureBox();
-            this.picRun2 = new Guna.UI2.WinForms.Guna2PictureBox();
-            this.picBall5 = new Guna.UI2.WinForms.Guna2PictureBox();
-            this.picRun4 = new Guna.UI2.WinForms.Guna2PictureBox();
-            this.picRun5 = new Guna.UI2.WinForms.Guna2PictureBox();
-            this.picBall4 = new Guna.UI2.WinForms.Guna2PictureBox();
-            this.picLife5 = new Guna.UI2.WinForms.Guna2PictureBox();
-            this.picRun7 = new Guna.UI2.WinForms.Guna2PictureBox();
-            this.picRun6 = new Guna.UI2.WinForms.Guna2PictureBox();
-            this.picBall1 = new Guna.UI2.WinForms.Guna2PictureBox();
-            this.picBall3 = new Guna.UI2.WinForms.Guna2PictureBox();
-            this.picLife1 = new Guna.UI2.WinForms.Guna2PictureBox();
-            this.picLife4 = new Guna.UI2.WinForms.Guna2PictureBox();
-            this.picBall2 = new Guna.UI2.WinForms.Guna2PictureBox();
-            this.picLife2 = new Guna.UI2.WinForms.Guna2PictureBox();
-            this.picLife3 = new Guna.UI2.WinForms.Guna2PictureBox();
+            this.pic1 = new Guna.UI2.WinForms.Guna2PictureBox();
+            this.pic3 = new Guna.UI2.WinForms.Guna2PictureBox();
+            this.pic21 = new Guna.UI2.WinForms.Guna2PictureBox();
+            this.pic20 = new Guna.UI2.WinForms.Guna2PictureBox();
+            this.pic14 = new Guna.UI2.WinForms.Guna2PictureBox();
+            this.pic13 = new Guna.UI2.WinForms.Guna2PictureBox();
+            this.pic2 = new Guna.UI2.WinForms.Guna2PictureBox();
+            this.pic19 = new Guna.UI2.WinForms.Guna2PictureBox();
+            this.pic4 = new Guna.UI2.WinForms.Guna2PictureBox();
+            this.pic5 = new Guna.UI2.WinForms.Guna2PictureBox();
+            this.pic18 = new Guna.UI2.WinForms.Guna2PictureBox();
+            this.pic12 = new Guna.UI2.WinForms.Guna2PictureBox();
+            this.pic7 = new Guna.UI2.WinForms.Guna2PictureBox();
+            this.pic6 = new Guna.UI2.WinForms.Guna2PictureBox();
+            this.pic15 = new Guna.UI2.WinForms.Guna2PictureBox();
+            this.pic17 = new Guna.UI2.WinForms.Guna2PictureBox();
+            this.pic8 = new Guna.UI2.WinForms.Guna2PictureBox();
+            this.pic11 = new Guna.UI2.WinForms.Guna2PictureBox();
+            this.pic16 = new Guna.UI2.WinForms.Guna2PictureBox();
+            this.pic9 = new Guna.UI2.WinForms.Guna2PictureBox();
+            this.pic10 = new Guna.UI2.WinForms.Guna2PictureBox();
             this.panelMain.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.picLogo)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.picRun1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.picRun3)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.picBall7)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.picBall6)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.picLife7)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.picLife6)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.picRun2)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.picBall5)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.picRun4)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.picRun5)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.picBall4)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.picLife5)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.picRun7)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.picRun6)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.picBall1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.picBall3)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.picLife1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.picLife4)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.picBall2)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.picLife2)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.picLife3)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pic1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pic3)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pic21)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pic20)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pic14)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pic13)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pic2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pic19)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pic4)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pic5)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pic18)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pic12)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pic7)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pic6)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pic15)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pic17)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pic8)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pic11)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pic16)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pic9)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pic10)).BeginInit();
             this.SuspendLayout();
             // 
             // panelMain
@@ -146,27 +146,27 @@
             this.panelMain.Controls.Add(this.labelRun);
             this.panelMain.Controls.Add(this.labelLife);
             this.panelMain.Controls.Add(this.labelBall);
-            this.panelMain.Controls.Add(this.picRun1);
-            this.panelMain.Controls.Add(this.picRun3);
-            this.panelMain.Controls.Add(this.picBall7);
-            this.panelMain.Controls.Add(this.picBall6);
-            this.panelMain.Controls.Add(this.picLife7);
-            this.panelMain.Controls.Add(this.picLife6);
-            this.panelMain.Controls.Add(this.picRun2);
-            this.panelMain.Controls.Add(this.picBall5);
-            this.panelMain.Controls.Add(this.picRun4);
-            this.panelMain.Controls.Add(this.picRun5);
-            this.panelMain.Controls.Add(this.picBall4);
-            this.panelMain.Controls.Add(this.picLife5);
-            this.panelMain.Controls.Add(this.picRun7);
-            this.panelMain.Controls.Add(this.picRun6);
-            this.panelMain.Controls.Add(this.picBall1);
-            this.panelMain.Controls.Add(this.picBall3);
-            this.panelMain.Controls.Add(this.picLife1);
-            this.panelMain.Controls.Add(this.picLife4);
-            this.panelMain.Controls.Add(this.picBall2);
-            this.panelMain.Controls.Add(this.picLife2);
-            this.panelMain.Controls.Add(this.picLife3);
+            this.panelMain.Controls.Add(this.pic1);
+            this.panelMain.Controls.Add(this.pic3);
+            this.panelMain.Controls.Add(this.pic21);
+            this.panelMain.Controls.Add(this.pic20);
+            this.panelMain.Controls.Add(this.pic14);
+            this.panelMain.Controls.Add(this.pic13);
+            this.panelMain.Controls.Add(this.pic2);
+            this.panelMain.Controls.Add(this.pic19);
+            this.panelMain.Controls.Add(this.pic4);
+            this.panelMain.Controls.Add(this.pic5);
+            this.panelMain.Controls.Add(this.pic18);
+            this.panelMain.Controls.Add(this.pic12);
+            this.panelMain.Controls.Add(this.pic7);
+            this.panelMain.Controls.Add(this.pic6);
+            this.panelMain.Controls.Add(this.pic15);
+            this.panelMain.Controls.Add(this.pic17);
+            this.panelMain.Controls.Add(this.pic8);
+            this.panelMain.Controls.Add(this.pic11);
+            this.panelMain.Controls.Add(this.pic16);
+            this.panelMain.Controls.Add(this.pic9);
+            this.panelMain.Controls.Add(this.pic10);
             this.panelMain.Location = new System.Drawing.Point(0, 0);
             this.panelMain.Name = "panelMain";
             this.panelMain.Size = new System.Drawing.Size(1707, 886);
@@ -178,7 +178,7 @@
             this.txtSearch.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.txtSearch.Font = new System.Drawing.Font("Segoe UI Semibold", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.txtSearch.ForeColor = System.Drawing.Color.Black;
-            this.txtSearch.Location = new System.Drawing.Point(165, 31);
+            this.txtSearch.Location = new System.Drawing.Point(165, 36);
             this.txtSearch.Name = "txtSearch";
             this.txtSearch.Size = new System.Drawing.Size(305, 32);
             this.txtSearch.TabIndex = 86;
@@ -267,6 +267,7 @@
             this.btnCart.Name = "btnCart";
             this.btnCart.Size = new System.Drawing.Size(56, 52);
             this.btnCart.TabIndex = 41;
+            this.btnCart.Click += new System.EventHandler(this.btnCart_Click);
             // 
             // btnPuma
             // 
@@ -578,321 +579,320 @@
             this.labelBall.TabIndex = 37;
             this.labelBall.Text = "Basketball";
             // 
-            // picRun1
+            // pic1
             // 
-            this.picRun1.BackColor = System.Drawing.Color.Transparent;
-            this.picRun1.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.picRun1.FillColor = System.Drawing.Color.Transparent;
-            this.picRun1.Image = global::Sneakerz.Properties.Resources.logo;
-            this.picRun1.ImageRotate = 0F;
-            this.picRun1.Location = new System.Drawing.Point(43, 184);
-            this.picRun1.Name = "picRun1";
-            this.picRun1.Size = new System.Drawing.Size(120, 120);
-            this.picRun1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.picRun1.TabIndex = 76;
-            this.picRun1.TabStop = false;
-            this.picRun1.Click += new System.EventHandler(this.picInfo_Click);
+            this.pic1.BackColor = System.Drawing.Color.Transparent;
+            this.pic1.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.pic1.FillColor = System.Drawing.Color.Transparent;
+            this.pic1.Image = global::Sneakerz.Properties.Resources.logo;
+            this.pic1.ImageRotate = 0F;
+            this.pic1.Location = new System.Drawing.Point(43, 184);
+            this.pic1.Name = "pic1";
+            this.pic1.Size = new System.Drawing.Size(120, 120);
+            this.pic1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pic1.TabIndex = 76;
+            this.pic1.TabStop = false;
+            this.pic1.Click += new System.EventHandler(this.picInfo_Click);
             // 
-            // picRun3
+            // pic3
             // 
-            this.picRun3.BackColor = System.Drawing.Color.Transparent;
-            this.picRun3.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.picRun3.FillColor = System.Drawing.Color.Transparent;
-            this.picRun3.Image = global::Sneakerz.Properties.Resources.logo;
-            this.picRun3.ImageRotate = 0F;
-            this.picRun3.Location = new System.Drawing.Point(543, 184);
-            this.picRun3.Name = "picRun3";
-            this.picRun3.Size = new System.Drawing.Size(120, 120);
-            this.picRun3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.picRun3.TabIndex = 65;
-            this.picRun3.TabStop = false;
-            this.picRun3.Click += new System.EventHandler(this.picInfo_Click);
+            this.pic3.BackColor = System.Drawing.Color.Transparent;
+            this.pic3.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.pic3.FillColor = System.Drawing.Color.Transparent;
+            this.pic3.Image = global::Sneakerz.Properties.Resources.logo;
+            this.pic3.ImageRotate = 0F;
+            this.pic3.Location = new System.Drawing.Point(543, 184);
+            this.pic3.Name = "pic3";
+            this.pic3.Size = new System.Drawing.Size(120, 120);
+            this.pic3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pic3.TabIndex = 65;
+            this.pic3.TabStop = false;
+            this.pic3.Click += new System.EventHandler(this.picInfo_Click);
             // 
-            // picBall7
+            // pic21
             // 
-            this.picBall7.BackColor = System.Drawing.Color.Transparent;
-            this.picBall7.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.picBall7.FillColor = System.Drawing.Color.Transparent;
-            this.picBall7.Image = global::Sneakerz.Properties.Resources.logo;
-            this.picBall7.ImageRotate = 0F;
-            this.picBall7.Location = new System.Drawing.Point(1543, 634);
-            this.picBall7.Name = "picBall7";
-            this.picBall7.Size = new System.Drawing.Size(120, 120);
-            this.picBall7.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.picBall7.TabIndex = 72;
-            this.picBall7.TabStop = false;
-            this.picBall7.Click += new System.EventHandler(this.picInfo_Click);
+            this.pic21.BackColor = System.Drawing.Color.Transparent;
+            this.pic21.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.pic21.FillColor = System.Drawing.Color.Transparent;
+            this.pic21.Image = global::Sneakerz.Properties.Resources.logo;
+            this.pic21.ImageRotate = 0F;
+            this.pic21.Location = new System.Drawing.Point(1543, 634);
+            this.pic21.Name = "pic21";
+            this.pic21.Size = new System.Drawing.Size(120, 120);
+            this.pic21.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pic21.TabIndex = 72;
+            this.pic21.TabStop = false;
+            this.pic21.Click += new System.EventHandler(this.picInfo_Click);
             // 
-            // picBall6
+            // pic20
             // 
-            this.picBall6.BackColor = System.Drawing.Color.Transparent;
-            this.picBall6.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.picBall6.FillColor = System.Drawing.Color.Transparent;
-            this.picBall6.Image = global::Sneakerz.Properties.Resources.logo;
-            this.picBall6.ImageRotate = 0F;
-            this.picBall6.Location = new System.Drawing.Point(1293, 634);
-            this.picBall6.Name = "picBall6";
-            this.picBall6.Size = new System.Drawing.Size(120, 120);
-            this.picBall6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.picBall6.TabIndex = 73;
-            this.picBall6.TabStop = false;
-            this.picBall6.Click += new System.EventHandler(this.picInfo_Click);
+            this.pic20.BackColor = System.Drawing.Color.Transparent;
+            this.pic20.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.pic20.FillColor = System.Drawing.Color.Transparent;
+            this.pic20.Image = global::Sneakerz.Properties.Resources.logo;
+            this.pic20.ImageRotate = 0F;
+            this.pic20.Location = new System.Drawing.Point(1293, 634);
+            this.pic20.Name = "pic20";
+            this.pic20.Size = new System.Drawing.Size(120, 120);
+            this.pic20.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pic20.TabIndex = 73;
+            this.pic20.TabStop = false;
+            this.pic20.Click += new System.EventHandler(this.picInfo_Click);
             // 
-            // picLife7
+            // pic14
             // 
-            this.picLife7.BackColor = System.Drawing.Color.Transparent;
-            this.picLife7.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.picLife7.FillColor = System.Drawing.Color.Transparent;
-            this.picLife7.Image = global::Sneakerz.Properties.Resources.logo;
-            this.picLife7.ImageRotate = 0F;
-            this.picLife7.Location = new System.Drawing.Point(1543, 409);
-            this.picLife7.Name = "picLife7";
-            this.picLife7.Size = new System.Drawing.Size(120, 120);
-            this.picLife7.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.picLife7.TabIndex = 83;
-            this.picLife7.TabStop = false;
-            this.picLife7.Click += new System.EventHandler(this.picInfo_Click);
+            this.pic14.BackColor = System.Drawing.Color.Transparent;
+            this.pic14.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.pic14.FillColor = System.Drawing.Color.Transparent;
+            this.pic14.Image = global::Sneakerz.Properties.Resources.logo;
+            this.pic14.ImageRotate = 0F;
+            this.pic14.Location = new System.Drawing.Point(1543, 409);
+            this.pic14.Name = "pic14";
+            this.pic14.Size = new System.Drawing.Size(120, 120);
+            this.pic14.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pic14.TabIndex = 83;
+            this.pic14.TabStop = false;
+            this.pic14.Click += new System.EventHandler(this.picInfo_Click);
             // 
-            // picLife6
+            // pic13
             // 
-            this.picLife6.BackColor = System.Drawing.Color.Transparent;
-            this.picLife6.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.picLife6.FillColor = System.Drawing.Color.Transparent;
-            this.picLife6.Image = global::Sneakerz.Properties.Resources.logo;
-            this.picLife6.ImageRotate = 0F;
-            this.picLife6.Location = new System.Drawing.Point(1293, 409);
-            this.picLife6.Name = "picLife6";
-            this.picLife6.Size = new System.Drawing.Size(120, 120);
-            this.picLife6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.picLife6.TabIndex = 82;
-            this.picLife6.TabStop = false;
-            this.picLife6.Click += new System.EventHandler(this.picInfo_Click);
+            this.pic13.BackColor = System.Drawing.Color.Transparent;
+            this.pic13.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.pic13.FillColor = System.Drawing.Color.Transparent;
+            this.pic13.Image = global::Sneakerz.Properties.Resources.logo;
+            this.pic13.ImageRotate = 0F;
+            this.pic13.Location = new System.Drawing.Point(1293, 409);
+            this.pic13.Name = "pic13";
+            this.pic13.Size = new System.Drawing.Size(120, 120);
+            this.pic13.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pic13.TabIndex = 82;
+            this.pic13.TabStop = false;
+            this.pic13.Click += new System.EventHandler(this.picInfo_Click);
             // 
-            // picRun2
+            // pic2
             // 
-            this.picRun2.BackColor = System.Drawing.Color.Transparent;
-            this.picRun2.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.picRun2.FillColor = System.Drawing.Color.Transparent;
-            this.picRun2.Image = global::Sneakerz.Properties.Resources.logo;
-            this.picRun2.ImageRotate = 0F;
-            this.picRun2.Location = new System.Drawing.Point(293, 184);
-            this.picRun2.Name = "picRun2";
-            this.picRun2.Size = new System.Drawing.Size(120, 120);
-            this.picRun2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.picRun2.TabIndex = 66;
-            this.picRun2.TabStop = false;
-            this.picRun2.Click += new System.EventHandler(this.picInfo_Click);
+            this.pic2.BackColor = System.Drawing.Color.Transparent;
+            this.pic2.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.pic2.FillColor = System.Drawing.Color.Transparent;
+            this.pic2.Image = global::Sneakerz.Properties.Resources.logo;
+            this.pic2.ImageRotate = 0F;
+            this.pic2.Location = new System.Drawing.Point(293, 184);
+            this.pic2.Name = "pic2";
+            this.pic2.Size = new System.Drawing.Size(120, 120);
+            this.pic2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pic2.TabIndex = 66;
+            this.pic2.TabStop = false;
+            this.pic2.Click += new System.EventHandler(this.picInfo_Click);
             // 
-            // picBall5
+            // pic19
             // 
-            this.picBall5.BackColor = System.Drawing.Color.Transparent;
-            this.picBall5.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.picBall5.FillColor = System.Drawing.Color.Transparent;
-            this.picBall5.Image = global::Sneakerz.Properties.Resources.logo;
-            this.picBall5.ImageRotate = 0F;
-            this.picBall5.Location = new System.Drawing.Point(1043, 634);
-            this.picBall5.Name = "picBall5";
-            this.picBall5.Size = new System.Drawing.Size(120, 120);
-            this.picBall5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.picBall5.TabIndex = 85;
-            this.picBall5.TabStop = false;
-            this.picBall5.Click += new System.EventHandler(this.picInfo_Click);
+            this.pic19.BackColor = System.Drawing.Color.Transparent;
+            this.pic19.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.pic19.FillColor = System.Drawing.Color.Transparent;
+            this.pic19.Image = global::Sneakerz.Properties.Resources.logo;
+            this.pic19.ImageRotate = 0F;
+            this.pic19.Location = new System.Drawing.Point(1043, 634);
+            this.pic19.Name = "pic19";
+            this.pic19.Size = new System.Drawing.Size(120, 120);
+            this.pic19.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pic19.TabIndex = 85;
+            this.pic19.TabStop = false;
+            this.pic19.Click += new System.EventHandler(this.picInfo_Click);
             // 
-            // picRun4
+            // pic4
             // 
-            this.picRun4.BackColor = System.Drawing.Color.Transparent;
-            this.picRun4.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.picRun4.FillColor = System.Drawing.Color.Transparent;
-            this.picRun4.Image = global::Sneakerz.Properties.Resources.logo;
-            this.picRun4.ImageRotate = 0F;
-            //this.picRun4.InitialImage = global::Sneakerz.Properties.Resources.nrunning_pegasus_trial_4;
-            this.picRun4.Location = new System.Drawing.Point(793, 184);
-            this.picRun4.Name = "picRun4";
-            this.picRun4.Size = new System.Drawing.Size(120, 120);
-            this.picRun4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.picRun4.TabIndex = 67;
-            this.picRun4.TabStop = false;
-            this.picRun4.Click += new System.EventHandler(this.picInfo_Click);
+            this.pic4.BackColor = System.Drawing.Color.Transparent;
+            this.pic4.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.pic4.FillColor = System.Drawing.Color.Transparent;
+            this.pic4.Image = global::Sneakerz.Properties.Resources.logo;
+            this.pic4.ImageRotate = 0F;
+            this.pic4.Location = new System.Drawing.Point(793, 184);
+            this.pic4.Name = "pic4";
+            this.pic4.Size = new System.Drawing.Size(120, 120);
+            this.pic4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pic4.TabIndex = 67;
+            this.pic4.TabStop = false;
+            this.pic4.Click += new System.EventHandler(this.picInfo_Click);
             // 
-            // picRun5
+            // pic5
             // 
-            this.picRun5.BackColor = System.Drawing.Color.Transparent;
-            this.picRun5.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.picRun5.FillColor = System.Drawing.Color.Transparent;
-            this.picRun5.Image = global::Sneakerz.Properties.Resources.logo;
-            this.picRun5.ImageRotate = 0F;
-            this.picRun5.Location = new System.Drawing.Point(1043, 184);
-            this.picRun5.Name = "picRun5";
-            this.picRun5.Size = new System.Drawing.Size(120, 120);
-            this.picRun5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.picRun5.TabIndex = 84;
-            this.picRun5.TabStop = false;
-            this.picRun5.Click += new System.EventHandler(this.picInfo_Click);
+            this.pic5.BackColor = System.Drawing.Color.Transparent;
+            this.pic5.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.pic5.FillColor = System.Drawing.Color.Transparent;
+            this.pic5.Image = global::Sneakerz.Properties.Resources.logo;
+            this.pic5.ImageRotate = 0F;
+            this.pic5.Location = new System.Drawing.Point(1043, 184);
+            this.pic5.Name = "pic5";
+            this.pic5.Size = new System.Drawing.Size(120, 120);
+            this.pic5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pic5.TabIndex = 84;
+            this.pic5.TabStop = false;
+            this.pic5.Click += new System.EventHandler(this.picInfo_Click);
             // 
-            // picBall4
+            // pic18
             // 
-            this.picBall4.BackColor = System.Drawing.Color.Transparent;
-            this.picBall4.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.picBall4.FillColor = System.Drawing.Color.Transparent;
-            this.picBall4.Image = global::Sneakerz.Properties.Resources.logo;
-            this.picBall4.ImageRotate = 0F;
-            this.picBall4.Location = new System.Drawing.Point(793, 634);
-            this.picBall4.Name = "picBall4";
-            this.picBall4.Size = new System.Drawing.Size(120, 120);
-            this.picBall4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.picBall4.TabIndex = 81;
-            this.picBall4.TabStop = false;
-            this.picBall4.Click += new System.EventHandler(this.picInfo_Click);
+            this.pic18.BackColor = System.Drawing.Color.Transparent;
+            this.pic18.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.pic18.FillColor = System.Drawing.Color.Transparent;
+            this.pic18.Image = global::Sneakerz.Properties.Resources.logo;
+            this.pic18.ImageRotate = 0F;
+            this.pic18.Location = new System.Drawing.Point(793, 634);
+            this.pic18.Name = "pic18";
+            this.pic18.Size = new System.Drawing.Size(120, 120);
+            this.pic18.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pic18.TabIndex = 81;
+            this.pic18.TabStop = false;
+            this.pic18.Click += new System.EventHandler(this.picInfo_Click);
             // 
-            // picLife5
+            // pic12
             // 
-            this.picLife5.BackColor = System.Drawing.Color.Transparent;
-            this.picLife5.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.picLife5.FillColor = System.Drawing.Color.Transparent;
-            this.picLife5.Image = global::Sneakerz.Properties.Resources.logo;
-            this.picLife5.ImageRotate = 0F;
-            this.picLife5.Location = new System.Drawing.Point(1043, 409);
-            this.picLife5.Name = "picLife5";
-            this.picLife5.Size = new System.Drawing.Size(120, 120);
-            this.picLife5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.picLife5.TabIndex = 79;
-            this.picLife5.TabStop = false;
-            this.picLife5.Click += new System.EventHandler(this.picInfo_Click);
+            this.pic12.BackColor = System.Drawing.Color.Transparent;
+            this.pic12.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.pic12.FillColor = System.Drawing.Color.Transparent;
+            this.pic12.Image = global::Sneakerz.Properties.Resources.logo;
+            this.pic12.ImageRotate = 0F;
+            this.pic12.Location = new System.Drawing.Point(1043, 409);
+            this.pic12.Name = "pic12";
+            this.pic12.Size = new System.Drawing.Size(120, 120);
+            this.pic12.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pic12.TabIndex = 79;
+            this.pic12.TabStop = false;
+            this.pic12.Click += new System.EventHandler(this.picInfo_Click);
             // 
-            // picRun7
+            // pic7
             // 
-            this.picRun7.BackColor = System.Drawing.Color.Transparent;
-            this.picRun7.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.picRun7.FillColor = System.Drawing.Color.Transparent;
-            this.picRun7.Image = global::Sneakerz.Properties.Resources.logo;
-            this.picRun7.ImageRotate = 0F;
-            this.picRun7.Location = new System.Drawing.Point(1543, 184);
-            this.picRun7.Name = "picRun7";
-            this.picRun7.Size = new System.Drawing.Size(120, 120);
-            this.picRun7.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.picRun7.TabIndex = 77;
-            this.picRun7.TabStop = false;
-            this.picRun7.Click += new System.EventHandler(this.picInfo_Click);
+            this.pic7.BackColor = System.Drawing.Color.Transparent;
+            this.pic7.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.pic7.FillColor = System.Drawing.Color.Transparent;
+            this.pic7.Image = global::Sneakerz.Properties.Resources.logo;
+            this.pic7.ImageRotate = 0F;
+            this.pic7.Location = new System.Drawing.Point(1543, 184);
+            this.pic7.Name = "pic7";
+            this.pic7.Size = new System.Drawing.Size(120, 120);
+            this.pic7.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pic7.TabIndex = 77;
+            this.pic7.TabStop = false;
+            this.pic7.Click += new System.EventHandler(this.picInfo_Click);
             // 
-            // picRun6
+            // pic6
             // 
-            this.picRun6.BackColor = System.Drawing.Color.Transparent;
-            this.picRun6.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.picRun6.FillColor = System.Drawing.Color.Transparent;
-            this.picRun6.Image = global::Sneakerz.Properties.Resources.logo;
-            this.picRun6.ImageRotate = 0F;
-            this.picRun6.Location = new System.Drawing.Point(1293, 184);
-            this.picRun6.Name = "picRun6";
-            this.picRun6.Size = new System.Drawing.Size(120, 120);
-            this.picRun6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.picRun6.TabIndex = 78;
-            this.picRun6.TabStop = false;
-            this.picRun6.Click += new System.EventHandler(this.picInfo_Click);
+            this.pic6.BackColor = System.Drawing.Color.Transparent;
+            this.pic6.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.pic6.FillColor = System.Drawing.Color.Transparent;
+            this.pic6.Image = global::Sneakerz.Properties.Resources.logo;
+            this.pic6.ImageRotate = 0F;
+            this.pic6.Location = new System.Drawing.Point(1293, 184);
+            this.pic6.Name = "pic6";
+            this.pic6.Size = new System.Drawing.Size(120, 120);
+            this.pic6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pic6.TabIndex = 78;
+            this.pic6.TabStop = false;
+            this.pic6.Click += new System.EventHandler(this.picInfo_Click);
             // 
-            // picBall1
+            // pic15
             // 
-            this.picBall1.BackColor = System.Drawing.Color.Transparent;
-            this.picBall1.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.picBall1.FillColor = System.Drawing.Color.Transparent;
-            this.picBall1.Image = global::Sneakerz.Properties.Resources.logo;
-            this.picBall1.ImageRotate = 0F;
-            this.picBall1.Location = new System.Drawing.Point(43, 634);
-            this.picBall1.Name = "picBall1";
-            this.picBall1.Size = new System.Drawing.Size(120, 120);
-            this.picBall1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.picBall1.TabIndex = 69;
-            this.picBall1.TabStop = false;
-            this.picBall1.Click += new System.EventHandler(this.picInfo_Click);
+            this.pic15.BackColor = System.Drawing.Color.Transparent;
+            this.pic15.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.pic15.FillColor = System.Drawing.Color.Transparent;
+            this.pic15.Image = global::Sneakerz.Properties.Resources.logo;
+            this.pic15.ImageRotate = 0F;
+            this.pic15.Location = new System.Drawing.Point(43, 634);
+            this.pic15.Name = "pic15";
+            this.pic15.Size = new System.Drawing.Size(120, 120);
+            this.pic15.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pic15.TabIndex = 69;
+            this.pic15.TabStop = false;
+            this.pic15.Click += new System.EventHandler(this.picInfo_Click);
             // 
-            // picBall3
+            // pic17
             // 
-            this.picBall3.BackColor = System.Drawing.Color.Transparent;
-            this.picBall3.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.picBall3.FillColor = System.Drawing.Color.Transparent;
-            this.picBall3.Image = global::Sneakerz.Properties.Resources.logo;
-            this.picBall3.ImageRotate = 0F;
-            this.picBall3.Location = new System.Drawing.Point(543, 634);
-            this.picBall3.Name = "picBall3";
-            this.picBall3.Size = new System.Drawing.Size(120, 120);
-            this.picBall3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.picBall3.TabIndex = 80;
-            this.picBall3.TabStop = false;
-            this.picBall3.Click += new System.EventHandler(this.picInfo_Click);
+            this.pic17.BackColor = System.Drawing.Color.Transparent;
+            this.pic17.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.pic17.FillColor = System.Drawing.Color.Transparent;
+            this.pic17.Image = global::Sneakerz.Properties.Resources.logo;
+            this.pic17.ImageRotate = 0F;
+            this.pic17.Location = new System.Drawing.Point(543, 634);
+            this.pic17.Name = "pic17";
+            this.pic17.Size = new System.Drawing.Size(120, 120);
+            this.pic17.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pic17.TabIndex = 80;
+            this.pic17.TabStop = false;
+            this.pic17.Click += new System.EventHandler(this.picInfo_Click);
             // 
-            // picLife1
+            // pic8
             // 
-            this.picLife1.BackColor = System.Drawing.Color.Transparent;
-            this.picLife1.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.picLife1.FillColor = System.Drawing.Color.Transparent;
-            this.picLife1.Image = global::Sneakerz.Properties.Resources.logo;
-            this.picLife1.ImageRotate = 0F;
-            this.picLife1.Location = new System.Drawing.Point(43, 409);
-            this.picLife1.Name = "picLife1";
-            this.picLife1.Size = new System.Drawing.Size(120, 120);
-            this.picLife1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.picLife1.TabIndex = 68;
-            this.picLife1.TabStop = false;
-            this.picLife1.Click += new System.EventHandler(this.picInfo_Click);
+            this.pic8.BackColor = System.Drawing.Color.Transparent;
+            this.pic8.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.pic8.FillColor = System.Drawing.Color.Transparent;
+            this.pic8.Image = global::Sneakerz.Properties.Resources.logo;
+            this.pic8.ImageRotate = 0F;
+            this.pic8.Location = new System.Drawing.Point(43, 409);
+            this.pic8.Name = "pic8";
+            this.pic8.Size = new System.Drawing.Size(120, 120);
+            this.pic8.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pic8.TabIndex = 68;
+            this.pic8.TabStop = false;
+            this.pic8.Click += new System.EventHandler(this.picInfo_Click);
             // 
-            // picLife4
+            // pic11
             // 
-            this.picLife4.BackColor = System.Drawing.Color.Transparent;
-            this.picLife4.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.picLife4.FillColor = System.Drawing.Color.Transparent;
-            this.picLife4.Image = global::Sneakerz.Properties.Resources.logo;
-            this.picLife4.ImageRotate = 0F;
-            this.picLife4.Location = new System.Drawing.Point(793, 409);
-            this.picLife4.Name = "picLife4";
-            this.picLife4.Size = new System.Drawing.Size(120, 120);
-            this.picLife4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.picLife4.TabIndex = 75;
-            this.picLife4.TabStop = false;
-            this.picLife4.Click += new System.EventHandler(this.picInfo_Click);
+            this.pic11.BackColor = System.Drawing.Color.Transparent;
+            this.pic11.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.pic11.FillColor = System.Drawing.Color.Transparent;
+            this.pic11.Image = global::Sneakerz.Properties.Resources.logo;
+            this.pic11.ImageRotate = 0F;
+            this.pic11.Location = new System.Drawing.Point(793, 409);
+            this.pic11.Name = "pic11";
+            this.pic11.Size = new System.Drawing.Size(120, 120);
+            this.pic11.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pic11.TabIndex = 75;
+            this.pic11.TabStop = false;
+            this.pic11.Click += new System.EventHandler(this.picInfo_Click);
             // 
-            // picBall2
+            // pic16
             // 
-            this.picBall2.BackColor = System.Drawing.Color.Transparent;
-            this.picBall2.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.picBall2.FillColor = System.Drawing.Color.Transparent;
-            this.picBall2.Image = global::Sneakerz.Properties.Resources.logo;
-            this.picBall2.ImageRotate = 0F;
-            this.picBall2.Location = new System.Drawing.Point(293, 634);
-            this.picBall2.Name = "picBall2";
-            this.picBall2.Size = new System.Drawing.Size(120, 120);
-            this.picBall2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.picBall2.TabIndex = 71;
-            this.picBall2.TabStop = false;
-            this.picBall2.Click += new System.EventHandler(this.picInfo_Click);
+            this.pic16.BackColor = System.Drawing.Color.Transparent;
+            this.pic16.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.pic16.FillColor = System.Drawing.Color.Transparent;
+            this.pic16.Image = global::Sneakerz.Properties.Resources.logo;
+            this.pic16.ImageRotate = 0F;
+            this.pic16.Location = new System.Drawing.Point(293, 634);
+            this.pic16.Name = "pic16";
+            this.pic16.Size = new System.Drawing.Size(120, 120);
+            this.pic16.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pic16.TabIndex = 71;
+            this.pic16.TabStop = false;
+            this.pic16.Click += new System.EventHandler(this.picInfo_Click);
             // 
-            // picLife2
+            // pic9
             // 
-            this.picLife2.BackColor = System.Drawing.Color.Transparent;
-            this.picLife2.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.picLife2.FillColor = System.Drawing.Color.Transparent;
-            this.picLife2.Image = global::Sneakerz.Properties.Resources.logo;
-            this.picLife2.ImageRotate = 0F;
-            this.picLife2.Location = new System.Drawing.Point(293, 409);
-            this.picLife2.Name = "picLife2";
-            this.picLife2.Size = new System.Drawing.Size(120, 120);
-            this.picLife2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.picLife2.TabIndex = 70;
-            this.picLife2.TabStop = false;
-            this.picLife2.Click += new System.EventHandler(this.picInfo_Click);
+            this.pic9.BackColor = System.Drawing.Color.Transparent;
+            this.pic9.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.pic9.FillColor = System.Drawing.Color.Transparent;
+            this.pic9.Image = global::Sneakerz.Properties.Resources.logo;
+            this.pic9.ImageRotate = 0F;
+            this.pic9.Location = new System.Drawing.Point(293, 409);
+            this.pic9.Name = "pic9";
+            this.pic9.Size = new System.Drawing.Size(120, 120);
+            this.pic9.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pic9.TabIndex = 70;
+            this.pic9.TabStop = false;
+            this.pic9.Click += new System.EventHandler(this.picInfo_Click);
             // 
-            // picLife3
+            // pic10
             // 
-            this.picLife3.BackColor = System.Drawing.Color.Transparent;
-            this.picLife3.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.picLife3.FillColor = System.Drawing.Color.Transparent;
-            this.picLife3.Image = global::Sneakerz.Properties.Resources.logo;
-            this.picLife3.ImageRotate = 0F;
-            this.picLife3.Location = new System.Drawing.Point(543, 409);
-            this.picLife3.Name = "picLife3";
-            this.picLife3.Size = new System.Drawing.Size(120, 120);
-            this.picLife3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.picLife3.TabIndex = 74;
-            this.picLife3.TabStop = false;
-            this.picLife3.Click += new System.EventHandler(this.picInfo_Click);
+            this.pic10.BackColor = System.Drawing.Color.Transparent;
+            this.pic10.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.pic10.FillColor = System.Drawing.Color.Transparent;
+            this.pic10.Image = global::Sneakerz.Properties.Resources.logo;
+            this.pic10.ImageRotate = 0F;
+            this.pic10.Location = new System.Drawing.Point(543, 409);
+            this.pic10.Name = "pic10";
+            this.pic10.Size = new System.Drawing.Size(120, 120);
+            this.pic10.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pic10.TabIndex = 74;
+            this.pic10.TabStop = false;
+            this.pic10.Click += new System.EventHandler(this.picInfo_Click);
             // 
             // Lanscape
             // 
@@ -907,27 +907,27 @@
             this.panelMain.ResumeLayout(false);
             this.panelMain.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.picLogo)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.picRun1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.picRun3)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.picBall7)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.picBall6)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.picLife7)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.picLife6)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.picRun2)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.picBall5)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.picRun4)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.picRun5)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.picBall4)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.picLife5)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.picRun7)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.picRun6)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.picBall1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.picBall3)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.picLife1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.picLife4)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.picBall2)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.picLife2)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.picLife3)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pic1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pic3)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pic21)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pic20)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pic14)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pic13)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pic2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pic19)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pic4)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pic5)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pic18)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pic12)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pic7)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pic6)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pic15)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pic17)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pic8)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pic11)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pic16)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pic9)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pic10)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -967,27 +967,27 @@
         private Guna.UI2.WinForms.Guna2HtmlLabel labelRun;
         private Guna.UI2.WinForms.Guna2HtmlLabel labelLife;
         private Guna.UI2.WinForms.Guna2HtmlLabel labelBall;
-        private Guna.UI2.WinForms.Guna2PictureBox picRun1;
-        private Guna.UI2.WinForms.Guna2PictureBox picRun3;
-        private Guna.UI2.WinForms.Guna2PictureBox picBall7;
-        private Guna.UI2.WinForms.Guna2PictureBox picBall6;
-        private Guna.UI2.WinForms.Guna2PictureBox picLife7;
-        private Guna.UI2.WinForms.Guna2PictureBox picLife6;
-        private Guna.UI2.WinForms.Guna2PictureBox picRun2;
-        private Guna.UI2.WinForms.Guna2PictureBox picBall5;
-        private Guna.UI2.WinForms.Guna2PictureBox picRun4;
-        private Guna.UI2.WinForms.Guna2PictureBox picRun5;
-        private Guna.UI2.WinForms.Guna2PictureBox picBall4;
-        private Guna.UI2.WinForms.Guna2PictureBox picLife5;
-        private Guna.UI2.WinForms.Guna2PictureBox picRun7;
-        private Guna.UI2.WinForms.Guna2PictureBox picRun6;
-        private Guna.UI2.WinForms.Guna2PictureBox picBall1;
-        private Guna.UI2.WinForms.Guna2PictureBox picBall3;
-        private Guna.UI2.WinForms.Guna2PictureBox picLife1;
-        private Guna.UI2.WinForms.Guna2PictureBox picLife4;
-        private Guna.UI2.WinForms.Guna2PictureBox picBall2;
-        private Guna.UI2.WinForms.Guna2PictureBox picLife2;
-        private Guna.UI2.WinForms.Guna2PictureBox picLife3;
+        private Guna.UI2.WinForms.Guna2PictureBox pic1;
+        private Guna.UI2.WinForms.Guna2PictureBox pic3;
+        private Guna.UI2.WinForms.Guna2PictureBox pic21;
+        private Guna.UI2.WinForms.Guna2PictureBox pic20;
+        private Guna.UI2.WinForms.Guna2PictureBox pic14;
+        private Guna.UI2.WinForms.Guna2PictureBox pic13;
+        private Guna.UI2.WinForms.Guna2PictureBox pic2;
+        private Guna.UI2.WinForms.Guna2PictureBox pic19;
+        private Guna.UI2.WinForms.Guna2PictureBox pic4;
+        private Guna.UI2.WinForms.Guna2PictureBox pic5;
+        private Guna.UI2.WinForms.Guna2PictureBox pic18;
+        private Guna.UI2.WinForms.Guna2PictureBox pic12;
+        private Guna.UI2.WinForms.Guna2PictureBox pic7;
+        private Guna.UI2.WinForms.Guna2PictureBox pic6;
+        private Guna.UI2.WinForms.Guna2PictureBox pic15;
+        private Guna.UI2.WinForms.Guna2PictureBox pic17;
+        private Guna.UI2.WinForms.Guna2PictureBox pic8;
+        private Guna.UI2.WinForms.Guna2PictureBox pic11;
+        private Guna.UI2.WinForms.Guna2PictureBox pic16;
+        private Guna.UI2.WinForms.Guna2PictureBox pic9;
+        private Guna.UI2.WinForms.Guna2PictureBox pic10;
         private TextBox txtSearch;
     }
 }

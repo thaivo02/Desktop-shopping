@@ -5,7 +5,7 @@ namespace Sneakerz
 {
     public partial class CartForm : Form
     {
-        public CartForm(String location)
+        public CartForm()
         {
             InitializeComponent();
         }

@@ -55,8 +55,8 @@
             this.guna2PictureBox3 = new Guna.UI2.WinForms.Guna2PictureBox();
             this.guna2PictureBox2 = new Guna.UI2.WinForms.Guna2PictureBox();
             this.guna2PictureBox1 = new Guna.UI2.WinForms.Guna2PictureBox();
-            this.guna2HtmlLabel2 = new Guna.UI2.WinForms.Guna2HtmlLabel();
-            this.guna2HtmlLabel1 = new Guna.UI2.WinForms.Guna2HtmlLabel();
+            this.labelName = new Guna.UI2.WinForms.Guna2HtmlLabel();
+            this.labelBrand = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.btnHome = new Guna.UI2.WinForms.Guna2Button();
             this.btnNike = new Guna.UI2.WinForms.Guna2Button();
             this.btnSearch = new Guna.UI2.WinForms.Guna2Button();
@@ -107,8 +107,8 @@
             this.panelMain.Controls.Add(this.guna2PictureBox3);
             this.panelMain.Controls.Add(this.guna2PictureBox2);
             this.panelMain.Controls.Add(this.guna2PictureBox1);
-            this.panelMain.Controls.Add(this.guna2HtmlLabel2);
-            this.panelMain.Controls.Add(this.guna2HtmlLabel1);
+            this.panelMain.Controls.Add(this.labelName);
+            this.panelMain.Controls.Add(this.labelBrand);
             this.panelMain.Controls.Add(this.btnHome);
             this.panelMain.Controls.Add(this.btnNike);
             this.panelMain.Controls.Add(this.btnSearch);
@@ -515,27 +515,27 @@
             this.guna2PictureBox1.TabIndex = 66;
             this.guna2PictureBox1.TabStop = false;
             // 
-            // guna2HtmlLabel2
+            // labelName
             // 
-            this.guna2HtmlLabel2.BackColor = System.Drawing.Color.Transparent;
-            this.guna2HtmlLabel2.Font = new System.Drawing.Font("Segoe UI", 26.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.guna2HtmlLabel2.ForeColor = System.Drawing.Color.DarkGray;
-            this.guna2HtmlLabel2.Location = new System.Drawing.Point(371, 134);
-            this.guna2HtmlLabel2.Name = "guna2HtmlLabel2";
-            this.guna2HtmlLabel2.Size = new System.Drawing.Size(250, 62);
-            this.guna2HtmlLabel2.TabIndex = 65;
-            this.guna2HtmlLabel2.Text = "Free run 5.0";
+            this.labelName.BackColor = System.Drawing.Color.Transparent;
+            this.labelName.Font = new System.Drawing.Font("Segoe UI", 26.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.labelName.ForeColor = System.Drawing.Color.DarkGray;
+            this.labelName.Location = new System.Drawing.Point(371, 134);
+            this.labelName.Name = "labelName";
+            this.labelName.Size = new System.Drawing.Size(250, 62);
+            this.labelName.TabIndex = 65;
+            this.labelName.Text = "Free run 5.0";
             // 
-            // guna2HtmlLabel1
+            // labelBrand
             // 
-            this.guna2HtmlLabel1.BackColor = System.Drawing.Color.Transparent;
-            this.guna2HtmlLabel1.Font = new System.Drawing.Font("Segoe UI", 72F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.guna2HtmlLabel1.ForeColor = System.Drawing.Color.White;
-            this.guna2HtmlLabel1.Location = new System.Drawing.Point(55, 103);
-            this.guna2HtmlLabel1.Name = "guna2HtmlLabel1";
-            this.guna2HtmlLabel1.Size = new System.Drawing.Size(278, 161);
-            this.guna2HtmlLabel1.TabIndex = 65;
-            this.guna2HtmlLabel1.Text = "NIKE";
+            this.labelBrand.BackColor = System.Drawing.Color.Transparent;
+            this.labelBrand.Font = new System.Drawing.Font("Segoe UI", 72F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.labelBrand.ForeColor = System.Drawing.Color.White;
+            this.labelBrand.Location = new System.Drawing.Point(55, 103);
+            this.labelBrand.Name = "labelBrand";
+            this.labelBrand.Size = new System.Drawing.Size(278, 161);
+            this.labelBrand.TabIndex = 65;
+            this.labelBrand.Text = "NIKE";
             // 
             // btnHome
             // 
@@ -700,13 +700,13 @@
         private Guna.UI2.WinForms.Guna2Button btnPuma;
         private Guna.UI2.WinForms.Guna2PictureBox picLogo;
         private Guna.UI2.WinForms.Guna2Button btnExit;
-        private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel1;
+        private Guna.UI2.WinForms.Guna2HtmlLabel labelBrand;
         private Guna.UI2.WinForms.Guna2PictureBox guna2PictureBox5;
         private Guna.UI2.WinForms.Guna2PictureBox guna2PictureBox4;
         private Guna.UI2.WinForms.Guna2PictureBox guna2PictureBox3;
         private Guna.UI2.WinForms.Guna2PictureBox guna2PictureBox2;
         private Guna.UI2.WinForms.Guna2PictureBox guna2PictureBox1;
-        private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel2;
+        private Guna.UI2.WinForms.Guna2HtmlLabel labelName;
         private Label label1;
         private Guna.UI2.WinForms.Guna2Button guna2Button1;
         private Label label2;

@@ -5,12 +5,17 @@ namespace Sneakerz
 {
     public partial class Info : Form
     {
-        public Info(String location)
+        public Info(Guna2PictureBox pressed)
         {
             InitializeComponent();
+            int space = pressed.Name.IndexOf(' ');
+            //String brand = pressed.Name.Substring(0, space);
+            //String name = pressed.Name.Substring(space + 1, pressed.Name.Length - space);
+            String location = pressed.ImageLocation;
             picDefault.Image = Image.FromFile(location);
             String first = location.Insert(location.Length - 4, "(1)");
             String second = location.Insert(location.Length - 4, "(2)");
+            //labelBrand.Text= brand;
             picChange1.Image = Image.FromFile(first);
             picChange2.Image = Image.FromFile(second);
         }
