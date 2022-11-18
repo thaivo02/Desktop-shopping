@@ -99,6 +99,28 @@ namespace Sneakerz
             txt20.Text = items[31].Cash.ToString() + "$";
             txt21.Text = items[32].Cash.ToString() + "$";
 
+            txtName1.Text = items[0].Name.Remove(0, items[0].Name.IndexOf(" "));
+            txtName2.Text = items[1].Name.Remove(0, items[1].Name.IndexOf(" "));
+            txtName3.Text = items[2].Name.Remove(0, items[2].Name.IndexOf(" "));
+            txtName4.Text = items[3].Name.Remove(0, items[3].Name.IndexOf(" "));
+            txtName5.Text = items[4].Name.Remove(0, items[4].Name.IndexOf(" "));
+            txtName6.Text = items[5].Name.Remove(0, items[5].Name.IndexOf(" "));
+            txtName7.Text = items[6].Name.Remove(0, items[6].Name.IndexOf(" "));
+            txtName8.Text = items[7].Name.Remove(0, items[7].Name.IndexOf(" "));
+            txtName9.Text = items[14].Name.Remove(0, items[14].Name.IndexOf(" "));
+            txtName10.Text = items[15].Name.Remove(0, items[15].Name.IndexOf(" "));
+            txtName11.Text = items[16].Name.Remove(0, items[16].Name.IndexOf(" "));
+            txtName12.Text = items[17].Name.Remove(0, items[17].Name.IndexOf(" "));
+            txtName13.Text = items[18].Name.Remove(0, items[18].Name.IndexOf(" "));
+            txtName14.Text = items[19].Name.Remove(0, items[19].Name.IndexOf(" "));
+            txtName15.Text = items[20].Name.Remove(0, items[20].Name.IndexOf(" "));
+            txtName16.Text = items[21].Name.Remove(0, items[21].Name.IndexOf(" "));
+            txtName17.Text = items[28].Name.Remove(0, items[28].Name.IndexOf(" "));
+            txtName18.Text = items[29].Name.Remove(0, items[29].Name.IndexOf(" "));
+            txtName19.Text = items[30].Name.Remove(0, items[30].Name.IndexOf(" "));
+            txtName20.Text = items[31].Name.Remove(0, items[31].Name.IndexOf(" "));
+            txtName21.Text = items[32].Name.Remove(0, items[32].Name.IndexOf(" "));
+
             //items.ForEach(items =>
             //{
             //    _itemServices.AddItem(items);
@@ -179,6 +201,28 @@ namespace Sneakerz
             txt19.Text = items[18].Cash.ToString() + "$";
             txt20.Text = items[19].Cash.ToString() + "$";
             txt21.Text = items[20].Cash.ToString() + "$";
+
+            txtName1.Text = items[0].Name.Remove(0, items[0].Name.IndexOf(" "));
+            txtName2.Text = items[1].Name.Remove(0, items[1].Name.IndexOf(" "));
+            txtName3.Text = items[2].Name.Remove(0, items[2].Name.IndexOf(" "));
+            txtName4.Text = items[3].Name.Remove(0, items[3].Name.IndexOf(" "));
+            txtName5.Text = items[4].Name.Remove(0, items[4].Name.IndexOf(" "));
+            txtName6.Text = items[5].Name.Remove(0, items[5].Name.IndexOf(" "));
+            txtName7.Text = items[6].Name.Remove(0, items[6].Name.IndexOf(" "));
+            txtName8.Text = items[7].Name.Remove(0, items[7].Name.IndexOf(" "));
+            txtName9.Text = items[8].Name.Remove(0, items[8].Name.IndexOf(" "));
+            txtName10.Text = items[9].Name.Remove(0, items[9].Name.IndexOf(" "));
+            txtName11.Text = items[10].Name.Remove(0, items[10].Name.IndexOf(" "));
+            txtName12.Text = items[11].Name.Remove(0, items[11].Name.IndexOf(" "));
+            txtName13.Text = items[12].Name.Remove(0, items[12].Name.IndexOf(" "));
+            txtName14.Text = items[13].Name.Remove(0, items[13].Name.IndexOf(" "));
+            txtName15.Text = items[14].Name.Remove(0, items[14].Name.IndexOf(" "));
+            txtName16.Text = items[15].Name.Remove(0, items[15].Name.IndexOf(" "));
+            txtName17.Text = items[16].Name.Remove(0, items[16].Name.IndexOf(" "));
+            txtName18.Text = items[17].Name.Remove(0, items[17].Name.IndexOf(" "));
+            txtName19.Text = items[18].Name.Remove(0, items[18].Name.IndexOf(" "));
+            txtName20.Text = items[19].Name.Remove(0, items[19].Name.IndexOf(" "));
+            txtName21.Text = items[20].Name.Remove(0, items[20].Name.IndexOf(" "));
         }
 
         private void btnAdidas_Click(object sender, EventArgs e)
@@ -226,6 +270,28 @@ namespace Sneakerz
             txt19.Text = items[18].Cash.ToString() + "$";
             txt20.Text = items[19].Cash.ToString() + "$";
             txt21.Text = items[20].Cash.ToString() + "$";
+
+            txtName1.Text = items[0].Name.Remove(0, items[0].Name.IndexOf(" "));
+            txtName2.Text = items[1].Name.Remove(0, items[1].Name.IndexOf(" "));
+            txtName3.Text = items[2].Name.Remove(0, items[2].Name.IndexOf(" "));
+            txtName4.Text = items[3].Name.Remove(0, items[3].Name.IndexOf(" "));
+            txtName5.Text = items[4].Name.Remove(0, items[4].Name.IndexOf(" "));
+            txtName6.Text = items[5].Name.Remove(0, items[5].Name.IndexOf(" "));
+            txtName7.Text = items[6].Name.Remove(0, items[6].Name.IndexOf(" "));
+            txtName8.Text = items[7].Name.Remove(0, items[7].Name.IndexOf(" "));
+            txtName9.Text = items[8].Name.Remove(0, items[8].Name.IndexOf(" "));
+            txtName10.Text = items[9].Name.Remove(0, items[9].Name.IndexOf(" "));
+            txtName11.Text = items[10].Name.Remove(0, items[10].Name.IndexOf(" "));
+            txtName12.Text = items[11].Name.Remove(0, items[11].Name.IndexOf(" "));
+            txtName13.Text = items[12].Name.Remove(0, items[12].Name.IndexOf(" "));
+            txtName14.Text = items[13].Name.Remove(0, items[13].Name.IndexOf(" "));
+            txtName15.Text = items[14].Name.Remove(0, items[14].Name.IndexOf(" "));
+            txtName16.Text = items[15].Name.Remove(0, items[15].Name.IndexOf(" "));
+            txtName17.Text = items[16].Name.Remove(0, items[16].Name.IndexOf(" "));
+            txtName18.Text = items[17].Name.Remove(0, items[17].Name.IndexOf(" "));
+            txtName19.Text = items[18].Name.Remove(0, items[18].Name.IndexOf(" "));
+            txtName20.Text = items[19].Name.Remove(0, items[19].Name.IndexOf(" "));
+            txtName21.Text = items[20].Name.Remove(0, items[20].Name.IndexOf(" "));
         }
 
         private void btnCart_Click(object sender, EventArgs e)

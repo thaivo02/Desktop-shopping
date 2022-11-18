@@ -9,14 +9,14 @@ namespace Sneakerz
         public Info(Guna2PictureBox pressed, Item item)
         {
             InitializeComponent();
-            // String brand = pressed.Name.Substring(0, space);
-            // String name = pressed.Name.Substring(space + 1, pressed.Name.Length - space);
             String location = pressed.ImageLocation;
             picDefault.Image = Image.FromFile(location);
             String first = location.Insert(location.Length - 4, "(1)");
             String second = location.Insert(location.Length - 4, "(2)");
             int space = item.Name.IndexOf(" ", StringComparison.Ordinal);
             labelBrand.Text= item.Brand.Substring(0, space);
+            if (labelBrand.Text == "Adidas") picLogo.Image = Image.FromFile(@"../img/icon-adidas-logo.png");
+            else picLogo.Image = Image.FromFile(@"../img/logo.png");
             var lenName = item.Name.Length - space;
             labelName.Text = item.Name.Substring(space + 1);
             picChange1.Image = Image.FromFile(first);
@@ -71,7 +71,7 @@ namespace Sneakerz
 
         private void btnAdd_to_cart_Click(object sender, EventArgs e)
         {
-
+            
         }
     }
 }

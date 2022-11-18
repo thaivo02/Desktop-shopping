@@ -127,7 +127,7 @@
             this.picDefault.FillColor = System.Drawing.Color.Transparent;
             this.picDefault.Image = global::Sneakerz.Properties.Resources.logo;
             this.picDefault.ImageRotate = 0F;
-            this.picDefault.Location = new System.Drawing.Point(737, 101);
+            this.picDefault.Location = new System.Drawing.Point(912, 103);
             this.picDefault.Name = "picDefault";
             this.picDefault.Size = new System.Drawing.Size(760, 760);
             this.picDefault.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -538,7 +538,7 @@
             this.labelName.ForeColor = System.Drawing.Color.DarkGray;
             this.labelName.Location = new System.Drawing.Point(447, 134);
             this.labelName.Name = "labelName";
-            this.labelName.Size = new System.Drawing.Size(429, 62);
+            this.labelName.Size = new System.Drawing.Size(459, 170);
             this.labelName.TabIndex = 65;
             this.labelName.Text = "Free run 5.0";
             // 
@@ -654,7 +654,7 @@
             // 
             this.picLogo.BackColor = System.Drawing.Color.Transparent;
             this.picLogo.FillColor = System.Drawing.Color.Transparent;
-            this.picLogo.Image = global::Sneakerz.Properties.Resources.nike;
+            this.picLogo.Image = global::Sneakerz.Properties.Resources.icon_adidas_logo;
             this.picLogo.ImageRotate = 0F;
             this.picLogo.Location = new System.Drawing.Point(60, 3);
             this.picLogo.Name = "picLogo";

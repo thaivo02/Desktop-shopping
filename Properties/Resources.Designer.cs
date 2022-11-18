@@ -83,6 +83,16 @@ namespace Sneakerz.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap icon_adidas_logo {
+            get {
+                object obj = ResourceManager.GetObject("icon-adidas-logo", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap landscape {
             get {
                 object obj = ResourceManager.GetObject("landscape", resourceCulture);

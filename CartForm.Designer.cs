@@ -29,6 +29,62 @@
         private void InitializeComponent()
         {
             this.panelMain = new Guna.UI2.WinForms.Guna2Panel();
+            this.label2 = new System.Windows.Forms.Label();
+            this.label1 = new System.Windows.Forms.Label();
+            this.btnUp5 = new Guna.UI2.WinForms.Guna2CircleButton();
+            this.btnUp4 = new Guna.UI2.WinForms.Guna2CircleButton();
+            this.btnUp3 = new Guna.UI2.WinForms.Guna2CircleButton();
+            this.btnUp2 = new Guna.UI2.WinForms.Guna2CircleButton();
+            this.btnUp1 = new Guna.UI2.WinForms.Guna2CircleButton();
+            this.btnDown5 = new Guna.UI2.WinForms.Guna2CircleButton();
+            this.btnDown4 = new Guna.UI2.WinForms.Guna2CircleButton();
+            this.btnDown3 = new Guna.UI2.WinForms.Guna2CircleButton();
+            this.btnDown2 = new Guna.UI2.WinForms.Guna2CircleButton();
+            this.btnDown1 = new Guna.UI2.WinForms.Guna2CircleButton();
+            this.txtQuantity5 = new Guna.UI2.WinForms.Guna2HtmlLabel();
+            this.guna2HtmlLabel24 = new Guna.UI2.WinForms.Guna2HtmlLabel();
+            this.txtQuantity4 = new Guna.UI2.WinForms.Guna2HtmlLabel();
+            this.guna2HtmlLabel19 = new Guna.UI2.WinForms.Guna2HtmlLabel();
+            this.txtQuantity3 = new Guna.UI2.WinForms.Guna2HtmlLabel();
+            this.guna2HtmlLabel14 = new Guna.UI2.WinForms.Guna2HtmlLabel();
+            this.txtSize5 = new Guna.UI2.WinForms.Guna2HtmlLabel();
+            this.txtQuantity2 = new Guna.UI2.WinForms.Guna2HtmlLabel();
+            this.txtSize4 = new Guna.UI2.WinForms.Guna2HtmlLabel();
+            this.guna2HtmlLabel9 = new Guna.UI2.WinForms.Guna2HtmlLabel();
+            this.txtSize3 = new Guna.UI2.WinForms.Guna2HtmlLabel();
+            this.guna2HtmlLabel22 = new Guna.UI2.WinForms.Guna2HtmlLabel();
+            this.txtQuantity1 = new Guna.UI2.WinForms.Guna2HtmlLabel();
+            this.guna2HtmlLabel17 = new Guna.UI2.WinForms.Guna2HtmlLabel();
+            this.txtSize2 = new Guna.UI2.WinForms.Guna2HtmlLabel();
+            this.guna2HtmlLabel12 = new Guna.UI2.WinForms.Guna2HtmlLabel();
+            this.guna2HtmlLabel21 = new Guna.UI2.WinForms.Guna2HtmlLabel();
+            this.guna2HtmlLabel4 = new Guna.UI2.WinForms.Guna2HtmlLabel();
+            this.guna2HtmlLabel16 = new Guna.UI2.WinForms.Guna2HtmlLabel();
+            this.guna2HtmlLabel7 = new Guna.UI2.WinForms.Guna2HtmlLabel();
+            this.guna2HtmlLabel11 = new Guna.UI2.WinForms.Guna2HtmlLabel();
+            this.pic5 = new Guna.UI2.WinForms.Guna2PictureBox();
+            this.txtSize1 = new Guna.UI2.WinForms.Guna2HtmlLabel();
+            this.pic4 = new Guna.UI2.WinForms.Guna2PictureBox();
+            this.guna2HtmlLabel6 = new Guna.UI2.WinForms.Guna2HtmlLabel();
+            this.pic3 = new Guna.UI2.WinForms.Guna2PictureBox();
+            this.txtPrice5 = new Guna.UI2.WinForms.Guna2HtmlLabel();
+            this.txtPrice4 = new Guna.UI2.WinForms.Guna2HtmlLabel();
+            this.txtPrice3 = new Guna.UI2.WinForms.Guna2HtmlLabel();
+            this.txtPrice2 = new Guna.UI2.WinForms.Guna2HtmlLabel();
+            this.txtPrice1 = new Guna.UI2.WinForms.Guna2HtmlLabel();
+            this.guna2HtmlLabel123 = new Guna.UI2.WinForms.Guna2HtmlLabel();
+            this.pic2 = new Guna.UI2.WinForms.Guna2PictureBox();
+            this.txtItem1 = new Guna.UI2.WinForms.Guna2HtmlLabel();
+            this.pic1 = new Guna.UI2.WinForms.Guna2PictureBox();
+            this.guna2HtmlLabel15 = new Guna.UI2.WinForms.Guna2HtmlLabel();
+            this.txtTax = new Guna.UI2.WinForms.Guna2HtmlLabel();
+            this.guna2HtmlLabel13 = new Guna.UI2.WinForms.Guna2HtmlLabel();
+            this.guna2HtmlLabel8 = new Guna.UI2.WinForms.Guna2HtmlLabel();
+            this.guna2HtmlLabel10 = new Guna.UI2.WinForms.Guna2HtmlLabel();
+            this.txtSubtotal = new Guna.UI2.WinForms.Guna2HtmlLabel();
+            this.guna2HtmlLabel5 = new Guna.UI2.WinForms.Guna2HtmlLabel();
+            this.guna2HtmlLabel3 = new Guna.UI2.WinForms.Guna2HtmlLabel();
+            this.guna2HtmlLabel2 = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.guna2HtmlLabel1 = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.btnHome = new Guna.UI2.WinForms.Guna2Button();
             this.btnNike = new Guna.UI2.WinForms.Guna2Button();
@@ -38,9 +94,13 @@
             this.btnPuma = new Guna.UI2.WinForms.Guna2Button();
             this.picLogo = new Guna.UI2.WinForms.Guna2PictureBox();
             this.btnExit = new Guna.UI2.WinForms.Guna2Button();
-            this.guna2HtmlLabel2 = new Guna.UI2.WinForms.Guna2HtmlLabel();
-            this.guna2HtmlLabel3 = new Guna.UI2.WinForms.Guna2HtmlLabel();
+            this.btnCheckout = new Guna.UI2.WinForms.Guna2Button();
             this.panelMain.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pic5)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pic4)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pic3)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pic2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pic1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.picLogo)).BeginInit();
             this.SuspendLayout();
             // 
@@ -49,6 +109,61 @@
             this.panelMain.BackColor = System.Drawing.Color.Transparent;
             this.panelMain.BackgroundImage = global::Sneakerz.Properties.Resources.bg;
             this.panelMain.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.panelMain.Controls.Add(this.btnCheckout);
+            this.panelMain.Controls.Add(this.label2);
+            this.panelMain.Controls.Add(this.label1);
+            this.panelMain.Controls.Add(this.btnUp5);
+            this.panelMain.Controls.Add(this.btnUp4);
+            this.panelMain.Controls.Add(this.btnUp3);
+            this.panelMain.Controls.Add(this.btnUp2);
+            this.panelMain.Controls.Add(this.btnUp1);
+            this.panelMain.Controls.Add(this.btnDown5);
+            this.panelMain.Controls.Add(this.btnDown4);
+            this.panelMain.Controls.Add(this.btnDown3);
+            this.panelMain.Controls.Add(this.btnDown2);
+            this.panelMain.Controls.Add(this.btnDown1);
+            this.panelMain.Controls.Add(this.txtQuantity5);
+            this.panelMain.Controls.Add(this.guna2HtmlLabel24);
+            this.panelMain.Controls.Add(this.txtQuantity4);
+            this.panelMain.Controls.Add(this.guna2HtmlLabel19);
+            this.panelMain.Controls.Add(this.txtQuantity3);
+            this.panelMain.Controls.Add(this.guna2HtmlLabel14);
+            this.panelMain.Controls.Add(this.txtSize5);
+            this.panelMain.Controls.Add(this.txtQuantity2);
+            this.panelMain.Controls.Add(this.txtSize4);
+            this.panelMain.Controls.Add(this.guna2HtmlLabel9);
+            this.panelMain.Controls.Add(this.txtSize3);
+            this.panelMain.Controls.Add(this.guna2HtmlLabel22);
+            this.panelMain.Controls.Add(this.txtQuantity1);
+            this.panelMain.Controls.Add(this.guna2HtmlLabel17);
+            this.panelMain.Controls.Add(this.txtSize2);
+            this.panelMain.Controls.Add(this.guna2HtmlLabel12);
+            this.panelMain.Controls.Add(this.guna2HtmlLabel21);
+            this.panelMain.Controls.Add(this.guna2HtmlLabel4);
+            this.panelMain.Controls.Add(this.guna2HtmlLabel16);
+            this.panelMain.Controls.Add(this.guna2HtmlLabel7);
+            this.panelMain.Controls.Add(this.guna2HtmlLabel11);
+            this.panelMain.Controls.Add(this.pic5);
+            this.panelMain.Controls.Add(this.txtSize1);
+            this.panelMain.Controls.Add(this.pic4);
+            this.panelMain.Controls.Add(this.guna2HtmlLabel6);
+            this.panelMain.Controls.Add(this.pic3);
+            this.panelMain.Controls.Add(this.txtPrice5);
+            this.panelMain.Controls.Add(this.txtPrice4);
+            this.panelMain.Controls.Add(this.txtPrice3);
+            this.panelMain.Controls.Add(this.txtPrice2);
+            this.panelMain.Controls.Add(this.txtPrice1);
+            this.panelMain.Controls.Add(this.guna2HtmlLabel123);
+            this.panelMain.Controls.Add(this.pic2);
+            this.panelMain.Controls.Add(this.txtItem1);
+            this.panelMain.Controls.Add(this.pic1);
+            this.panelMain.Controls.Add(this.guna2HtmlLabel15);
+            this.panelMain.Controls.Add(this.txtTax);
+            this.panelMain.Controls.Add(this.guna2HtmlLabel13);
+            this.panelMain.Controls.Add(this.guna2HtmlLabel8);
+            this.panelMain.Controls.Add(this.guna2HtmlLabel10);
+            this.panelMain.Controls.Add(this.txtSubtotal);
+            this.panelMain.Controls.Add(this.guna2HtmlLabel5);
             this.panelMain.Controls.Add(this.guna2HtmlLabel3);
             this.panelMain.Controls.Add(this.guna2HtmlLabel2);
             this.panelMain.Controls.Add(this.guna2HtmlLabel1);
@@ -64,6 +179,703 @@
             this.panelMain.Name = "panelMain";
             this.panelMain.Size = new System.Drawing.Size(1707, 886);
             this.panelMain.TabIndex = 2;
+            // 
+            // label2
+            // 
+            this.label2.BackColor = System.Drawing.Color.Silver;
+            this.label2.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.label2.Location = new System.Drawing.Point(962, 550);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(655, 4);
+            this.label2.TabIndex = 69;
+            // 
+            // label1
+            // 
+            this.label1.BackColor = System.Drawing.Color.Silver;
+            this.label1.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.label1.Location = new System.Drawing.Point(962, 462);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(655, 4);
+            this.label1.TabIndex = 69;
+            // 
+            // btnUp5
+            // 
+            this.btnUp5.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.btnUp5.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.btnUp5.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.btnUp5.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.btnUp5.FillColor = System.Drawing.Color.Black;
+            this.btnUp5.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.btnUp5.ForeColor = System.Drawing.Color.White;
+            this.btnUp5.Image = global::Sneakerz.Properties.Resources.right;
+            this.btnUp5.Location = new System.Drawing.Point(680, 732);
+            this.btnUp5.Name = "btnUp5";
+            this.btnUp5.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
+            this.btnUp5.Size = new System.Drawing.Size(30, 30);
+            this.btnUp5.TabIndex = 68;
+            this.btnUp5.Click += new System.EventHandler(this.btnUp_Click);
+            // 
+            // btnUp4
+            // 
+            this.btnUp4.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.btnUp4.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.btnUp4.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.btnUp4.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.btnUp4.FillColor = System.Drawing.Color.Black;
+            this.btnUp4.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.btnUp4.ForeColor = System.Drawing.Color.White;
+            this.btnUp4.Image = global::Sneakerz.Properties.Resources.right;
+            this.btnUp4.Location = new System.Drawing.Point(680, 602);
+            this.btnUp4.Name = "btnUp4";
+            this.btnUp4.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
+            this.btnUp4.Size = new System.Drawing.Size(30, 30);
+            this.btnUp4.TabIndex = 68;
+            this.btnUp4.Click += new System.EventHandler(this.btnUp_Click);
+            // 
+            // btnUp3
+            // 
+            this.btnUp3.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.btnUp3.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.btnUp3.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.btnUp3.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.btnUp3.FillColor = System.Drawing.Color.Black;
+            this.btnUp3.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.btnUp3.ForeColor = System.Drawing.Color.White;
+            this.btnUp3.Image = global::Sneakerz.Properties.Resources.right;
+            this.btnUp3.Location = new System.Drawing.Point(680, 472);
+            this.btnUp3.Name = "btnUp3";
+            this.btnUp3.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
+            this.btnUp3.Size = new System.Drawing.Size(30, 30);
+            this.btnUp3.TabIndex = 68;
+            this.btnUp3.Click += new System.EventHandler(this.btnUp_Click);
+            // 
+            // btnUp2
+            // 
+            this.btnUp2.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.btnUp2.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.btnUp2.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.btnUp2.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.btnUp2.FillColor = System.Drawing.Color.Black;
+            this.btnUp2.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.btnUp2.ForeColor = System.Drawing.Color.White;
+            this.btnUp2.Image = global::Sneakerz.Properties.Resources.right;
+            this.btnUp2.Location = new System.Drawing.Point(680, 342);
+            this.btnUp2.Name = "btnUp2";
+            this.btnUp2.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
+            this.btnUp2.Size = new System.Drawing.Size(30, 30);
+            this.btnUp2.TabIndex = 68;
+            this.btnUp2.Click += new System.EventHandler(this.btnUp_Click);
+            // 
+            // btnUp1
+            // 
+            this.btnUp1.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.btnUp1.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.btnUp1.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.btnUp1.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.btnUp1.FillColor = System.Drawing.Color.Black;
+            this.btnUp1.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.btnUp1.ForeColor = System.Drawing.Color.White;
+            this.btnUp1.Image = global::Sneakerz.Properties.Resources.right;
+            this.btnUp1.Location = new System.Drawing.Point(680, 212);
+            this.btnUp1.Name = "btnUp1";
+            this.btnUp1.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
+            this.btnUp1.Size = new System.Drawing.Size(30, 30);
+            this.btnUp1.TabIndex = 68;
+            this.btnUp1.Click += new System.EventHandler(this.btnUp_Click);
+            // 
+            // btnDown5
+            // 
+            this.btnDown5.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.btnDown5.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.btnDown5.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.btnDown5.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.btnDown5.FillColor = System.Drawing.Color.Black;
+            this.btnDown5.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.btnDown5.ForeColor = System.Drawing.Color.White;
+            this.btnDown5.Image = global::Sneakerz.Properties.Resources.left;
+            this.btnDown5.Location = new System.Drawing.Point(590, 732);
+            this.btnDown5.Name = "btnDown5";
+            this.btnDown5.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
+            this.btnDown5.Size = new System.Drawing.Size(30, 30);
+            this.btnDown5.TabIndex = 68;
+            this.btnDown5.Click += new System.EventHandler(this.btnDown_Click);
+            // 
+            // btnDown4
+            // 
+            this.btnDown4.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.btnDown4.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.btnDown4.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.btnDown4.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.btnDown4.FillColor = System.Drawing.Color.Black;
+            this.btnDown4.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.btnDown4.ForeColor = System.Drawing.Color.White;
+            this.btnDown4.Image = global::Sneakerz.Properties.Resources.left;
+            this.btnDown4.Location = new System.Drawing.Point(590, 602);
+            this.btnDown4.Name = "btnDown4";
+            this.btnDown4.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
+            this.btnDown4.Size = new System.Drawing.Size(30, 30);
+            this.btnDown4.TabIndex = 68;
+            this.btnDown4.Click += new System.EventHandler(this.btnDown_Click);
+            // 
+            // btnDown3
+            // 
+            this.btnDown3.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.btnDown3.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.btnDown3.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.btnDown3.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.btnDown3.FillColor = System.Drawing.Color.Black;
+            this.btnDown3.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.btnDown3.ForeColor = System.Drawing.Color.White;
+            this.btnDown3.Image = global::Sneakerz.Properties.Resources.left;
+            this.btnDown3.Location = new System.Drawing.Point(590, 472);
+            this.btnDown3.Name = "btnDown3";
+            this.btnDown3.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
+            this.btnDown3.Size = new System.Drawing.Size(30, 30);
+            this.btnDown3.TabIndex = 68;
+            this.btnDown3.Click += new System.EventHandler(this.btnDown_Click);
+            // 
+            // btnDown2
+            // 
+            this.btnDown2.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.btnDown2.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.btnDown2.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.btnDown2.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.btnDown2.FillColor = System.Drawing.Color.Black;
+            this.btnDown2.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.btnDown2.ForeColor = System.Drawing.Color.White;
+            this.btnDown2.Image = global::Sneakerz.Properties.Resources.left;
+            this.btnDown2.Location = new System.Drawing.Point(590, 342);
+            this.btnDown2.Name = "btnDown2";
+            this.btnDown2.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
+            this.btnDown2.Size = new System.Drawing.Size(30, 30);
+            this.btnDown2.TabIndex = 68;
+            this.btnDown2.Click += new System.EventHandler(this.btnDown_Click);
+            // 
+            // btnDown1
+            // 
+            this.btnDown1.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.btnDown1.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.btnDown1.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.btnDown1.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.btnDown1.FillColor = System.Drawing.Color.Black;
+            this.btnDown1.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.btnDown1.ForeColor = System.Drawing.Color.White;
+            this.btnDown1.Image = global::Sneakerz.Properties.Resources.left;
+            this.btnDown1.Location = new System.Drawing.Point(590, 212);
+            this.btnDown1.Name = "btnDown1";
+            this.btnDown1.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
+            this.btnDown1.Size = new System.Drawing.Size(30, 30);
+            this.btnDown1.TabIndex = 68;
+            this.btnDown1.Click += new System.EventHandler(this.btnDown_Click);
+            // 
+            // txtQuantity5
+            // 
+            this.txtQuantity5.AutoSize = false;
+            this.txtQuantity5.BackColor = System.Drawing.Color.Transparent;
+            this.txtQuantity5.Font = new System.Drawing.Font("Segoe UI Semilight", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point);
+            this.txtQuantity5.ForeColor = System.Drawing.Color.LightGray;
+            this.txtQuantity5.Location = new System.Drawing.Point(626, 731);
+            this.txtQuantity5.Name = "txtQuantity5";
+            this.txtQuantity5.Size = new System.Drawing.Size(48, 30);
+            this.txtQuantity5.TabIndex = 67;
+            this.txtQuantity5.Text = "0";
+            this.txtQuantity5.TextAlignment = System.Drawing.ContentAlignment.TopCenter;
+            // 
+            // guna2HtmlLabel24
+            // 
+            this.guna2HtmlLabel24.BackColor = System.Drawing.Color.Transparent;
+            this.guna2HtmlLabel24.Font = new System.Drawing.Font("Segoe UI Semilight", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point);
+            this.guna2HtmlLabel24.ForeColor = System.Drawing.Color.LightGray;
+            this.guna2HtmlLabel24.Location = new System.Drawing.Point(458, 732);
+            this.guna2HtmlLabel24.Name = "guna2HtmlLabel24";
+            this.guna2HtmlLabel24.Size = new System.Drawing.Size(81, 30);
+            this.guna2HtmlLabel24.TabIndex = 67;
+            this.guna2HtmlLabel24.Text = "Quantity:";
+            // 
+            // txtQuantity4
+            // 
+            this.txtQuantity4.AutoSize = false;
+            this.txtQuantity4.BackColor = System.Drawing.Color.Transparent;
+            this.txtQuantity4.Font = new System.Drawing.Font("Segoe UI Semilight", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point);
+            this.txtQuantity4.ForeColor = System.Drawing.Color.LightGray;
+            this.txtQuantity4.Location = new System.Drawing.Point(626, 601);
+            this.txtQuantity4.Name = "txtQuantity4";
+            this.txtQuantity4.Size = new System.Drawing.Size(48, 30);
+            this.txtQuantity4.TabIndex = 67;
+            this.txtQuantity4.Text = "0";
+            this.txtQuantity4.TextAlignment = System.Drawing.ContentAlignment.TopCenter;
+            // 
+            // guna2HtmlLabel19
+            // 
+            this.guna2HtmlLabel19.BackColor = System.Drawing.Color.Transparent;
+            this.guna2HtmlLabel19.Font = new System.Drawing.Font("Segoe UI Semilight", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point);
+            this.guna2HtmlLabel19.ForeColor = System.Drawing.Color.LightGray;
+            this.guna2HtmlLabel19.Location = new System.Drawing.Point(458, 602);
+            this.guna2HtmlLabel19.Name = "guna2HtmlLabel19";
+            this.guna2HtmlLabel19.Size = new System.Drawing.Size(81, 30);
+            this.guna2HtmlLabel19.TabIndex = 67;
+            this.guna2HtmlLabel19.Text = "Quantity:";
+            // 
+            // txtQuantity3
+            // 
+            this.txtQuantity3.AutoSize = false;
+            this.txtQuantity3.BackColor = System.Drawing.Color.Transparent;
+            this.txtQuantity3.Font = new System.Drawing.Font("Segoe UI Semilight", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point);
+            this.txtQuantity3.ForeColor = System.Drawing.Color.LightGray;
+            this.txtQuantity3.Location = new System.Drawing.Point(626, 471);
+            this.txtQuantity3.Name = "txtQuantity3";
+            this.txtQuantity3.Size = new System.Drawing.Size(48, 30);
+            this.txtQuantity3.TabIndex = 67;
+            this.txtQuantity3.Text = "0";
+            this.txtQuantity3.TextAlignment = System.Drawing.ContentAlignment.TopCenter;
+            // 
+            // guna2HtmlLabel14
+            // 
+            this.guna2HtmlLabel14.BackColor = System.Drawing.Color.Transparent;
+            this.guna2HtmlLabel14.Font = new System.Drawing.Font("Segoe UI Semilight", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point);
+            this.guna2HtmlLabel14.ForeColor = System.Drawing.Color.LightGray;
+            this.guna2HtmlLabel14.Location = new System.Drawing.Point(458, 472);
+            this.guna2HtmlLabel14.Name = "guna2HtmlLabel14";
+            this.guna2HtmlLabel14.Size = new System.Drawing.Size(81, 30);
+            this.guna2HtmlLabel14.TabIndex = 67;
+            this.guna2HtmlLabel14.Text = "Quantity:";
+            // 
+            // txtSize5
+            // 
+            this.txtSize5.AutoSize = false;
+            this.txtSize5.BackColor = System.Drawing.Color.Transparent;
+            this.txtSize5.Font = new System.Drawing.Font("Segoe UI Semilight", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point);
+            this.txtSize5.ForeColor = System.Drawing.Color.LightGray;
+            this.txtSize5.Location = new System.Drawing.Point(272, 732);
+            this.txtSize5.Name = "txtSize5";
+            this.txtSize5.Size = new System.Drawing.Size(120, 30);
+            this.txtSize5.TabIndex = 67;
+            this.txtSize5.Text = "Size info";
+            // 
+            // txtQuantity2
+            // 
+            this.txtQuantity2.AutoSize = false;
+            this.txtQuantity2.BackColor = System.Drawing.Color.Transparent;
+            this.txtQuantity2.Font = new System.Drawing.Font("Segoe UI Semilight", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point);
+            this.txtQuantity2.ForeColor = System.Drawing.Color.LightGray;
+            this.txtQuantity2.Location = new System.Drawing.Point(626, 341);
+            this.txtQuantity2.Name = "txtQuantity2";
+            this.txtQuantity2.Size = new System.Drawing.Size(48, 30);
+            this.txtQuantity2.TabIndex = 67;
+            this.txtQuantity2.Text = "0";
+            this.txtQuantity2.TextAlignment = System.Drawing.ContentAlignment.TopCenter;
+            // 
+            // txtSize4
+            // 
+            this.txtSize4.AutoSize = false;
+            this.txtSize4.BackColor = System.Drawing.Color.Transparent;
+            this.txtSize4.Font = new System.Drawing.Font("Segoe UI Semilight", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point);
+            this.txtSize4.ForeColor = System.Drawing.Color.LightGray;
+            this.txtSize4.Location = new System.Drawing.Point(272, 602);
+            this.txtSize4.Name = "txtSize4";
+            this.txtSize4.Size = new System.Drawing.Size(120, 30);
+            this.txtSize4.TabIndex = 67;
+            this.txtSize4.Text = "Size info";
+            // 
+            // guna2HtmlLabel9
+            // 
+            this.guna2HtmlLabel9.BackColor = System.Drawing.Color.Transparent;
+            this.guna2HtmlLabel9.Font = new System.Drawing.Font("Segoe UI Semilight", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point);
+            this.guna2HtmlLabel9.ForeColor = System.Drawing.Color.LightGray;
+            this.guna2HtmlLabel9.Location = new System.Drawing.Point(458, 342);
+            this.guna2HtmlLabel9.Name = "guna2HtmlLabel9";
+            this.guna2HtmlLabel9.Size = new System.Drawing.Size(81, 30);
+            this.guna2HtmlLabel9.TabIndex = 67;
+            this.guna2HtmlLabel9.Text = "Quantity:";
+            // 
+            // txtSize3
+            // 
+            this.txtSize3.AutoSize = false;
+            this.txtSize3.BackColor = System.Drawing.Color.Transparent;
+            this.txtSize3.Font = new System.Drawing.Font("Segoe UI Semilight", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point);
+            this.txtSize3.ForeColor = System.Drawing.Color.LightGray;
+            this.txtSize3.Location = new System.Drawing.Point(272, 472);
+            this.txtSize3.Name = "txtSize3";
+            this.txtSize3.Size = new System.Drawing.Size(120, 30);
+            this.txtSize3.TabIndex = 67;
+            this.txtSize3.Text = "Size info";
+            // 
+            // guna2HtmlLabel22
+            // 
+            this.guna2HtmlLabel22.BackColor = System.Drawing.Color.Transparent;
+            this.guna2HtmlLabel22.Font = new System.Drawing.Font("Segoe UI Semilight", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point);
+            this.guna2HtmlLabel22.ForeColor = System.Drawing.Color.LightGray;
+            this.guna2HtmlLabel22.Location = new System.Drawing.Point(179, 732);
+            this.guna2HtmlLabel22.Name = "guna2HtmlLabel22";
+            this.guna2HtmlLabel22.Size = new System.Drawing.Size(41, 30);
+            this.guna2HtmlLabel22.TabIndex = 67;
+            this.guna2HtmlLabel22.Text = "Size:";
+            // 
+            // txtQuantity1
+            // 
+            this.txtQuantity1.AutoSize = false;
+            this.txtQuantity1.BackColor = System.Drawing.Color.Transparent;
+            this.txtQuantity1.Font = new System.Drawing.Font("Segoe UI Semilight", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point);
+            this.txtQuantity1.ForeColor = System.Drawing.Color.LightGray;
+            this.txtQuantity1.Location = new System.Drawing.Point(626, 211);
+            this.txtQuantity1.Name = "txtQuantity1";
+            this.txtQuantity1.Size = new System.Drawing.Size(48, 30);
+            this.txtQuantity1.TabIndex = 67;
+            this.txtQuantity1.Text = "0";
+            this.txtQuantity1.TextAlignment = System.Drawing.ContentAlignment.TopCenter;
+            // 
+            // guna2HtmlLabel17
+            // 
+            this.guna2HtmlLabel17.BackColor = System.Drawing.Color.Transparent;
+            this.guna2HtmlLabel17.Font = new System.Drawing.Font("Segoe UI Semilight", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point);
+            this.guna2HtmlLabel17.ForeColor = System.Drawing.Color.LightGray;
+            this.guna2HtmlLabel17.Location = new System.Drawing.Point(179, 602);
+            this.guna2HtmlLabel17.Name = "guna2HtmlLabel17";
+            this.guna2HtmlLabel17.Size = new System.Drawing.Size(41, 30);
+            this.guna2HtmlLabel17.TabIndex = 67;
+            this.guna2HtmlLabel17.Text = "Size:";
+            // 
+            // txtSize2
+            // 
+            this.txtSize2.AutoSize = false;
+            this.txtSize2.BackColor = System.Drawing.Color.Transparent;
+            this.txtSize2.Font = new System.Drawing.Font("Segoe UI Semilight", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point);
+            this.txtSize2.ForeColor = System.Drawing.Color.LightGray;
+            this.txtSize2.Location = new System.Drawing.Point(272, 342);
+            this.txtSize2.Name = "txtSize2";
+            this.txtSize2.Size = new System.Drawing.Size(120, 30);
+            this.txtSize2.TabIndex = 67;
+            this.txtSize2.Text = "Size info";
+            // 
+            // guna2HtmlLabel12
+            // 
+            this.guna2HtmlLabel12.BackColor = System.Drawing.Color.Transparent;
+            this.guna2HtmlLabel12.Font = new System.Drawing.Font("Segoe UI Semilight", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point);
+            this.guna2HtmlLabel12.ForeColor = System.Drawing.Color.LightGray;
+            this.guna2HtmlLabel12.Location = new System.Drawing.Point(179, 472);
+            this.guna2HtmlLabel12.Name = "guna2HtmlLabel12";
+            this.guna2HtmlLabel12.Size = new System.Drawing.Size(41, 30);
+            this.guna2HtmlLabel12.TabIndex = 67;
+            this.guna2HtmlLabel12.Text = "Size:";
+            // 
+            // guna2HtmlLabel21
+            // 
+            this.guna2HtmlLabel21.BackColor = System.Drawing.Color.Transparent;
+            this.guna2HtmlLabel21.Font = new System.Drawing.Font("Segoe UI Semilight", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point);
+            this.guna2HtmlLabel21.ForeColor = System.Drawing.Color.White;
+            this.guna2HtmlLabel21.Location = new System.Drawing.Point(179, 696);
+            this.guna2HtmlLabel21.Name = "guna2HtmlLabel21";
+            this.guna2HtmlLabel21.Size = new System.Drawing.Size(86, 30);
+            this.guna2HtmlLabel21.TabIndex = 67;
+            this.guna2HtmlLabel21.Text = "Items info";
+            // 
+            // guna2HtmlLabel4
+            // 
+            this.guna2HtmlLabel4.BackColor = System.Drawing.Color.Transparent;
+            this.guna2HtmlLabel4.Font = new System.Drawing.Font("Segoe UI Semilight", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point);
+            this.guna2HtmlLabel4.ForeColor = System.Drawing.Color.LightGray;
+            this.guna2HtmlLabel4.Location = new System.Drawing.Point(458, 212);
+            this.guna2HtmlLabel4.Name = "guna2HtmlLabel4";
+            this.guna2HtmlLabel4.Size = new System.Drawing.Size(81, 30);
+            this.guna2HtmlLabel4.TabIndex = 67;
+            this.guna2HtmlLabel4.Text = "Quantity:";
+            // 
+            // guna2HtmlLabel16
+            // 
+            this.guna2HtmlLabel16.BackColor = System.Drawing.Color.Transparent;
+            this.guna2HtmlLabel16.Font = new System.Drawing.Font("Segoe UI Semilight", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point);
+            this.guna2HtmlLabel16.ForeColor = System.Drawing.Color.White;
+            this.guna2HtmlLabel16.Location = new System.Drawing.Point(179, 566);
+            this.guna2HtmlLabel16.Name = "guna2HtmlLabel16";
+            this.guna2HtmlLabel16.Size = new System.Drawing.Size(86, 30);
+            this.guna2HtmlLabel16.TabIndex = 67;
+            this.guna2HtmlLabel16.Text = "Items info";
+            // 
+            // guna2HtmlLabel7
+            // 
+            this.guna2HtmlLabel7.BackColor = System.Drawing.Color.Transparent;
+            this.guna2HtmlLabel7.Font = new System.Drawing.Font("Segoe UI Semilight", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point);
+            this.guna2HtmlLabel7.ForeColor = System.Drawing.Color.LightGray;
+            this.guna2HtmlLabel7.Location = new System.Drawing.Point(179, 342);
+            this.guna2HtmlLabel7.Name = "guna2HtmlLabel7";
+            this.guna2HtmlLabel7.Size = new System.Drawing.Size(41, 30);
+            this.guna2HtmlLabel7.TabIndex = 67;
+            this.guna2HtmlLabel7.Text = "Size:";
+            // 
+            // guna2HtmlLabel11
+            // 
+            this.guna2HtmlLabel11.BackColor = System.Drawing.Color.Transparent;
+            this.guna2HtmlLabel11.Font = new System.Drawing.Font("Segoe UI Semilight", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point);
+            this.guna2HtmlLabel11.ForeColor = System.Drawing.Color.White;
+            this.guna2HtmlLabel11.Location = new System.Drawing.Point(179, 436);
+            this.guna2HtmlLabel11.Name = "guna2HtmlLabel11";
+            this.guna2HtmlLabel11.Size = new System.Drawing.Size(86, 30);
+            this.guna2HtmlLabel11.TabIndex = 67;
+            this.guna2HtmlLabel11.Text = "Items info";
+            // 
+            // pic5
+            // 
+            this.pic5.FillColor = System.Drawing.Color.Transparent;
+            this.pic5.Image = global::Sneakerz.Properties.Resources.logo;
+            this.pic5.ImageRotate = 0F;
+            this.pic5.Location = new System.Drawing.Point(60, 696);
+            this.pic5.Name = "pic5";
+            this.pic5.Size = new System.Drawing.Size(100, 100);
+            this.pic5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pic5.TabIndex = 66;
+            this.pic5.TabStop = false;
+            // 
+            // txtSize1
+            // 
+            this.txtSize1.AutoSize = false;
+            this.txtSize1.BackColor = System.Drawing.Color.Transparent;
+            this.txtSize1.Font = new System.Drawing.Font("Segoe UI Semilight", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point);
+            this.txtSize1.ForeColor = System.Drawing.Color.LightGray;
+            this.txtSize1.Location = new System.Drawing.Point(272, 212);
+            this.txtSize1.Name = "txtSize1";
+            this.txtSize1.Size = new System.Drawing.Size(120, 30);
+            this.txtSize1.TabIndex = 67;
+            this.txtSize1.Text = "Size info";
+            // 
+            // pic4
+            // 
+            this.pic4.FillColor = System.Drawing.Color.Transparent;
+            this.pic4.Image = global::Sneakerz.Properties.Resources.logo;
+            this.pic4.ImageRotate = 0F;
+            this.pic4.Location = new System.Drawing.Point(60, 566);
+            this.pic4.Name = "pic4";
+            this.pic4.Size = new System.Drawing.Size(100, 100);
+            this.pic4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pic4.TabIndex = 66;
+            this.pic4.TabStop = false;
+            // 
+            // guna2HtmlLabel6
+            // 
+            this.guna2HtmlLabel6.BackColor = System.Drawing.Color.Transparent;
+            this.guna2HtmlLabel6.Font = new System.Drawing.Font("Segoe UI Semilight", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point);
+            this.guna2HtmlLabel6.ForeColor = System.Drawing.Color.White;
+            this.guna2HtmlLabel6.Location = new System.Drawing.Point(179, 306);
+            this.guna2HtmlLabel6.Name = "guna2HtmlLabel6";
+            this.guna2HtmlLabel6.Size = new System.Drawing.Size(86, 30);
+            this.guna2HtmlLabel6.TabIndex = 67;
+            this.guna2HtmlLabel6.Text = "Items info";
+            // 
+            // pic3
+            // 
+            this.pic3.FillColor = System.Drawing.Color.Transparent;
+            this.pic3.Image = global::Sneakerz.Properties.Resources.logo;
+            this.pic3.ImageRotate = 0F;
+            this.pic3.Location = new System.Drawing.Point(60, 436);
+            this.pic3.Name = "pic3";
+            this.pic3.Size = new System.Drawing.Size(100, 100);
+            this.pic3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pic3.TabIndex = 66;
+            this.pic3.TabStop = false;
+            // 
+            // txtPrice5
+            // 
+            this.txtPrice5.AutoSize = false;
+            this.txtPrice5.BackColor = System.Drawing.Color.Transparent;
+            this.txtPrice5.Font = new System.Drawing.Font("Segoe UI Semilight", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point);
+            this.txtPrice5.ForeColor = System.Drawing.Color.LightGray;
+            this.txtPrice5.Location = new System.Drawing.Point(794, 732);
+            this.txtPrice5.Name = "txtPrice5";
+            this.txtPrice5.Size = new System.Drawing.Size(81, 30);
+            this.txtPrice5.TabIndex = 67;
+            this.txtPrice5.Text = "Price";
+            // 
+            // txtPrice4
+            // 
+            this.txtPrice4.AutoSize = false;
+            this.txtPrice4.BackColor = System.Drawing.Color.Transparent;
+            this.txtPrice4.Font = new System.Drawing.Font("Segoe UI Semilight", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point);
+            this.txtPrice4.ForeColor = System.Drawing.Color.LightGray;
+            this.txtPrice4.Location = new System.Drawing.Point(794, 602);
+            this.txtPrice4.Name = "txtPrice4";
+            this.txtPrice4.Size = new System.Drawing.Size(81, 30);
+            this.txtPrice4.TabIndex = 67;
+            this.txtPrice4.Text = "Price";
+            // 
+            // txtPrice3
+            // 
+            this.txtPrice3.AutoSize = false;
+            this.txtPrice3.BackColor = System.Drawing.Color.Transparent;
+            this.txtPrice3.Font = new System.Drawing.Font("Segoe UI Semilight", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point);
+            this.txtPrice3.ForeColor = System.Drawing.Color.LightGray;
+            this.txtPrice3.Location = new System.Drawing.Point(794, 472);
+            this.txtPrice3.Name = "txtPrice3";
+            this.txtPrice3.Size = new System.Drawing.Size(81, 30);
+            this.txtPrice3.TabIndex = 67;
+            this.txtPrice3.Text = "Price";
+            // 
+            // txtPrice2
+            // 
+            this.txtPrice2.AutoSize = false;
+            this.txtPrice2.BackColor = System.Drawing.Color.Transparent;
+            this.txtPrice2.Font = new System.Drawing.Font("Segoe UI Semilight", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point);
+            this.txtPrice2.ForeColor = System.Drawing.Color.LightGray;
+            this.txtPrice2.Location = new System.Drawing.Point(794, 342);
+            this.txtPrice2.Name = "txtPrice2";
+            this.txtPrice2.Size = new System.Drawing.Size(81, 30);
+            this.txtPrice2.TabIndex = 67;
+            this.txtPrice2.Text = "Price";
+            // 
+            // txtPrice1
+            // 
+            this.txtPrice1.AutoSize = false;
+            this.txtPrice1.BackColor = System.Drawing.Color.Transparent;
+            this.txtPrice1.Font = new System.Drawing.Font("Segoe UI Semilight", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point);
+            this.txtPrice1.ForeColor = System.Drawing.Color.LightGray;
+            this.txtPrice1.Location = new System.Drawing.Point(794, 212);
+            this.txtPrice1.Name = "txtPrice1";
+            this.txtPrice1.Size = new System.Drawing.Size(81, 30);
+            this.txtPrice1.TabIndex = 67;
+            this.txtPrice1.Text = "Price";
+            // 
+            // guna2HtmlLabel123
+            // 
+            this.guna2HtmlLabel123.BackColor = System.Drawing.Color.Transparent;
+            this.guna2HtmlLabel123.Font = new System.Drawing.Font("Segoe UI Semilight", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point);
+            this.guna2HtmlLabel123.ForeColor = System.Drawing.Color.LightGray;
+            this.guna2HtmlLabel123.Location = new System.Drawing.Point(179, 212);
+            this.guna2HtmlLabel123.Name = "guna2HtmlLabel123";
+            this.guna2HtmlLabel123.Size = new System.Drawing.Size(41, 30);
+            this.guna2HtmlLabel123.TabIndex = 67;
+            this.guna2HtmlLabel123.Text = "Size:";
+            // 
+            // pic2
+            // 
+            this.pic2.FillColor = System.Drawing.Color.Transparent;
+            this.pic2.Image = global::Sneakerz.Properties.Resources.logo;
+            this.pic2.ImageRotate = 0F;
+            this.pic2.Location = new System.Drawing.Point(60, 306);
+            this.pic2.Name = "pic2";
+            this.pic2.Size = new System.Drawing.Size(100, 100);
+            this.pic2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pic2.TabIndex = 66;
+            this.pic2.TabStop = false;
+            // 
+            // txtItem1
+            // 
+            this.txtItem1.BackColor = System.Drawing.Color.Transparent;
+            this.txtItem1.Font = new System.Drawing.Font("Segoe UI Semilight", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point);
+            this.txtItem1.ForeColor = System.Drawing.Color.White;
+            this.txtItem1.Location = new System.Drawing.Point(179, 176);
+            this.txtItem1.Name = "txtItem1";
+            this.txtItem1.Size = new System.Drawing.Size(86, 30);
+            this.txtItem1.TabIndex = 67;
+            this.txtItem1.Text = "Items info";
+            // 
+            // pic1
+            // 
+            this.pic1.FillColor = System.Drawing.Color.Transparent;
+            this.pic1.Image = global::Sneakerz.Properties.Resources.logo;
+            this.pic1.ImageRotate = 0F;
+            this.pic1.Location = new System.Drawing.Point(60, 176);
+            this.pic1.Name = "pic1";
+            this.pic1.Size = new System.Drawing.Size(100, 100);
+            this.pic1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pic1.TabIndex = 66;
+            this.pic1.TabStop = false;
+            // 
+            // guna2HtmlLabel15
+            // 
+            this.guna2HtmlLabel15.BackColor = System.Drawing.Color.Transparent;
+            this.guna2HtmlLabel15.Font = new System.Drawing.Font("Segoe UI", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.guna2HtmlLabel15.ForeColor = System.Drawing.Color.White;
+            this.guna2HtmlLabel15.Location = new System.Drawing.Point(1554, 486);
+            this.guna2HtmlLabel15.Name = "guna2HtmlLabel15";
+            this.guna2HtmlLabel15.Size = new System.Drawing.Size(63, 43);
+            this.guna2HtmlLabel15.TabIndex = 65;
+            this.guna2HtmlLabel15.Text = "Free";
+            // 
+            // txtTax
+            // 
+            this.txtTax.BackColor = System.Drawing.Color.Transparent;
+            this.txtTax.Font = new System.Drawing.Font("Segoe UI", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.txtTax.ForeColor = System.Drawing.Color.White;
+            this.txtTax.Location = new System.Drawing.Point(1554, 388);
+            this.txtTax.Name = "txtTax";
+            this.txtTax.Size = new System.Drawing.Size(63, 43);
+            this.txtTax.TabIndex = 65;
+            this.txtTax.Text = "Free";
+            // 
+            // guna2HtmlLabel13
+            // 
+            this.guna2HtmlLabel13.BackColor = System.Drawing.Color.Transparent;
+            this.guna2HtmlLabel13.Font = new System.Drawing.Font("Segoe UI", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.guna2HtmlLabel13.ForeColor = System.Drawing.Color.White;
+            this.guna2HtmlLabel13.Location = new System.Drawing.Point(962, 486);
+            this.guna2HtmlLabel13.Name = "guna2HtmlLabel13";
+            this.guna2HtmlLabel13.Size = new System.Drawing.Size(76, 43);
+            this.guna2HtmlLabel13.TabIndex = 65;
+            this.guna2HtmlLabel13.Text = "Total";
+            // 
+            // guna2HtmlLabel8
+            // 
+            this.guna2HtmlLabel8.BackColor = System.Drawing.Color.Transparent;
+            this.guna2HtmlLabel8.Font = new System.Drawing.Font("Segoe UI", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.guna2HtmlLabel8.ForeColor = System.Drawing.Color.White;
+            this.guna2HtmlLabel8.Location = new System.Drawing.Point(1554, 293);
+            this.guna2HtmlLabel8.Name = "guna2HtmlLabel8";
+            this.guna2HtmlLabel8.Size = new System.Drawing.Size(62, 43);
+            this.guna2HtmlLabel8.TabIndex = 65;
+            this.guna2HtmlLabel8.Text = "0.0$";
+            // 
+            // guna2HtmlLabel10
+            // 
+            this.guna2HtmlLabel10.BackColor = System.Drawing.Color.Transparent;
+            this.guna2HtmlLabel10.Font = new System.Drawing.Font("Segoe UI", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.guna2HtmlLabel10.ForeColor = System.Drawing.Color.White;
+            this.guna2HtmlLabel10.Location = new System.Drawing.Point(962, 388);
+            this.guna2HtmlLabel10.Name = "guna2HtmlLabel10";
+            this.guna2HtmlLabel10.Size = new System.Drawing.Size(202, 43);
+            this.guna2HtmlLabel10.TabIndex = 65;
+            this.guna2HtmlLabel10.Text = "Estimated Tax";
+            // 
+            // txtSubtotal
+            // 
+            this.txtSubtotal.BackColor = System.Drawing.Color.Transparent;
+            this.txtSubtotal.Font = new System.Drawing.Font("Segoe UI", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.txtSubtotal.ForeColor = System.Drawing.Color.White;
+            this.txtSubtotal.Location = new System.Drawing.Point(1554, 198);
+            this.txtSubtotal.Name = "txtSubtotal";
+            this.txtSubtotal.Size = new System.Drawing.Size(62, 43);
+            this.txtSubtotal.TabIndex = 65;
+            this.txtSubtotal.Text = "0.0$";
+            // 
+            // guna2HtmlLabel5
+            // 
+            this.guna2HtmlLabel5.BackColor = System.Drawing.Color.Transparent;
+            this.guna2HtmlLabel5.Font = new System.Drawing.Font("Segoe UI", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.guna2HtmlLabel5.ForeColor = System.Drawing.Color.White;
+            this.guna2HtmlLabel5.Location = new System.Drawing.Point(962, 293);
+            this.guna2HtmlLabel5.Name = "guna2HtmlLabel5";
+            this.guna2HtmlLabel5.Size = new System.Drawing.Size(451, 43);
+            this.guna2HtmlLabel5.TabIndex = 65;
+            this.guna2HtmlLabel5.Text = "Estimated Shipping & Handling";
+            // 
+            // guna2HtmlLabel3
+            // 
+            this.guna2HtmlLabel3.BackColor = System.Drawing.Color.Transparent;
+            this.guna2HtmlLabel3.Font = new System.Drawing.Font("Segoe UI", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.guna2HtmlLabel3.ForeColor = System.Drawing.Color.White;
+            this.guna2HtmlLabel3.Location = new System.Drawing.Point(962, 198);
+            this.guna2HtmlLabel3.Name = "guna2HtmlLabel3";
+            this.guna2HtmlLabel3.Size = new System.Drawing.Size(124, 43);
+            this.guna2HtmlLabel3.TabIndex = 65;
+            this.guna2HtmlLabel3.Text = "Subtotal";
+            // 
+            // guna2HtmlLabel2
+            // 
+            this.guna2HtmlLabel2.BackColor = System.Drawing.Color.Transparent;
+            this.guna2HtmlLabel2.Font = new System.Drawing.Font("Segoe UI", 26.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.guna2HtmlLabel2.ForeColor = System.Drawing.Color.White;
+            this.guna2HtmlLabel2.Location = new System.Drawing.Point(962, 108);
+            this.guna2HtmlLabel2.Name = "guna2HtmlLabel2";
+            this.guna2HtmlLabel2.Size = new System.Drawing.Size(161, 62);
+            this.guna2HtmlLabel2.TabIndex = 65;
+            this.guna2HtmlLabel2.Text = "Sumary";
             // 
             // guna2HtmlLabel1
             // 
@@ -203,29 +1015,25 @@
             this.btnExit.Text = "EXIT";
             this.btnExit.Click += new System.EventHandler(this.btnExit_Click);
             // 
-            // guna2HtmlLabel2
+            // btnCheckout
             // 
-            this.guna2HtmlLabel2.BackColor = System.Drawing.Color.Transparent;
-            this.guna2HtmlLabel2.Font = new System.Drawing.Font("Segoe UI", 26.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.guna2HtmlLabel2.ForeColor = System.Drawing.Color.White;
-            this.guna2HtmlLabel2.Location = new System.Drawing.Point(1130, 108);
-            this.guna2HtmlLabel2.Name = "guna2HtmlLabel2";
-            this.guna2HtmlLabel2.Size = new System.Drawing.Size(161, 62);
-            this.guna2HtmlLabel2.TabIndex = 65;
-            this.guna2HtmlLabel2.Text = "Sumary";
+            this.btnCheckout.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
+            this.btnCheckout.BorderColor = System.Drawing.Color.Transparent;
+            this.btnCheckout.BorderRadius = 30;
+            this.btnCheckout.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.btnCheckout.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.btnCheckout.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.btnCheckout.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.btnCheckout.FillColor = System.Drawing.Color.LightGray;
+            this.btnCheckout.Font = new System.Drawing.Font("Segoe UI", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.btnCheckout.ForeColor = System.Drawing.Color.Black;
+            this.btnCheckout.Location = new System.Drawing.Point(1188, 576);
+            this.btnCheckout.Name = "btnCheckout";
+            this.btnCheckout.Size = new System.Drawing.Size(225, 56);
+            this.btnCheckout.TabIndex = 70;
+            this.btnCheckout.Text = "CHECK OUT";
             // 
-            // guna2HtmlLabel3
-            // 
-            this.guna2HtmlLabel3.BackColor = System.Drawing.Color.Transparent;
-            this.guna2HtmlLabel3.Font = new System.Drawing.Font("Segoe UI", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.guna2HtmlLabel3.ForeColor = System.Drawing.Color.White;
-            this.guna2HtmlLabel3.Location = new System.Drawing.Point(1130, 198);
-            this.guna2HtmlLabel3.Name = "guna2HtmlLabel3";
-            this.guna2HtmlLabel3.Size = new System.Drawing.Size(124, 43);
-            this.guna2HtmlLabel3.TabIndex = 65;
-            this.guna2HtmlLabel3.Text = "Subtotal";
-            // 
-            // Cart
+            // CartForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -233,10 +1041,15 @@
             this.ClientSize = new System.Drawing.Size(1707, 886);
             this.Controls.Add(this.panelMain);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
-            this.Name = "Cart";
+            this.Name = "CartForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.panelMain.ResumeLayout(false);
             this.panelMain.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pic5)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pic4)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pic3)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pic2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pic1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.picLogo)).EndInit();
             this.ResumeLayout(false);
 
@@ -256,5 +1069,60 @@
         private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel1;
         private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel3;
         private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel2;
+        private Guna.UI2.WinForms.Guna2PictureBox pic1;
+        private Guna.UI2.WinForms.Guna2HtmlLabel txtItem1;
+        private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel123;
+        private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel4;
+        private Guna.UI2.WinForms.Guna2HtmlLabel txtSize1;
+        private Guna.UI2.WinForms.Guna2HtmlLabel txtQuantity1;
+        private Guna.UI2.WinForms.Guna2CircleButton btnUp1;
+        private Guna.UI2.WinForms.Guna2CircleButton btnDown1;
+        private Guna.UI2.WinForms.Guna2CircleButton btnUp5;
+        private Guna.UI2.WinForms.Guna2CircleButton btnUp4;
+        private Guna.UI2.WinForms.Guna2CircleButton btnUp3;
+        private Guna.UI2.WinForms.Guna2CircleButton btnUp2;
+        private Guna.UI2.WinForms.Guna2CircleButton btnDown5;
+        private Guna.UI2.WinForms.Guna2CircleButton btnDown4;
+        private Guna.UI2.WinForms.Guna2CircleButton btnDown3;
+        private Guna.UI2.WinForms.Guna2CircleButton btnDown2;
+        private Guna.UI2.WinForms.Guna2HtmlLabel txtQuantity5;
+        private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel24;
+        private Guna.UI2.WinForms.Guna2HtmlLabel txtQuantity4;
+        private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel19;
+        private Guna.UI2.WinForms.Guna2HtmlLabel txtQuantity3;
+        private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel14;
+        private Guna.UI2.WinForms.Guna2HtmlLabel txtSize5;
+        private Guna.UI2.WinForms.Guna2HtmlLabel txtQuantity2;
+        private Guna.UI2.WinForms.Guna2HtmlLabel txtSize4;
+        private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel9;
+        private Guna.UI2.WinForms.Guna2HtmlLabel txtSize3;
+        private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel22;
+        private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel17;
+        private Guna.UI2.WinForms.Guna2HtmlLabel txtSize2;
+        private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel12;
+        private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel21;
+        private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel16;
+        private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel7;
+        private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel11;
+        private Guna.UI2.WinForms.Guna2PictureBox pic5;
+        private Guna.UI2.WinForms.Guna2PictureBox pic4;
+        private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel6;
+        private Guna.UI2.WinForms.Guna2PictureBox pic3;
+        private Guna.UI2.WinForms.Guna2PictureBox pic2;
+        private Guna.UI2.WinForms.Guna2HtmlLabel txtPrice1;
+        private Guna.UI2.WinForms.Guna2HtmlLabel txtPrice5;
+        private Guna.UI2.WinForms.Guna2HtmlLabel txtPrice4;
+        private Guna.UI2.WinForms.Guna2HtmlLabel txtPrice3;
+        private Guna.UI2.WinForms.Guna2HtmlLabel txtPrice2;
+        private Guna.UI2.WinForms.Guna2HtmlLabel txtSubtotal;
+        private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel8;
+        private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel5;
+        private Guna.UI2.WinForms.Guna2HtmlLabel txtTax;
+        private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel10;
+        private Label label1;
+        private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel15;
+        private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel13;
+        private Label label2;
+        private Guna.UI2.WinForms.Guna2Button btnCheckout;
     }
 }
