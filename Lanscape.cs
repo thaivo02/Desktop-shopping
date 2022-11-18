@@ -77,10 +77,7 @@ namespace Sneakerz
             pic20.Image = Image.FromFile(pic20.ImageLocation = items[31].ImageUrl);
             pic21.Image = Image.FromFile(pic21.ImageLocation = items[32].ImageUrl);
 
-            //items.ForEach(items =>
-            //{
-            //    _itemServices.AddItem(items);
-            //});
+            
         }
 
         private void btnExit_Click(object sender, EventArgs e)
@@ -93,7 +90,8 @@ namespace Sneakerz
             Guna2PictureBox pressed = (Guna2PictureBox)sender;
             var picName = pressed.ImageLocation.ToString().Split("/");
             //String location = pressed.ImageLocation;
-            Info frm = new Info(pressed) { Dock = DockStyle.Fill, TopLevel = false, TopMost = true };
+            var item = items.FirstOrDefault(i => i.ImageUrl == pressed.ImageLocation.ToString());
+            Info frm = new Info(pressed, item) { Dock = DockStyle.Fill, TopLevel = false, TopMost = true };
             this.panelMain.Controls.Add(frm);
             frm.BringToFront();
             frm.Closed += (s, args) => this.Close();
