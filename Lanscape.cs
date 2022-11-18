@@ -4,6 +4,7 @@ using System.Windows.Forms;
 using Sneakerz.Model;
 using Sneakerz.Repository.Item;
 using Sneakerz.Services.Item;
+using System.Reflection;
 
 namespace Sneakerz
 {
@@ -77,6 +78,28 @@ namespace Sneakerz
             pic20.Image = Image.FromFile(pic20.ImageLocation = items[31].ImageUrl);
             pic21.Image = Image.FromFile(pic21.ImageLocation = items[32].ImageUrl);
 
+            txt1.Text = items[0].Cash.ToString() + "$";
+            txt2.Text = items[1].Cash.ToString() + "$";
+            txt3.Text = items[2].Cash.ToString() + "$";
+            txt4.Text = items[3].Cash.ToString() + "$";
+            txt5.Text = items[4].Cash.ToString() + "$";
+            txt6.Text = items[5].Cash.ToString() + "$";
+            txt7.Text = items[6].Cash.ToString() + "$";
+            txt8.Text = items[7].Cash.ToString() + "$";
+            txt9.Text = items[14].Cash.ToString() + "$";
+            txt10.Text = items[15].Cash.ToString() + "$";
+            txt11.Text = items[16].Cash.ToString() + "$";
+            txt12.Text = items[17].Cash.ToString() + "$";
+            txt13.Text = items[18].Cash.ToString() + "$";
+            txt14.Text = items[19].Cash.ToString() + "$";
+            txt15.Text = items[20].Cash.ToString() + "$";
+            txt16.Text = items[21].Cash.ToString() + "$";
+            txt17.Text = items[28].Cash.ToString() + "$";
+            txt18.Text = items[29].Cash.ToString() + "$";
+            txt19.Text = items[30].Cash.ToString() + "$";
+            txt20.Text = items[31].Cash.ToString() + "$";
+            txt21.Text = items[32].Cash.ToString() + "$";
+
             //items.ForEach(items =>
             //{
             //    _itemServices.AddItem(items);
@@ -134,6 +157,28 @@ namespace Sneakerz
             pic19.Image = Image.FromFile(pic19.ImageLocation = items[18].ImageUrl);
             pic20.Image = Image.FromFile(pic20.ImageLocation = items[19].ImageUrl);
             pic21.Image = Image.FromFile(pic21.ImageLocation = items[20].ImageUrl);
+
+            txt1.Text = items[0].Cash.ToString() + "$";
+            txt2.Text = items[1].Cash.ToString() + "$";
+            txt3.Text = items[2].Cash.ToString() + "$";
+            txt4.Text = items[3].Cash.ToString() + "$";
+            txt5.Text = items[4].Cash.ToString() + "$";
+            txt6.Text = items[5].Cash.ToString() + "$";
+            txt7.Text = items[6].Cash.ToString() + "$";
+            txt8.Text = items[7].Cash.ToString() + "$";
+            txt9.Text = items[8].Cash.ToString() + "$";
+            txt10.Text = items[9].Cash.ToString() + "$";
+            txt11.Text = items[10].Cash.ToString() + "$";
+            txt12.Text = items[11].Cash.ToString() + "$";
+            txt13.Text = items[12].Cash.ToString() + "$";
+            txt14.Text = items[13].Cash.ToString() + "$";
+            txt15.Text = items[14].Cash.ToString() + "$";
+            txt16.Text = items[15].Cash.ToString() + "$";
+            txt17.Text = items[16].Cash.ToString() + "$";
+            txt18.Text = items[17].Cash.ToString() + "$";
+            txt19.Text = items[18].Cash.ToString() + "$";
+            txt20.Text = items[19].Cash.ToString() + "$";
+            txt21.Text = items[20].Cash.ToString() + "$";
         }
 
         private void btnAdidas_Click(object sender, EventArgs e)
@@ -159,6 +204,28 @@ namespace Sneakerz
             pic19.Image = Image.FromFile(pic19.ImageLocation = items[18].ImageUrl);
             pic20.Image = Image.FromFile(pic20.ImageLocation = items[19].ImageUrl);
             pic21.Image = Image.FromFile(pic21.ImageLocation = items[20].ImageUrl);
+
+            txt1.Text = items[0].Cash.ToString() + "$";
+            txt2.Text = items[1].Cash.ToString() + "$";
+            txt3.Text = items[2].Cash.ToString() + "$";
+            txt4.Text = items[3].Cash.ToString() + "$";
+            txt5.Text = items[4].Cash.ToString() + "$";
+            txt6.Text = items[5].Cash.ToString() + "$";
+            txt7.Text = items[6].Cash.ToString() + "$";
+            txt8.Text = items[7].Cash.ToString() + "$";
+            txt9.Text = items[8].Cash.ToString() + "$";
+            txt10.Text = items[9].Cash.ToString() + "$";
+            txt11.Text = items[10].Cash.ToString() + "$";
+            txt12.Text = items[11].Cash.ToString() + "$";
+            txt13.Text = items[12].Cash.ToString() + "$";
+            txt14.Text = items[13].Cash.ToString() + "$";
+            txt15.Text = items[14].Cash.ToString() + "$";
+            txt16.Text = items[15].Cash.ToString() + "$";
+            txt17.Text = items[16].Cash.ToString() + "$";
+            txt18.Text = items[17].Cash.ToString() + "$";
+            txt19.Text = items[18].Cash.ToString() + "$";
+            txt20.Text = items[19].Cash.ToString() + "$";
+            txt21.Text = items[20].Cash.ToString() + "$";
         }
 
         private void btnCart_Click(object sender, EventArgs e)

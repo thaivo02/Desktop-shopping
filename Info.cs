@@ -44,5 +44,31 @@ namespace Sneakerz
             frm.Closed += (s, args) => this.Close();
             frm.Show();
         }
+
+        private void mouseDown(object sender, MouseEventArgs e)
+        {
+            size1.FillColor = Color.Transparent;
+            size2.FillColor = Color.Transparent;
+            size3.FillColor = Color.Transparent;
+            size4.FillColor = Color.Transparent;
+            size5.FillColor = Color.Transparent;
+            size6.FillColor = Color.Transparent;
+            size7.FillColor = Color.Transparent;
+            size8.FillColor = Color.Transparent;
+            size9.FillColor = Color.Transparent;
+            size10.FillColor = Color.Transparent;
+            size11.FillColor = Color.Transparent;
+            size12.FillColor = Color.Transparent;
+            size13.FillColor = Color.Transparent;
+            size14.FillColor = Color.Transparent;
+
+            Guna2Button sizeChosen = (Guna2Button)sender;
+            sizeChosen.FillColor= Color.Black;
+        }
+
+        private void btnAdd_to_cart_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
