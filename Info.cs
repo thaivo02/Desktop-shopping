@@ -94,6 +94,8 @@ namespace Sneakerz
                 Func<Item, bool> querySpace = item => item.Name.Substring(item.Name.IndexOf(" ") + 1) == labelName.Text; 
                 var item = _itemRepository.GetAll().FirstOrDefault(querySpace);
 
+                var t = true;
+                
                 if (Lanscape.cartDto.CartDetails is null || Lanscape.cartDto.CartDetails.Count == 0)
                 {
                     Lanscape.cartDto.Cart = new Cart()
@@ -103,7 +105,6 @@ namespace Sneakerz
                     };
                     Lanscape.cartDto.CartDetails = new List<CartDetail>();
                 }
-                var t = true;
                 
                 Lanscape.cartDto.CartDetails.ForEach(ct =>
                 {
@@ -111,20 +112,30 @@ namespace Sneakerz
                     {
                         ct.Amount++;
                         t = false;
+                        MessageBox.Show("Đã cập nhật giỏ hàng");
                     }
                 });
-            
+        
                 if (t)
                 {
-                    Lanscape.cartDto.CartDetails.Add(new CartDetail()
+                    if (Lanscape.cartDto.CartDetails.Count == 5)
                     {
-                        CardId = Lanscape.currentCartId,
-                        Amount = 1,
-                        ItemId = item.Id,
-                        Size = size
-                    });
+                        MessageBox.Show("Bạn chỉ có thể đặt tối đa 5 món hàng");
+                    }
+                    else
+                    {
+                        Lanscape.cartDto.CartDetails.Add(new CartDetail()
+                        {
+                            CardId = Lanscape.currentCartId,
+                            Amount = 1,
+                            ItemId = item.Id,
+                            Size = size
+                        });
+                        MessageBox.Show("Đã cập nhật giỏ hàng");
+
+                    }
                 }
-                MessageBox.Show("Đã cập nhật giỏ hàng");
+                
             }
         }
     }
