@@ -20,6 +20,7 @@ namespace Sneakerz
             services.AddRepository();
             services.AddServices();
             services.AddTransient<Lanscape>();
+            services.AddTransient<Info>();
         }).Build(); 
         
         /// <summary>

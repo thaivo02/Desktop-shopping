@@ -1,23 +1,36 @@
 ﻿using Guna.UI2.WinForms;
 using Microsoft.Extensions.DependencyInjection;
 using Sneakerz.Entity;
+using Sneakerz.Model;
+using Sneakerz.Repository.Item;
+using Sneakerz.Services.Item;
 
 namespace Sneakerz
 {
     public partial class Info : Form
     {
-        public Info(Guna2PictureBox pressed, Item item)
+        public Guna2PictureBox pressed = new Guna2PictureBox();
+        public Item item = new Item();
+        private readonly IItemServices _itemServices;
+        private readonly IItemRepository _itemRepository;
+        private double size = 0;
+        public Info(IItemServices itemServices, IItemRepository itemRepository)
         {
+            _itemServices = itemServices;
+            _itemRepository = itemRepository;
             InitializeComponent();
             // String brand = pressed.Name.Substring(0, space);
             // String name = pressed.Name.Substring(space + 1, pressed.Name.Length - space);
+        }
+
+        public void initComponent(Guna2PictureBox pressed, Item item)
+        {
             String location = pressed.ImageLocation;
             picDefault.Image = Image.FromFile(location);
             String first = location.Insert(location.Length - 4, "(1)");
             String second = location.Insert(location.Length - 4, "(2)");
             int space = item.Name.IndexOf(" ", StringComparison.Ordinal);
             labelBrand.Text= item.Brand.Substring(0, space);
-            var lenName = item.Name.Length - space;
             labelName.Text = item.Name.Substring(space + 1);
             picChange1.Image = Image.FromFile(first);
             picChange2.Image = Image.FromFile(second);
@@ -67,11 +80,52 @@ namespace Sneakerz
 
             Guna2Button sizeChosen = (Guna2Button)sender;
             sizeChosen.FillColor= Color.Black;
+            size = Double.Parse(sizeChosen.Text);
         }
 
         private void btnAdd_to_cart_Click(object sender, EventArgs e)
         {
+            if (size == 0)
+            {
+                MessageBox.Show("Vui lòng chọn size");
+            }
+            else
+            {
+                Func<Item, bool> querySpace = item => item.Name.Substring(item.Name.IndexOf(" ") + 1) == labelName.Text; 
+                var item = _itemRepository.GetAll().FirstOrDefault(querySpace);
 
+                if (Lanscape.cartDto.CartDetails is null || Lanscape.cartDto.CartDetails.Count == 0)
+                {
+                    Lanscape.cartDto.Cart = new Cart()
+                    {
+                        Id = Lanscape.currentCartId,
+                        UserId = 1
+                    };
+                    Lanscape.cartDto.CartDetails = new List<CartDetail>();
+                }
+                var t = true;
+                
+                Lanscape.cartDto.CartDetails.ForEach(ct =>
+                {
+                    if (ct.ItemId == item.Id && ct.Size == size)
+                    {
+                        ct.Amount++;
+                        t = false;
+                    }
+                });
+            
+                if (t)
+                {
+                    Lanscape.cartDto.CartDetails.Add(new CartDetail()
+                    {
+                        CardId = Lanscape.currentCartId,
+                        Amount = 1,
+                        ItemId = item.Id,
+                        Size = size
+                    });
+                }
+                MessageBox.Show("Đã cập nhật giỏ hàng");
+            }
         }
     }
 }

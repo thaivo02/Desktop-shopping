@@ -31,4 +31,11 @@ public class CartServices : ICartServices
         return cartDto;
     }
 
+    public int GetCartMaxId()
+    {
+        var cart = _cartRepository.GetAll().ToList();
+        if (cart.Count == 0)
+            return 0;
+        return cart.Max(c => c.Id);
+    }
 }
