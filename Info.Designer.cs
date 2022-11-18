@@ -211,7 +211,7 @@
             this.size13.Name = "size13";
             this.size13.Size = new System.Drawing.Size(60, 52);
             this.size13.TabIndex = 68;
-            this.size13.Text = "11";
+            this.size13.Text = "11.0";
             this.size13.MouseDown += new System.Windows.Forms.MouseEventHandler(this.mouseDown);
             // 
             // size8
@@ -268,7 +268,7 @@
             this.size7.Name = "size7";
             this.size7.Size = new System.Drawing.Size(60, 52);
             this.size7.TabIndex = 68;
-            this.size7.Text = "8";
+            this.size7.Text = "8.0";
             this.size7.MouseDown += new System.Windows.Forms.MouseEventHandler(this.mouseDown);
             // 
             // size12
@@ -325,7 +325,7 @@
             this.size9.Name = "size9";
             this.size9.Size = new System.Drawing.Size(60, 52);
             this.size9.TabIndex = 68;
-            this.size9.Text = "9";
+            this.size9.Text = "9.0";
             this.size9.MouseDown += new System.Windows.Forms.MouseEventHandler(this.mouseDown);
             // 
             // size6
@@ -363,7 +363,7 @@
             this.size11.Name = "size11";
             this.size11.Size = new System.Drawing.Size(60, 52);
             this.size11.TabIndex = 68;
-            this.size11.Text = "10";
+            this.size11.Text = "10.0";
             this.size11.MouseDown += new System.Windows.Forms.MouseEventHandler(this.mouseDown);
             // 
             // size3
@@ -382,7 +382,7 @@
             this.size3.Name = "size3";
             this.size3.Size = new System.Drawing.Size(60, 52);
             this.size3.TabIndex = 68;
-            this.size3.Text = "6";
+            this.size3.Text = "6.0";
             this.size3.MouseDown += new System.Windows.Forms.MouseEventHandler(this.mouseDown);
             // 
             // size5
@@ -401,7 +401,7 @@
             this.size5.Name = "size5";
             this.size5.Size = new System.Drawing.Size(60, 52);
             this.size5.TabIndex = 68;
-            this.size5.Text = "7";
+            this.size5.Text = "7.0";
             this.size5.MouseDown += new System.Windows.Forms.MouseEventHandler(this.mouseDown);
             // 
             // size2
@@ -439,7 +439,7 @@
             this.size1.Name = "size1";
             this.size1.Size = new System.Drawing.Size(60, 52);
             this.size1.TabIndex = 68;
-            this.size1.Text = "5";
+            this.size1.Text = "5.0";
             this.size1.MouseDown += new System.Windows.Forms.MouseEventHandler(this.mouseDown);
             // 
             // label2

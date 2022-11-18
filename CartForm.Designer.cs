@@ -44,30 +44,30 @@
             this.btnDown2 = new Guna.UI2.WinForms.Guna2CircleButton();
             this.btnDown1 = new Guna.UI2.WinForms.Guna2CircleButton();
             this.txtQuantity5 = new Guna.UI2.WinForms.Guna2HtmlLabel();
-            this.guna2HtmlLabel24 = new Guna.UI2.WinForms.Guna2HtmlLabel();
+            this.quantity5 = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.txtQuantity4 = new Guna.UI2.WinForms.Guna2HtmlLabel();
-            this.guna2HtmlLabel19 = new Guna.UI2.WinForms.Guna2HtmlLabel();
+            this.quantity4 = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.txtQuantity3 = new Guna.UI2.WinForms.Guna2HtmlLabel();
-            this.guna2HtmlLabel14 = new Guna.UI2.WinForms.Guna2HtmlLabel();
-            this.txtSize5 = new Guna.UI2.WinForms.Guna2HtmlLabel();
+            this.quantity3 = new Guna.UI2.WinForms.Guna2HtmlLabel();
+            this.sizeInfo5 = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.txtQuantity2 = new Guna.UI2.WinForms.Guna2HtmlLabel();
-            this.txtSize4 = new Guna.UI2.WinForms.Guna2HtmlLabel();
-            this.guna2HtmlLabel9 = new Guna.UI2.WinForms.Guna2HtmlLabel();
-            this.txtSize3 = new Guna.UI2.WinForms.Guna2HtmlLabel();
+            this.sizeInfo4 = new Guna.UI2.WinForms.Guna2HtmlLabel();
+            this.quantity2 = new Guna.UI2.WinForms.Guna2HtmlLabel();
+            this.sizeInfo3 = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.size5 = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.txtQuantity1 = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.size4 = new Guna.UI2.WinForms.Guna2HtmlLabel();
-            this.txtSize2 = new Guna.UI2.WinForms.Guna2HtmlLabel();
+            this.sizeInfo2 = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.size3 = new Guna.UI2.WinForms.Guna2HtmlLabel();
-            this.txtItem5 = new Guna.UI2.WinForms.Guna2HtmlLabel();
-            this.guna2HtmlLabel4 = new Guna.UI2.WinForms.Guna2HtmlLabel();
-            this.txtItem4 = new Guna.UI2.WinForms.Guna2HtmlLabel();
+            this.itemInfo5 = new Guna.UI2.WinForms.Guna2HtmlLabel();
+            this.quantity1 = new Guna.UI2.WinForms.Guna2HtmlLabel();
+            this.itemInfo4 = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.size2 = new Guna.UI2.WinForms.Guna2HtmlLabel();
-            this.txtItem3 = new Guna.UI2.WinForms.Guna2HtmlLabel();
+            this.itemInfo3 = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.pic5 = new Guna.UI2.WinForms.Guna2PictureBox();
-            this.txtSize1 = new Guna.UI2.WinForms.Guna2HtmlLabel();
+            this.sizeInfo1 = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.pic4 = new Guna.UI2.WinForms.Guna2PictureBox();
-            this.txtItem2 = new Guna.UI2.WinForms.Guna2HtmlLabel();
+            this.itemInfo2 = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.pic3 = new Guna.UI2.WinForms.Guna2PictureBox();
             this.txtPrice5 = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.txtPrice4 = new Guna.UI2.WinForms.Guna2HtmlLabel();
@@ -76,7 +76,7 @@
             this.txtPrice1 = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.size1 = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.pic2 = new Guna.UI2.WinForms.Guna2PictureBox();
-            this.txtItem1 = new Guna.UI2.WinForms.Guna2HtmlLabel();
+            this.itemInfo1 = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.pic1 = new Guna.UI2.WinForms.Guna2PictureBox();
             this.guna2HtmlLabel15 = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.txtTax = new Guna.UI2.WinForms.Guna2HtmlLabel();
@@ -89,8 +89,11 @@
             this.guna2HtmlLabel2 = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.guna2HtmlLabel1 = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.btnHome = new Guna.UI2.WinForms.Guna2Button();
+            this.btnNike = new Guna.UI2.WinForms.Guna2Button();
             this.btnSearch = new Guna.UI2.WinForms.Guna2Button();
+            this.btnAdidas = new Guna.UI2.WinForms.Guna2Button();
             this.btnCart = new Guna.UI2.WinForms.Guna2Button();
+            this.btnPuma = new Guna.UI2.WinForms.Guna2Button();
             this.picLogo = new Guna.UI2.WinForms.Guna2PictureBox();
             this.btnExit = new Guna.UI2.WinForms.Guna2Button();
             this.panelMain.SuspendLayout();
@@ -122,30 +125,30 @@
             this.panelMain.Controls.Add(this.btnDown2);
             this.panelMain.Controls.Add(this.btnDown1);
             this.panelMain.Controls.Add(this.txtQuantity5);
-            this.panelMain.Controls.Add(this.guna2HtmlLabel24);
+            this.panelMain.Controls.Add(this.quantity5);
             this.panelMain.Controls.Add(this.txtQuantity4);
-            this.panelMain.Controls.Add(this.guna2HtmlLabel19);
+            this.panelMain.Controls.Add(this.quantity4);
             this.panelMain.Controls.Add(this.txtQuantity3);
-            this.panelMain.Controls.Add(this.guna2HtmlLabel14);
-            this.panelMain.Controls.Add(this.txtSize5);
+            this.panelMain.Controls.Add(this.quantity3);
+            this.panelMain.Controls.Add(this.sizeInfo5);
             this.panelMain.Controls.Add(this.txtQuantity2);
-            this.panelMain.Controls.Add(this.txtSize4);
-            this.panelMain.Controls.Add(this.guna2HtmlLabel9);
-            this.panelMain.Controls.Add(this.txtSize3);
+            this.panelMain.Controls.Add(this.sizeInfo4);
+            this.panelMain.Controls.Add(this.quantity2);
+            this.panelMain.Controls.Add(this.sizeInfo3);
             this.panelMain.Controls.Add(this.size5);
             this.panelMain.Controls.Add(this.txtQuantity1);
             this.panelMain.Controls.Add(this.size4);
-            this.panelMain.Controls.Add(this.txtSize2);
+            this.panelMain.Controls.Add(this.sizeInfo2);
             this.panelMain.Controls.Add(this.size3);
-            this.panelMain.Controls.Add(this.txtItem5);
-            this.panelMain.Controls.Add(this.guna2HtmlLabel4);
-            this.panelMain.Controls.Add(this.txtItem4);
+            this.panelMain.Controls.Add(this.itemInfo5);
+            this.panelMain.Controls.Add(this.quantity1);
+            this.panelMain.Controls.Add(this.itemInfo4);
             this.panelMain.Controls.Add(this.size2);
-            this.panelMain.Controls.Add(this.txtItem3);
+            this.panelMain.Controls.Add(this.itemInfo3);
             this.panelMain.Controls.Add(this.pic5);
-            this.panelMain.Controls.Add(this.txtSize1);
+            this.panelMain.Controls.Add(this.sizeInfo1);
             this.panelMain.Controls.Add(this.pic4);
-            this.panelMain.Controls.Add(this.txtItem2);
+            this.panelMain.Controls.Add(this.itemInfo2);
             this.panelMain.Controls.Add(this.pic3);
             this.panelMain.Controls.Add(this.txtPrice5);
             this.panelMain.Controls.Add(this.txtPrice4);
@@ -154,7 +157,7 @@
             this.panelMain.Controls.Add(this.txtPrice1);
             this.panelMain.Controls.Add(this.size1);
             this.panelMain.Controls.Add(this.pic2);
-            this.panelMain.Controls.Add(this.txtItem1);
+            this.panelMain.Controls.Add(this.itemInfo1);
             this.panelMain.Controls.Add(this.pic1);
             this.panelMain.Controls.Add(this.guna2HtmlLabel15);
             this.panelMain.Controls.Add(this.txtTax);
@@ -167,8 +170,11 @@
             this.panelMain.Controls.Add(this.guna2HtmlLabel2);
             this.panelMain.Controls.Add(this.guna2HtmlLabel1);
             this.panelMain.Controls.Add(this.btnHome);
+            this.panelMain.Controls.Add(this.btnNike);
             this.panelMain.Controls.Add(this.btnSearch);
+            this.panelMain.Controls.Add(this.btnAdidas);
             this.panelMain.Controls.Add(this.btnCart);
+            this.panelMain.Controls.Add(this.btnPuma);
             this.panelMain.Controls.Add(this.picLogo);
             this.panelMain.Controls.Add(this.btnExit);
             this.panelMain.Location = new System.Drawing.Point(0, 0);
@@ -187,6 +193,7 @@
             this.txtSearch.Size = new System.Drawing.Size(305, 32);
             this.txtSearch.TabIndex = 87;
             this.txtSearch.Visible = false;
+            this.txtSearch.Enter += new System.EventHandler(this.txtSearch_Enter);
             // 
             // btnCheckout
             // 
@@ -407,16 +414,16 @@
             this.txtQuantity5.Text = "0";
             this.txtQuantity5.TextAlignment = System.Drawing.ContentAlignment.TopCenter;
             // 
-            // guna2HtmlLabel24
+            // quantity5
             // 
-            this.guna2HtmlLabel24.BackColor = System.Drawing.Color.Transparent;
-            this.guna2HtmlLabel24.Font = new System.Drawing.Font("Segoe UI Semilight", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point);
-            this.guna2HtmlLabel24.ForeColor = System.Drawing.Color.LightGray;
-            this.guna2HtmlLabel24.Location = new System.Drawing.Point(458, 732);
-            this.guna2HtmlLabel24.Name = "guna2HtmlLabel24";
-            this.guna2HtmlLabel24.Size = new System.Drawing.Size(81, 30);
-            this.guna2HtmlLabel24.TabIndex = 67;
-            this.guna2HtmlLabel24.Text = "Quantity:";
+            this.quantity5.BackColor = System.Drawing.Color.Transparent;
+            this.quantity5.Font = new System.Drawing.Font("Segoe UI Semilight", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point);
+            this.quantity5.ForeColor = System.Drawing.Color.LightGray;
+            this.quantity5.Location = new System.Drawing.Point(458, 732);
+            this.quantity5.Name = "quantity5";
+            this.quantity5.Size = new System.Drawing.Size(81, 30);
+            this.quantity5.TabIndex = 67;
+            this.quantity5.Text = "Quantity:";
             // 
             // txtQuantity4
             // 
@@ -431,16 +438,16 @@
             this.txtQuantity4.Text = "0";
             this.txtQuantity4.TextAlignment = System.Drawing.ContentAlignment.TopCenter;
             // 
-            // guna2HtmlLabel19
+            // quantity4
             // 
-            this.guna2HtmlLabel19.BackColor = System.Drawing.Color.Transparent;
-            this.guna2HtmlLabel19.Font = new System.Drawing.Font("Segoe UI Semilight", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point);
-            this.guna2HtmlLabel19.ForeColor = System.Drawing.Color.LightGray;
-            this.guna2HtmlLabel19.Location = new System.Drawing.Point(458, 602);
-            this.guna2HtmlLabel19.Name = "guna2HtmlLabel19";
-            this.guna2HtmlLabel19.Size = new System.Drawing.Size(81, 30);
-            this.guna2HtmlLabel19.TabIndex = 67;
-            this.guna2HtmlLabel19.Text = "Quantity:";
+            this.quantity4.BackColor = System.Drawing.Color.Transparent;
+            this.quantity4.Font = new System.Drawing.Font("Segoe UI Semilight", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point);
+            this.quantity4.ForeColor = System.Drawing.Color.LightGray;
+            this.quantity4.Location = new System.Drawing.Point(458, 602);
+            this.quantity4.Name = "quantity4";
+            this.quantity4.Size = new System.Drawing.Size(81, 30);
+            this.quantity4.TabIndex = 67;
+            this.quantity4.Text = "Quantity:";
             // 
             // txtQuantity3
             // 
@@ -455,28 +462,28 @@
             this.txtQuantity3.Text = "0";
             this.txtQuantity3.TextAlignment = System.Drawing.ContentAlignment.TopCenter;
             // 
-            // guna2HtmlLabel14
+            // quantity3
             // 
-            this.guna2HtmlLabel14.BackColor = System.Drawing.Color.Transparent;
-            this.guna2HtmlLabel14.Font = new System.Drawing.Font("Segoe UI Semilight", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point);
-            this.guna2HtmlLabel14.ForeColor = System.Drawing.Color.LightGray;
-            this.guna2HtmlLabel14.Location = new System.Drawing.Point(458, 472);
-            this.guna2HtmlLabel14.Name = "guna2HtmlLabel14";
-            this.guna2HtmlLabel14.Size = new System.Drawing.Size(81, 30);
-            this.guna2HtmlLabel14.TabIndex = 67;
-            this.guna2HtmlLabel14.Text = "Quantity:";
+            this.quantity3.BackColor = System.Drawing.Color.Transparent;
+            this.quantity3.Font = new System.Drawing.Font("Segoe UI Semilight", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point);
+            this.quantity3.ForeColor = System.Drawing.Color.LightGray;
+            this.quantity3.Location = new System.Drawing.Point(458, 472);
+            this.quantity3.Name = "quantity3";
+            this.quantity3.Size = new System.Drawing.Size(81, 30);
+            this.quantity3.TabIndex = 67;
+            this.quantity3.Text = "Quantity:";
             // 
-            // txtSize5
+            // sizeInfo5
             // 
-            this.txtSize5.AutoSize = false;
-            this.txtSize5.BackColor = System.Drawing.Color.Transparent;
-            this.txtSize5.Font = new System.Drawing.Font("Segoe UI Semilight", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point);
-            this.txtSize5.ForeColor = System.Drawing.Color.LightGray;
-            this.txtSize5.Location = new System.Drawing.Point(272, 732);
-            this.txtSize5.Name = "txtSize5";
-            this.txtSize5.Size = new System.Drawing.Size(120, 30);
-            this.txtSize5.TabIndex = 67;
-            this.txtSize5.Text = "Size info";
+            this.sizeInfo5.AutoSize = false;
+            this.sizeInfo5.BackColor = System.Drawing.Color.Transparent;
+            this.sizeInfo5.Font = new System.Drawing.Font("Segoe UI Semilight", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point);
+            this.sizeInfo5.ForeColor = System.Drawing.Color.LightGray;
+            this.sizeInfo5.Location = new System.Drawing.Point(272, 732);
+            this.sizeInfo5.Name = "sizeInfo5";
+            this.sizeInfo5.Size = new System.Drawing.Size(120, 30);
+            this.sizeInfo5.TabIndex = 67;
+            this.sizeInfo5.Text = "Size info";
             // 
             // txtQuantity2
             // 
@@ -491,40 +498,40 @@
             this.txtQuantity2.Text = "0";
             this.txtQuantity2.TextAlignment = System.Drawing.ContentAlignment.TopCenter;
             // 
-            // txtSize4
+            // sizeInfo4
             // 
-            this.txtSize4.AutoSize = false;
-            this.txtSize4.BackColor = System.Drawing.Color.Transparent;
-            this.txtSize4.Font = new System.Drawing.Font("Segoe UI Semilight", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point);
-            this.txtSize4.ForeColor = System.Drawing.Color.LightGray;
-            this.txtSize4.Location = new System.Drawing.Point(272, 602);
-            this.txtSize4.Name = "txtSize4";
-            this.txtSize4.Size = new System.Drawing.Size(120, 30);
-            this.txtSize4.TabIndex = 67;
-            this.txtSize4.Text = "Size info";
+            this.sizeInfo4.AutoSize = false;
+            this.sizeInfo4.BackColor = System.Drawing.Color.Transparent;
+            this.sizeInfo4.Font = new System.Drawing.Font("Segoe UI Semilight", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point);
+            this.sizeInfo4.ForeColor = System.Drawing.Color.LightGray;
+            this.sizeInfo4.Location = new System.Drawing.Point(272, 602);
+            this.sizeInfo4.Name = "sizeInfo4";
+            this.sizeInfo4.Size = new System.Drawing.Size(120, 30);
+            this.sizeInfo4.TabIndex = 67;
+            this.sizeInfo4.Text = "Size info";
             // 
-            // guna2HtmlLabel9
+            // quantity2
             // 
-            this.guna2HtmlLabel9.BackColor = System.Drawing.Color.Transparent;
-            this.guna2HtmlLabel9.Font = new System.Drawing.Font("Segoe UI Semilight", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point);
-            this.guna2HtmlLabel9.ForeColor = System.Drawing.Color.LightGray;
-            this.guna2HtmlLabel9.Location = new System.Drawing.Point(458, 342);
-            this.guna2HtmlLabel9.Name = "guna2HtmlLabel9";
-            this.guna2HtmlLabel9.Size = new System.Drawing.Size(81, 30);
-            this.guna2HtmlLabel9.TabIndex = 67;
-            this.guna2HtmlLabel9.Text = "Quantity:";
+            this.quantity2.BackColor = System.Drawing.Color.Transparent;
+            this.quantity2.Font = new System.Drawing.Font("Segoe UI Semilight", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point);
+            this.quantity2.ForeColor = System.Drawing.Color.LightGray;
+            this.quantity2.Location = new System.Drawing.Point(458, 342);
+            this.quantity2.Name = "quantity2";
+            this.quantity2.Size = new System.Drawing.Size(81, 30);
+            this.quantity2.TabIndex = 67;
+            this.quantity2.Text = "Quantity:";
             // 
-            // txtSize3
+            // sizeInfo3
             // 
-            this.txtSize3.AutoSize = false;
-            this.txtSize3.BackColor = System.Drawing.Color.Transparent;
-            this.txtSize3.Font = new System.Drawing.Font("Segoe UI Semilight", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point);
-            this.txtSize3.ForeColor = System.Drawing.Color.LightGray;
-            this.txtSize3.Location = new System.Drawing.Point(272, 472);
-            this.txtSize3.Name = "txtSize3";
-            this.txtSize3.Size = new System.Drawing.Size(120, 30);
-            this.txtSize3.TabIndex = 67;
-            this.txtSize3.Text = "Size info";
+            this.sizeInfo3.AutoSize = false;
+            this.sizeInfo3.BackColor = System.Drawing.Color.Transparent;
+            this.sizeInfo3.Font = new System.Drawing.Font("Segoe UI Semilight", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point);
+            this.sizeInfo3.ForeColor = System.Drawing.Color.LightGray;
+            this.sizeInfo3.Location = new System.Drawing.Point(272, 472);
+            this.sizeInfo3.Name = "sizeInfo3";
+            this.sizeInfo3.Size = new System.Drawing.Size(120, 30);
+            this.sizeInfo3.TabIndex = 67;
+            this.sizeInfo3.Text = "Size info";
             // 
             // size5
             // 
@@ -561,17 +568,17 @@
             this.size4.TabIndex = 67;
             this.size4.Text = "Size:";
             // 
-            // txtSize2
+            // sizeInfo2
             // 
-            this.txtSize2.AutoSize = false;
-            this.txtSize2.BackColor = System.Drawing.Color.Transparent;
-            this.txtSize2.Font = new System.Drawing.Font("Segoe UI Semilight", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point);
-            this.txtSize2.ForeColor = System.Drawing.Color.LightGray;
-            this.txtSize2.Location = new System.Drawing.Point(272, 342);
-            this.txtSize2.Name = "txtSize2";
-            this.txtSize2.Size = new System.Drawing.Size(120, 30);
-            this.txtSize2.TabIndex = 67;
-            this.txtSize2.Text = "Size info";
+            this.sizeInfo2.AutoSize = false;
+            this.sizeInfo2.BackColor = System.Drawing.Color.Transparent;
+            this.sizeInfo2.Font = new System.Drawing.Font("Segoe UI Semilight", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point);
+            this.sizeInfo2.ForeColor = System.Drawing.Color.LightGray;
+            this.sizeInfo2.Location = new System.Drawing.Point(272, 342);
+            this.sizeInfo2.Name = "sizeInfo2";
+            this.sizeInfo2.Size = new System.Drawing.Size(120, 30);
+            this.sizeInfo2.TabIndex = 67;
+            this.sizeInfo2.Text = "Size info";
             // 
             // size3
             // 
@@ -584,38 +591,38 @@
             this.size3.TabIndex = 67;
             this.size3.Text = "Size:";
             // 
-            // txtItem5
+            // itemInfo5
             // 
-            this.txtItem5.BackColor = System.Drawing.Color.Transparent;
-            this.txtItem5.Font = new System.Drawing.Font("Segoe UI Semilight", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point);
-            this.txtItem5.ForeColor = System.Drawing.Color.White;
-            this.txtItem5.Location = new System.Drawing.Point(179, 696);
-            this.txtItem5.Name = "txtItem5";
-            this.txtItem5.Size = new System.Drawing.Size(86, 30);
-            this.txtItem5.TabIndex = 67;
-            this.txtItem5.Text = "Items info";
+            this.itemInfo5.BackColor = System.Drawing.Color.Transparent;
+            this.itemInfo5.Font = new System.Drawing.Font("Segoe UI Semilight", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point);
+            this.itemInfo5.ForeColor = System.Drawing.Color.White;
+            this.itemInfo5.Location = new System.Drawing.Point(179, 696);
+            this.itemInfo5.Name = "itemInfo5";
+            this.itemInfo5.Size = new System.Drawing.Size(86, 30);
+            this.itemInfo5.TabIndex = 67;
+            this.itemInfo5.Text = "Items info";
             // 
-            // guna2HtmlLabel4
+            // quantity1
             // 
-            this.guna2HtmlLabel4.BackColor = System.Drawing.Color.Transparent;
-            this.guna2HtmlLabel4.Font = new System.Drawing.Font("Segoe UI Semilight", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point);
-            this.guna2HtmlLabel4.ForeColor = System.Drawing.Color.LightGray;
-            this.guna2HtmlLabel4.Location = new System.Drawing.Point(458, 212);
-            this.guna2HtmlLabel4.Name = "guna2HtmlLabel4";
-            this.guna2HtmlLabel4.Size = new System.Drawing.Size(81, 30);
-            this.guna2HtmlLabel4.TabIndex = 67;
-            this.guna2HtmlLabel4.Text = "Quantity:";
+            this.quantity1.BackColor = System.Drawing.Color.Transparent;
+            this.quantity1.Font = new System.Drawing.Font("Segoe UI Semilight", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point);
+            this.quantity1.ForeColor = System.Drawing.Color.LightGray;
+            this.quantity1.Location = new System.Drawing.Point(458, 212);
+            this.quantity1.Name = "quantity1";
+            this.quantity1.Size = new System.Drawing.Size(81, 30);
+            this.quantity1.TabIndex = 67;
+            this.quantity1.Text = "Quantity:";
             // 
-            // txtItem4
+            // itemInfo4
             // 
-            this.txtItem4.BackColor = System.Drawing.Color.Transparent;
-            this.txtItem4.Font = new System.Drawing.Font("Segoe UI Semilight", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point);
-            this.txtItem4.ForeColor = System.Drawing.Color.White;
-            this.txtItem4.Location = new System.Drawing.Point(179, 566);
-            this.txtItem4.Name = "txtItem4";
-            this.txtItem4.Size = new System.Drawing.Size(86, 30);
-            this.txtItem4.TabIndex = 67;
-            this.txtItem4.Text = "Items info";
+            this.itemInfo4.BackColor = System.Drawing.Color.Transparent;
+            this.itemInfo4.Font = new System.Drawing.Font("Segoe UI Semilight", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point);
+            this.itemInfo4.ForeColor = System.Drawing.Color.White;
+            this.itemInfo4.Location = new System.Drawing.Point(179, 566);
+            this.itemInfo4.Name = "itemInfo4";
+            this.itemInfo4.Size = new System.Drawing.Size(86, 30);
+            this.itemInfo4.TabIndex = 67;
+            this.itemInfo4.Text = "Items info";
             // 
             // size2
             // 
@@ -628,16 +635,16 @@
             this.size2.TabIndex = 67;
             this.size2.Text = "Size:";
             // 
-            // txtItem3
+            // itemInfo3
             // 
-            this.txtItem3.BackColor = System.Drawing.Color.Transparent;
-            this.txtItem3.Font = new System.Drawing.Font("Segoe UI Semilight", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point);
-            this.txtItem3.ForeColor = System.Drawing.Color.White;
-            this.txtItem3.Location = new System.Drawing.Point(179, 436);
-            this.txtItem3.Name = "txtItem3";
-            this.txtItem3.Size = new System.Drawing.Size(86, 30);
-            this.txtItem3.TabIndex = 67;
-            this.txtItem3.Text = "Items info";
+            this.itemInfo3.BackColor = System.Drawing.Color.Transparent;
+            this.itemInfo3.Font = new System.Drawing.Font("Segoe UI Semilight", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point);
+            this.itemInfo3.ForeColor = System.Drawing.Color.White;
+            this.itemInfo3.Location = new System.Drawing.Point(179, 436);
+            this.itemInfo3.Name = "itemInfo3";
+            this.itemInfo3.Size = new System.Drawing.Size(86, 30);
+            this.itemInfo3.TabIndex = 67;
+            this.itemInfo3.Text = "Items info";
             // 
             // pic5
             // 
@@ -651,17 +658,17 @@
             this.pic5.TabIndex = 66;
             this.pic5.TabStop = false;
             // 
-            // txtSize1
+            // sizeInfo1
             // 
-            this.txtSize1.AutoSize = false;
-            this.txtSize1.BackColor = System.Drawing.Color.Transparent;
-            this.txtSize1.Font = new System.Drawing.Font("Segoe UI Semilight", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point);
-            this.txtSize1.ForeColor = System.Drawing.Color.LightGray;
-            this.txtSize1.Location = new System.Drawing.Point(272, 212);
-            this.txtSize1.Name = "txtSize1";
-            this.txtSize1.Size = new System.Drawing.Size(120, 30);
-            this.txtSize1.TabIndex = 67;
-            this.txtSize1.Text = "Size info";
+            this.sizeInfo1.AutoSize = false;
+            this.sizeInfo1.BackColor = System.Drawing.Color.Transparent;
+            this.sizeInfo1.Font = new System.Drawing.Font("Segoe UI Semilight", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point);
+            this.sizeInfo1.ForeColor = System.Drawing.Color.LightGray;
+            this.sizeInfo1.Location = new System.Drawing.Point(272, 212);
+            this.sizeInfo1.Name = "sizeInfo1";
+            this.sizeInfo1.Size = new System.Drawing.Size(120, 30);
+            this.sizeInfo1.TabIndex = 67;
+            this.sizeInfo1.Text = "Size info";
             // 
             // pic4
             // 
@@ -675,16 +682,16 @@
             this.pic4.TabIndex = 66;
             this.pic4.TabStop = false;
             // 
-            // txtItem2
+            // itemInfo2
             // 
-            this.txtItem2.BackColor = System.Drawing.Color.Transparent;
-            this.txtItem2.Font = new System.Drawing.Font("Segoe UI Semilight", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point);
-            this.txtItem2.ForeColor = System.Drawing.Color.White;
-            this.txtItem2.Location = new System.Drawing.Point(179, 306);
-            this.txtItem2.Name = "txtItem2";
-            this.txtItem2.Size = new System.Drawing.Size(86, 30);
-            this.txtItem2.TabIndex = 67;
-            this.txtItem2.Text = "Items info";
+            this.itemInfo2.BackColor = System.Drawing.Color.Transparent;
+            this.itemInfo2.Font = new System.Drawing.Font("Segoe UI Semilight", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point);
+            this.itemInfo2.ForeColor = System.Drawing.Color.White;
+            this.itemInfo2.Location = new System.Drawing.Point(179, 306);
+            this.itemInfo2.Name = "itemInfo2";
+            this.itemInfo2.Size = new System.Drawing.Size(86, 30);
+            this.itemInfo2.TabIndex = 67;
+            this.itemInfo2.Text = "Items info";
             // 
             // pic3
             // 
@@ -781,16 +788,16 @@
             this.pic2.TabIndex = 66;
             this.pic2.TabStop = false;
             // 
-            // txtItem1
+            // itemInfo1
             // 
-            this.txtItem1.BackColor = System.Drawing.Color.Transparent;
-            this.txtItem1.Font = new System.Drawing.Font("Segoe UI Semilight", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point);
-            this.txtItem1.ForeColor = System.Drawing.Color.White;
-            this.txtItem1.Location = new System.Drawing.Point(179, 176);
-            this.txtItem1.Name = "txtItem1";
-            this.txtItem1.Size = new System.Drawing.Size(86, 30);
-            this.txtItem1.TabIndex = 67;
-            this.txtItem1.Text = "Items info";
+            this.itemInfo1.BackColor = System.Drawing.Color.Transparent;
+            this.itemInfo1.Font = new System.Drawing.Font("Segoe UI Semilight", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point);
+            this.itemInfo1.ForeColor = System.Drawing.Color.White;
+            this.itemInfo1.Location = new System.Drawing.Point(179, 176);
+            this.itemInfo1.Name = "itemInfo1";
+            this.itemInfo1.Size = new System.Drawing.Size(86, 30);
+            this.itemInfo1.TabIndex = 67;
+            this.itemInfo1.Text = "Items info";
             // 
             // pic1
             // 
@@ -931,6 +938,22 @@
             this.btnHome.Text = "HOME";
             this.btnHome.Click += new System.EventHandler(this.btnHome_Click);
             // 
+            // btnNike
+            // 
+            this.btnNike.BackColor = System.Drawing.Color.Transparent;
+            this.btnNike.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.btnNike.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.btnNike.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.btnNike.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.btnNike.FillColor = System.Drawing.Color.Transparent;
+            this.btnNike.Font = new System.Drawing.Font("Segoe UI Semibold", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.btnNike.ForeColor = System.Drawing.Color.White;
+            this.btnNike.Location = new System.Drawing.Point(626, 24);
+            this.btnNike.Name = "btnNike";
+            this.btnNike.Size = new System.Drawing.Size(160, 52);
+            this.btnNike.TabIndex = 64;
+            this.btnNike.Text = "NIKE";
+            // 
             // btnSearch
             // 
             this.btnSearch.BackColor = System.Drawing.Color.Transparent;
@@ -948,6 +971,22 @@
             this.btnSearch.Text = "SEARCH";
             this.btnSearch.Click += new System.EventHandler(this.btnSearch_Click);
             // 
+            // btnAdidas
+            // 
+            this.btnAdidas.BackColor = System.Drawing.Color.Transparent;
+            this.btnAdidas.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.btnAdidas.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.btnAdidas.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.btnAdidas.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.btnAdidas.FillColor = System.Drawing.Color.Transparent;
+            this.btnAdidas.Font = new System.Drawing.Font("Segoe UI Semibold", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.btnAdidas.ForeColor = System.Drawing.Color.White;
+            this.btnAdidas.Location = new System.Drawing.Point(794, 24);
+            this.btnAdidas.Name = "btnAdidas";
+            this.btnAdidas.Size = new System.Drawing.Size(160, 52);
+            this.btnAdidas.TabIndex = 39;
+            this.btnAdidas.Text = "ADIDAS";
+            // 
             // btnCart
             // 
             this.btnCart.BackColor = System.Drawing.Color.Transparent;
@@ -963,6 +1002,22 @@
             this.btnCart.Name = "btnCart";
             this.btnCart.Size = new System.Drawing.Size(56, 52);
             this.btnCart.TabIndex = 41;
+            // 
+            // btnPuma
+            // 
+            this.btnPuma.BackColor = System.Drawing.Color.Transparent;
+            this.btnPuma.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.btnPuma.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.btnPuma.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.btnPuma.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.btnPuma.FillColor = System.Drawing.Color.Transparent;
+            this.btnPuma.Font = new System.Drawing.Font("Segoe UI Semibold", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.btnPuma.ForeColor = System.Drawing.Color.White;
+            this.btnPuma.Location = new System.Drawing.Point(962, 24);
+            this.btnPuma.Name = "btnPuma";
+            this.btnPuma.Size = new System.Drawing.Size(160, 52);
+            this.btnPuma.TabIndex = 38;
+            this.btnPuma.Text = "PUMA";
             // 
             // picLogo
             // 
@@ -1020,18 +1075,21 @@
 
         private Guna.UI2.WinForms.Guna2Panel panelMain;
         private Guna.UI2.WinForms.Guna2Button btnHome;
+        private Guna.UI2.WinForms.Guna2Button btnNike;
         private Guna.UI2.WinForms.Guna2Button btnSearch;
+        private Guna.UI2.WinForms.Guna2Button btnAdidas;
         private Guna.UI2.WinForms.Guna2Button btnCart;
+        private Guna.UI2.WinForms.Guna2Button btnPuma;
         private Guna.UI2.WinForms.Guna2PictureBox picLogo;
         private Guna.UI2.WinForms.Guna2Button btnExit;
         private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel1;
         private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel3;
         private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel2;
         private Guna.UI2.WinForms.Guna2PictureBox pic1;
-        private Guna.UI2.WinForms.Guna2HtmlLabel txtItem1;
+        private Guna.UI2.WinForms.Guna2HtmlLabel itemInfo1;
         private Guna.UI2.WinForms.Guna2HtmlLabel size1;
-        private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel4;
-        private Guna.UI2.WinForms.Guna2HtmlLabel txtSize1;
+        private Guna.UI2.WinForms.Guna2HtmlLabel quantity1;
+        private Guna.UI2.WinForms.Guna2HtmlLabel sizeInfo1;
         private Guna.UI2.WinForms.Guna2HtmlLabel txtQuantity1;
         private Guna.UI2.WinForms.Guna2CircleButton btnUp1;
         private Guna.UI2.WinForms.Guna2CircleButton btnDown1;
@@ -1044,27 +1102,27 @@
         private Guna.UI2.WinForms.Guna2CircleButton btnDown3;
         private Guna.UI2.WinForms.Guna2CircleButton btnDown2;
         private Guna.UI2.WinForms.Guna2HtmlLabel txtQuantity5;
-        private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel24;
+        private Guna.UI2.WinForms.Guna2HtmlLabel quantity5;
         private Guna.UI2.WinForms.Guna2HtmlLabel txtQuantity4;
-        private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel19;
+        private Guna.UI2.WinForms.Guna2HtmlLabel quantity4;
         private Guna.UI2.WinForms.Guna2HtmlLabel txtQuantity3;
-        private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel14;
-        private Guna.UI2.WinForms.Guna2HtmlLabel txtSize5;
+        private Guna.UI2.WinForms.Guna2HtmlLabel quantity3;
+        private Guna.UI2.WinForms.Guna2HtmlLabel sizeInfo5;
         private Guna.UI2.WinForms.Guna2HtmlLabel txtQuantity2;
-        private Guna.UI2.WinForms.Guna2HtmlLabel txtSize4;
-        private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel9;
-        private Guna.UI2.WinForms.Guna2HtmlLabel txtSize3;
+        private Guna.UI2.WinForms.Guna2HtmlLabel sizeInfo4;
+        private Guna.UI2.WinForms.Guna2HtmlLabel quantity2;
+        private Guna.UI2.WinForms.Guna2HtmlLabel sizeInfo3;
         private Guna.UI2.WinForms.Guna2HtmlLabel size5;
         private Guna.UI2.WinForms.Guna2HtmlLabel size4;
-        private Guna.UI2.WinForms.Guna2HtmlLabel txtSize2;
+        private Guna.UI2.WinForms.Guna2HtmlLabel sizeInfo2;
         private Guna.UI2.WinForms.Guna2HtmlLabel size3;
-        private Guna.UI2.WinForms.Guna2HtmlLabel txtItem5;
-        private Guna.UI2.WinForms.Guna2HtmlLabel txtItem4;
+        private Guna.UI2.WinForms.Guna2HtmlLabel itemInfo5;
+        private Guna.UI2.WinForms.Guna2HtmlLabel itemInfo4;
         private Guna.UI2.WinForms.Guna2HtmlLabel size2;
-        private Guna.UI2.WinForms.Guna2HtmlLabel txtItem3;
+        private Guna.UI2.WinForms.Guna2HtmlLabel itemInfo3;
         private Guna.UI2.WinForms.Guna2PictureBox pic5;
         private Guna.UI2.WinForms.Guna2PictureBox pic4;
-        private Guna.UI2.WinForms.Guna2HtmlLabel txtItem2;
+        private Guna.UI2.WinForms.Guna2HtmlLabel itemInfo2;
         private Guna.UI2.WinForms.Guna2PictureBox pic3;
         private Guna.UI2.WinForms.Guna2PictureBox pic2;
         private Guna.UI2.WinForms.Guna2HtmlLabel txtPrice1;
