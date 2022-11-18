@@ -96,12 +96,12 @@ namespace Sneakerz
         private void picInfo_Click(object sender, EventArgs e)
         {
             Guna2PictureBox pressed = (Guna2PictureBox)sender;
-            String location = pressed.ImageLocation;
-            Info frm = new Info(location) { Dock = DockStyle.Fill, TopLevel = false, TopMost = true };
-            this.panelMain.Controls.Add(frm);
-            frm.BringToFront();
-            frm.Closed += (s, args) => this.Close();
-            frm.Show();
+            //String location = pressed.ImageLocation;
+            //Info frm = new Info(pressed) { Dock = DockStyle.Fill, TopLevel = false, TopMost = true };
+            //this.panelMain.Controls.Add(frm);
+            //frm.BringToFront();
+            //frm.Closed += (s, args) => this.Close();
+            //frm.Show();
         }
 
         private void btnHome_Click(object sender, EventArgs e)
