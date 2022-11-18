@@ -14,12 +14,14 @@ namespace Sneakerz
         private readonly IItemServices _itemServices;
         private readonly IItemRepository _itemRepository;
         private double size = 0;
+        private readonly List<string> itemNames = new List<string>();
         public Info(IItemServices itemServices, IItemRepository itemRepository)
         {
             _itemServices = itemServices;
             _itemRepository = itemRepository;
             InitializeComponent();
             txtSearch.Visible = false;
+            listBox1.Visible = false;
 
             // String brand = pressed.Name.Substring(0, space);
             // String name = pressed.Name.Substring(space + 1, pressed.Name.Length - space);
@@ -162,12 +164,49 @@ namespace Sneakerz
             btnSearch.Visible = false;
         }
 
+        private void txtSearch_TextChanged(object sender, EventArgs e)
+        {
+            if (string.IsNullOrEmpty(txtSearch.Text) == false)
+            {
+                listBox1.Visible = true;
+                listBox1.Items.Clear();
+                foreach (string str in itemNames)
+                {
+                    if (str.ToLower().StartsWith(txtSearch.Text.ToLower()))
+                    {
+                        listBox1.Items.Add(str);
+                    }
+                }
+            }
+            else
+            {
+                listBox1.Visible = false;
+                listBox1.Items.Clear();
+            }
+        }
+
         private void btnCart_Click(object sender, EventArgs e)
         {
             CartForm frm = Program._host.Services.GetRequiredService<CartForm>();
             frm.Dock = DockStyle.Fill;
             frm.TopLevel = false;
             frm.TopMost = true;
+            this.panelMain.Controls.Add(frm);
+            frm.BringToFront();
+            frm.Closed += (s, args) => this.Close();
+            frm.Show();
+        }
+
+        private void listBox1_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            var text = listBox1.SelectedItem.ToString();
+            Func<Item, bool> querySpace = item => item.Name.Substring(item.Name.IndexOf(" ") + 1).ToLower() == text.ToLower();
+            var item = _itemRepository.GetAll().FirstOrDefault(querySpace);
+            Info frm = Program._host.Services.GetRequiredService<Info>();
+            frm.Dock = DockStyle.Fill;
+            frm.TopLevel = false;
+            frm.TopMost = true;
+            frm.initComponent(item);
             this.panelMain.Controls.Add(frm);
             frm.BringToFront();
             frm.Closed += (s, args) => this.Close();

@@ -29,6 +29,7 @@
         private void InitializeComponent()
         {
             this.panelMain = new Guna.UI2.WinForms.Guna2Panel();
+            this.listBox1 = new System.Windows.Forms.ListBox();
             this.txtSearch = new System.Windows.Forms.TextBox();
             this.btnCheckout = new Guna.UI2.WinForms.Guna2Button();
             this.label2 = new System.Windows.Forms.Label();
@@ -110,6 +111,7 @@
             this.panelMain.BackColor = System.Drawing.Color.Transparent;
             this.panelMain.BackgroundImage = global::Sneakerz.Properties.Resources.bg;
             this.panelMain.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.panelMain.Controls.Add(this.listBox1);
             this.panelMain.Controls.Add(this.txtSearch);
             this.panelMain.Controls.Add(this.btnCheckout);
             this.panelMain.Controls.Add(this.label2);
@@ -182,6 +184,16 @@
             this.panelMain.Size = new System.Drawing.Size(1707, 886);
             this.panelMain.TabIndex = 2;
             // 
+            // listBox1
+            // 
+            this.listBox1.FormattingEnabled = true;
+            this.listBox1.ItemHeight = 20;
+            this.listBox1.Location = new System.Drawing.Point(163, 74);
+            this.listBox1.Name = "listBox1";
+            this.listBox1.Size = new System.Drawing.Size(307, 124);
+            this.listBox1.TabIndex = 89;
+            this.listBox1.SelectedIndexChanged += new System.EventHandler(this.listBox1_SelectedIndexChanged);
+            // 
             // txtSearch
             // 
             this.txtSearch.BackColor = System.Drawing.Color.Gainsboro;
@@ -193,7 +205,7 @@
             this.txtSearch.Size = new System.Drawing.Size(305, 32);
             this.txtSearch.TabIndex = 87;
             this.txtSearch.Visible = false;
-            this.txtSearch.Enter += new System.EventHandler(this.txtSearch_Enter);
+            this.txtSearch.TextChanged += new System.EventHandler(this.txtSearch_TextChanged);
             // 
             // btnCheckout
             // 
@@ -1141,5 +1153,6 @@
         private Label label2;
         private Guna.UI2.WinForms.Guna2Button btnCheckout;
         private TextBox txtSearch;
+        private ListBox listBox1;
     }
 }

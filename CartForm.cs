@@ -1,6 +1,8 @@
 ﻿using Guna.UI2.WinForms;
 using Microsoft.Extensions.DependencyInjection;
+using Sneakerz.Entity;
 using Sneakerz.Repository.Item;
+using System.Linq;
 using System.Reflection;
 using Console = System.Console;
 
@@ -9,11 +11,15 @@ namespace Sneakerz
     public partial class CartForm : Form
     {
         private readonly IItemRepository _itemRepository;
+        private readonly List<string> itemNames = new List<string>();
+
         public CartForm(IItemRepository itemRepository)
         {
             _itemRepository = itemRepository;
             InitializeComponent();
             txtSearch.Visible = false;
+            listBox1.Visible = false;
+
             var cartItems = Lanscape.cartDto;
             pic1.Visible = false;
             size1.Visible = false;
@@ -65,7 +71,8 @@ namespace Sneakerz
             btnUp5.Visible = false;
             txtQuantity5.Visible = false;
 
-            if (cartItems.CartDetails.Count >= 1)
+            if (cartItems.CartDetails is null) { }
+            else if (cartItems.CartDetails.Count >= 1)
             {
                 var cart1 = cartItems.CartDetails[0];
                 var item1 = _itemRepository.GetItemDetail(cart1.ItemId);
@@ -295,9 +302,41 @@ namespace Sneakerz
             btnSearch.Visible = false;
         }
 
-        private void txtSearch_Enter(object sender, EventArgs e)
+        private void txtSearch_TextChanged(object sender, EventArgs e)
         {
+            if (string.IsNullOrEmpty(txtSearch.Text) == false)
+            {
+                listBox1.Visible = true;
+                listBox1.Items.Clear();
+                foreach (string str in itemNames)
+                {
+                    if (str.ToLower().StartsWith(txtSearch.Text.ToLower()))
+                    {
+                        listBox1.Items.Add(str);
+                    }
+                }
+            }
+            else
+            {
+                listBox1.Visible = false;
+                listBox1.Items.Clear();
+            }
+        }
 
+        private void listBox1_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            var text = listBox1.SelectedItem.ToString();
+            Func<Item, bool> querySpace = item => item.Name.Substring(item.Name.IndexOf(" ") + 1).ToLower() == text.ToLower();
+            var item = _itemRepository.GetAll().FirstOrDefault(querySpace);
+            Info frm = Program._host.Services.GetRequiredService<Info>();
+            frm.Dock = DockStyle.Fill;
+            frm.TopLevel = false;
+            frm.TopMost = true;
+            frm.initComponent(item);
+            this.panelMain.Controls.Add(frm);
+            frm.BringToFront();
+            frm.Closed += (s, args) => this.Close();
+            frm.Show();
         }
     }
 }

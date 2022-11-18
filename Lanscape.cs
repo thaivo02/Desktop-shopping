@@ -6,6 +6,7 @@ using Sneakerz.Model;
 using Sneakerz.Repository.Item;
 using Sneakerz.Services.Cart;
 using Sneakerz.Services.Item;
+using System.Security.Cryptography.X509Certificates;
 
 namespace Sneakerz
 {
@@ -177,27 +178,31 @@ namespace Sneakerz
 
         private void btnNike_Click(object sender, EventArgs e)
         {
-            pic1.Image = Image.FromFile(pic1.ImageLocation = items[0].ImageUrl);
-            pic2.Image = Image.FromFile(pic2.ImageLocation = items[1].ImageUrl);
-            pic3.Image = Image.FromFile(pic3.ImageLocation = items[2].ImageUrl);
-            pic4.Image = Image.FromFile(pic4.ImageLocation = items[3].ImageUrl);
-            pic5.Image = Image.FromFile(pic5.ImageLocation = items[4].ImageUrl);
-            pic6.Image = Image.FromFile(pic6.ImageLocation = items[5].ImageUrl);
-            pic7.Image = Image.FromFile(pic7.ImageLocation = items[6].ImageUrl);
-            pic8.Image = Image.FromFile(pic8.ImageLocation = items[7].ImageUrl);
-            pic9.Image = Image.FromFile(pic9.ImageLocation = items[8].ImageUrl);
-            pic10.Image = Image.FromFile(pic10.ImageLocation = items[9].ImageUrl);
-            pic11.Image = Image.FromFile(pic11.ImageLocation = items[10].ImageUrl);
-            pic12.Image = Image.FromFile(pic12.ImageLocation = items[11].ImageUrl);
-            pic13.Image = Image.FromFile(pic13.ImageLocation = items[12].ImageUrl);
-            pic14.Image = Image.FromFile(pic14.ImageLocation = items[13].ImageUrl);
-            pic15.Image = Image.FromFile(pic15.ImageLocation = items[14].ImageUrl);
-            pic16.Image = Image.FromFile(pic16.ImageLocation = items[15].ImageUrl);
-            pic17.Image = Image.FromFile(pic17.ImageLocation = items[16].ImageUrl);
-            pic18.Image = Image.FromFile(pic18.ImageLocation = items[17].ImageUrl);
-            pic19.Image = Image.FromFile(pic19.ImageLocation = items[18].ImageUrl);
-            pic20.Image = Image.FromFile(pic20.ImageLocation = items[19].ImageUrl);
-            pic21.Image = Image.FromFile(pic21.ImageLocation = items[20].ImageUrl);
+            shuffleImages(adidas_running);
+            shuffleImages(adidas_lifestyle);
+            shuffleImages(adidas_basketball);
+
+            pic1.Image = Image.FromFile(pic1.ImageLocation = "../shoes/running/" + adidas_running[0] + ".png");
+            pic2.Image = Image.FromFile(pic2.ImageLocation = "../shoes/running/" + adidas_running[1] + ".png");
+            pic3.Image = Image.FromFile(pic3.ImageLocation = "../shoes/running/" + adidas_running[2] + ".png");
+            pic4.Image = Image.FromFile(pic4.ImageLocation = "../shoes/running/" + adidas_running[3] + ".png");
+            pic5.Image = Image.FromFile(pic5.ImageLocation = "../shoes/running/" + adidas_running[4] + ".png");
+            pic6.Image = Image.FromFile(pic6.ImageLocation = "../shoes/running/" + adidas_running[5] + ".png");
+            pic7.Image = Image.FromFile(pic7.ImageLocation = "../shoes/running/" + adidas_running[6] + ".png");
+            pic8.Image = Image.FromFile(pic8.ImageLocation = "../shoes/running/" + adidas_lifestyle[0] + ".png");
+            pic9.Image = Image.FromFile(pic9.ImageLocation = "../shoes/running/" + adidas_lifestyle[1] + ".png");
+            pic10.Image = Image.FromFile(pic10.ImageLocation = "../shoes/running/" + adidas_lifestyle[2] + ".png");
+            pic11.Image = Image.FromFile(pic11.ImageLocation = "../shoes/running/" + adidas_lifestyle[3] + ".png");
+            pic12.Image = Image.FromFile(pic12.ImageLocation = "../shoes/running/" + adidas_lifestyle[4] + ".png");
+            pic13.Image = Image.FromFile(pic13.ImageLocation = "../shoes/running/" + adidas_lifestyle[5] + ".png");
+            pic14.Image = Image.FromFile(pic14.ImageLocation = "../shoes/running/" + adidas_lifestyle[6] + ".png");
+            pic15.Image = Image.FromFile(pic15.ImageLocation = "../shoes/running/" + adidas_basketball[0] + ".png");
+            pic16.Image = Image.FromFile(pic16.ImageLocation = "../shoes/running/" + adidas_basketball[1] + ".png");
+            pic17.Image = Image.FromFile(pic17.ImageLocation = "../shoes/running/" + adidas_basketball[2] + ".png");
+            pic18.Image = Image.FromFile(pic18.ImageLocation = "../shoes/running/" + adidas_basketball[3] + ".png");
+            pic19.Image = Image.FromFile(pic19.ImageLocation = "../shoes/running/" + adidas_basketball[4] + ".png");
+            pic20.Image = Image.FromFile(pic20.ImageLocation = "../shoes/running/" + adidas_basketball[5] + ".png");
+            pic21.Image = Image.FromFile(pic21.ImageLocation = "../shoes/running/" + adidas_basketball[6] + ".png");
 
             txt1.Text = items[0].Cash.ToString() + "$";
             txt2.Text = items[1].Cash.ToString() + "$";

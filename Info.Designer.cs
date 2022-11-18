@@ -63,6 +63,7 @@
             this.picLogo = new Guna.UI2.WinForms.Guna2PictureBox();
             this.btnExit = new Guna.UI2.WinForms.Guna2Button();
             this.txtSearch = new System.Windows.Forms.TextBox();
+            this.listBox1 = new System.Windows.Forms.ListBox();
             this.panelMain.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.picDefault)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.picChange2)).BeginInit();
@@ -640,6 +641,16 @@
             this.txtSearch.Size = new System.Drawing.Size(305, 32);
             this.txtSearch.TabIndex = 87;
             this.txtSearch.Visible = false;
+            this.txtSearch.TextChanged += new System.EventHandler(this.txtSearch_TextChanged);
+            // 
+            // listBox1
+            // 
+            this.listBox1.FormattingEnabled = true;
+            this.listBox1.ItemHeight = 20;
+            this.listBox1.Location = new System.Drawing.Point(163, 74);
+            this.listBox1.Name = "listBox1";
+            this.listBox1.Size = new System.Drawing.Size(307, 124);
+            this.listBox1.TabIndex = 88;
             // 
             // Info
             // 
@@ -647,6 +658,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(1707, 886);
+            this.Controls.Add(this.listBox1);
             this.Controls.Add(this.txtSearch);
             this.Controls.Add(this.panelMain);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
@@ -704,5 +716,6 @@
         private Guna.UI2.WinForms.Guna2PictureBox picChange2;
         private Guna.UI2.WinForms.Guna2PictureBox picDefault;
         private TextBox txtSearch;
+        private ListBox listBox1;
     }
 }
