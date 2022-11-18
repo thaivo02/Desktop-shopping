@@ -1,6 +1,7 @@
 using Guna.UI2.WinForms;
 using Sneakerz.Entity;
 using System.Windows.Forms;
+using Sneakerz.Model;
 using Sneakerz.Repository.Item;
 using Sneakerz.Services.Item;
 
@@ -9,7 +10,7 @@ namespace Sneakerz
     public partial class Lanscape : Form
     {
         private readonly IItemServices _itemServices;
-        
+        private readonly List<Item> items = new List<Item>();
         protected override CreateParams CreateParams
         {
             get
@@ -47,38 +48,13 @@ namespace Sneakerz
         public Lanscape(IItemServices itemServices)
         {
             _itemServices = itemServices;
+            items = _itemServices.GetListItem(new ItemQuery());
             InitializeComponent();
             this.Home();
         }
 
         private void Home()
         {
-            List<Item> items = new List<Item>();
-            shuffleImages(running);
-            shuffleImages(lifestyle);
-            shuffleImages(basketball);
-            for (int i = 0; i < 14; i++)
-            {
-                String shoeLocation = running[i];
-                int space = shoeLocation.IndexOf(" ");
-                shoeLocation = shoeLocation.Remove(space, 1).Insert(space, "/");
-                items.Add(new Item() { Id = (i+1).ToString(), CaregoryId = 1, Cash = 100, Description = "", ImageUrl = "../shoes/running/" + shoeLocation + ".png", Name = running[i], ReleaseDate = 2021 }); 
-            }
-            for (int i = 14; i < 28; i++)
-            {
-                String shoeLocation = lifestyle[i - 14];
-                int space = shoeLocation.IndexOf(" ");
-                shoeLocation = shoeLocation.Remove(space, 1).Insert(space, "/");
-                items.Add(new Item() { Id = (i+1).ToString(), CaregoryId = 2, Cash = 100, Description = "", ImageUrl = "../shoes/lifestyle/" + shoeLocation + ".png", Name = lifestyle[i - 14], ReleaseDate = 2021 });
-            }
-            for (int i = 28; i < 42; i++)
-            {
-                String shoeLocation = basketball[i - 28];
-                int space = shoeLocation.IndexOf(" ");
-                shoeLocation = shoeLocation.Remove(space, 1).Insert(space, "/");
-                items.Add(new Item() { Id = (i+1).ToString(), CaregoryId = 3, Cash = 100, Description = "", ImageUrl = "../shoes/basketball/" + shoeLocation + ".png", Name = basketball[i - 28], ReleaseDate = 2021 });
-            }
-
             picRun1.Image = Image.FromFile(picRun1.ImageLocation = items[0].ImageUrl);
             picRun2.Image = Image.FromFile(picRun2.ImageLocation = items[1].ImageUrl);
             picRun3.Image = Image.FromFile(picRun3.ImageLocation = items[2].ImageUrl);
@@ -136,32 +112,6 @@ namespace Sneakerz
 
         private void btnNike_Click(object sender, EventArgs e)
         {
-            List<Item> items = new List<Item>();
-            shuffleImages(nike_running);
-            shuffleImages(nike_lifestyle);
-            shuffleImages(nike_basketball);
-            for (int i = 0; i < 7; i++)
-            {
-                String name = "Nike";
-                String shoeLocation = name + "/"  + nike_running[i];
-                String shoeName = name + " "  + nike_running[i];
-                items.Add(new Item() { Id = i.ToString(), CaregoryId = 1, Cash = 100, Description = "", ImageUrl = "../shoes/running/" + shoeLocation + ".png", Name = shoeName, ReleaseDate = 2021 });
-            }
-            for (int i = 7; i < 14; i++)
-            {
-                String name = "Nike";
-                String shoeLocation = name + "/" + nike_lifestyle[i - 7];
-                String shoeName = name + " " + nike_lifestyle[i - 7];
-                items.Add(new Item() { Id = i.ToString(), CaregoryId = 2, Cash = 100, Description = "", ImageUrl = "../shoes/lifestyle/" + shoeLocation + ".png", Name = shoeName, ReleaseDate = 2021 });
-            }
-            for (int i = 14; i < 21; i++)
-            {
-                String name = "Nike";
-                String shoeLocation = name + "/" + nike_basketball[i - 14];
-                String shoeName = name + " " + nike_basketball[i - 14];
-                items.Add(new Item() { Id = i.ToString(), CaregoryId = 3, Cash = 100, Description = "", ImageUrl = "../shoes/basketball/" + shoeLocation + ".png", Name = shoeName, ReleaseDate = 2021 });
-            }
-
             picRun1.Image = Image.FromFile(picRun1.ImageLocation = items[0].ImageUrl);
             picRun2.Image = Image.FromFile(picRun2.ImageLocation = items[1].ImageUrl);
             picRun3.Image = Image.FromFile(picRun3.ImageLocation = items[2].ImageUrl);
@@ -187,32 +137,6 @@ namespace Sneakerz
 
         private void btnAdidas_Click(object sender, EventArgs e)
         {
-            List<Item> items = new List<Item>();
-            shuffleImages(adidas_running);
-            shuffleImages(adidas_lifestyle);
-            shuffleImages(adidas_basketball);
-            for (int i = 0; i < 7; i++)
-            {
-                String name = "Adidas";
-                String shoeLocation = name + "/" + adidas_running[i];
-                String shoeName = name + " " + adidas_running[i];
-                items.Add(new Item() { Id = i.ToString(), CaregoryId = 1, Cash = 100, Description = "", ImageUrl = "../shoes/running/" + shoeLocation + ".png", Name = shoeName, ReleaseDate = 2021 });
-            }
-            for (int i = 7; i < 14; i++)
-            {
-                String name = "Adidas";
-                String shoeLocation = name + "/" + adidas_lifestyle[i - 7];
-                String shoeName = name + " " + adidas_lifestyle[i - 7];
-                items.Add(new Item() { Id = i.ToString(), CaregoryId = 2, Cash = 100, Description = "", ImageUrl = "../shoes/lifestyle/" + shoeLocation + ".png", Name = shoeName, ReleaseDate = 2021 });
-            }
-            for (int i = 14; i < 21; i++)
-            {
-                String name = "Adidas";
-                String shoeLocation = name + "/" + adidas_basketball[i - 14];
-                String shoeName = name + " " + adidas_basketball[i - 14];
-                items.Add(new Item() { Id = i.ToString(), CaregoryId = 3, Cash = 100, Description = "", ImageUrl = "../shoes/basketball/" + shoeLocation + ".png", Name = shoeName, ReleaseDate = 2021 });
-            }
-
             picRun1.Image = Image.FromFile(picRun1.ImageLocation = items[0].ImageUrl);
             picRun2.Image = Image.FromFile(picRun2.ImageLocation = items[1].ImageUrl);
             picRun3.Image = Image.FromFile(picRun3.ImageLocation = items[2].ImageUrl);
