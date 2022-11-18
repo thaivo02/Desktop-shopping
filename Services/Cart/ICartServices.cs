@@ -5,5 +5,5 @@ namespace Sneakerz.Services.Cart;
 public interface ICartServices
 {
     public CartDto GetCart(int userId);
-
+    public int GetCartMaxId();
 }

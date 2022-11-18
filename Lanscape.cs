@@ -1,16 +1,21 @@
 using Guna.UI2.WinForms;
 using Sneakerz.Entity;
 using System.Windows.Forms;
+using Microsoft.Extensions.DependencyInjection;
 using Sneakerz.Model;
 using Sneakerz.Repository.Item;
+using Sneakerz.Services.Cart;
 using Sneakerz.Services.Item;
 
 namespace Sneakerz
 {
     public partial class Lanscape : Form
     {
-        private readonly IItemServices _itemServices;
+        public readonly IItemServices _itemServices;
+        public readonly ICartServices _cartServices;
         private readonly List<Item> items = new List<Item>();
+        public static CartDto cartDto = new CartDto();
+        public static int currentCartId = 0;
         protected override CreateParams CreateParams
         {
             get
@@ -45,9 +50,11 @@ namespace Sneakerz
             b = temp;
         }
 
-        public Lanscape(IItemServices itemServices)
+        public Lanscape(IItemServices itemServices, ICartServices cartServices)
         {
             _itemServices = itemServices;
+            _cartServices = cartServices;
+            currentCartId = _cartServices.GetCartMaxId() + 1;
             items = _itemServices.GetListItem(new ItemQuery());
             InitializeComponent();
             this.Home();
@@ -138,7 +145,12 @@ namespace Sneakerz
             var picName = pressed.ImageLocation.ToString().Split("/");
             //String location = pressed.ImageLocation;
             var item = items.FirstOrDefault(i => i.ImageUrl == pressed.ImageLocation.ToString());
-            Info frm = new Info(pressed, item) { Dock = DockStyle.Fill, TopLevel = false, TopMost = true };
+            // Info frm = new Info(pressed, item) { Dock = DockStyle.Fill, TopLevel = false, TopMost = true };
+            Info frm = Program._host.Services.GetRequiredService<Info>();
+            frm.initComponent(pressed, item);
+            frm.Dock = DockStyle.Fill;
+            frm.TopLevel = false;
+            frm.TopMost = true;
             this.panelMain.Controls.Add(frm);
             frm.BringToFront();
             frm.Closed += (s, args) => this.Close();
