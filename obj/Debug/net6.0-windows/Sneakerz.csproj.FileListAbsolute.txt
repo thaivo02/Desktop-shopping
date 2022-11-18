@@ -191,3 +191,4 @@ E:\workspace\Helper\Desktop-shopping\obj\Debug\net6.0-windows\Sneakerz.genruntim
 E:\workspace\Helper\Desktop-shopping\obj\Debug\net6.0-windows\ref\Sneakerz.dll
 F:\Experiment\UIT\Năm III\CS511\Desktop-shopping\obj\Debug\net6.0-windows\Sneakerz.CartForm.resources
 F:\Experiment\UIT\Năm III\CS511\Desktop-shopping\obj\Debug\net6.0-windows\Sneakerz.testList.resources
+F:\Experiment\UIT\Năm III\CS511\Desktop-shopping\obj\Debug\net6.0-windows\Sneakerz.Program.resources
