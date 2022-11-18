@@ -84,7 +84,7 @@
             this.guna2HtmlLabel13 = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.guna2HtmlLabel8 = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.guna2HtmlLabel10 = new Guna.UI2.WinForms.Guna2HtmlLabel();
-            this.txtSubtotal = new Guna.UI2.WinForms.Guna2HtmlLabel();
+            this.txtSubTotal = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.guna2HtmlLabel5 = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.guna2HtmlLabel3 = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.guna2HtmlLabel2 = new Guna.UI2.WinForms.Guna2HtmlLabel();
@@ -166,7 +166,7 @@
             this.panelMain.Controls.Add(this.guna2HtmlLabel13);
             this.panelMain.Controls.Add(this.guna2HtmlLabel8);
             this.panelMain.Controls.Add(this.guna2HtmlLabel10);
-            this.panelMain.Controls.Add(this.txtSubtotal);
+            this.panelMain.Controls.Add(this.txtSubTotal);
             this.panelMain.Controls.Add(this.guna2HtmlLabel5);
             this.panelMain.Controls.Add(this.guna2HtmlLabel3);
             this.panelMain.Controls.Add(this.guna2HtmlLabel2);
@@ -879,16 +879,16 @@
             this.guna2HtmlLabel10.TabIndex = 65;
             this.guna2HtmlLabel10.Text = "Estimated Tax";
             // 
-            // txtSubtotal
+            // txtSubTotal
             // 
-            this.txtSubtotal.BackColor = System.Drawing.Color.Transparent;
-            this.txtSubtotal.Font = new System.Drawing.Font("Segoe UI", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.txtSubtotal.ForeColor = System.Drawing.Color.White;
-            this.txtSubtotal.Location = new System.Drawing.Point(1554, 198);
-            this.txtSubtotal.Name = "txtSubtotal";
-            this.txtSubtotal.Size = new System.Drawing.Size(62, 43);
-            this.txtSubtotal.TabIndex = 65;
-            this.txtSubtotal.Text = "0.0$";
+            this.txtSubTotal.BackColor = System.Drawing.Color.Transparent;
+            this.txtSubTotal.Font = new System.Drawing.Font("Segoe UI", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.txtSubTotal.ForeColor = System.Drawing.Color.White;
+            this.txtSubTotal.Location = new System.Drawing.Point(1554, 198);
+            this.txtSubTotal.Name = "txtSubTotal";
+            this.txtSubTotal.Size = new System.Drawing.Size(62, 43);
+            this.txtSubTotal.TabIndex = 65;
+            this.txtSubTotal.Text = "0.0$";
             // 
             // guna2HtmlLabel5
             // 
@@ -1143,7 +1143,7 @@
         private Guna.UI2.WinForms.Guna2HtmlLabel txtPrice4;
         private Guna.UI2.WinForms.Guna2HtmlLabel txtPrice3;
         private Guna.UI2.WinForms.Guna2HtmlLabel txtPrice2;
-        private Guna.UI2.WinForms.Guna2HtmlLabel txtSubtotal;
+        private Guna.UI2.WinForms.Guna2HtmlLabel txtSubTotal;
         private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel8;
         private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel5;
         private Guna.UI2.WinForms.Guna2HtmlLabel txtTax;
