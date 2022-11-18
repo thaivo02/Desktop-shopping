@@ -19,6 +19,7 @@ namespace Sneakerz
         private readonly List<Item> items = new List<Item>();
         public static CartDto cartDto = new CartDto();
         public static int currentCartId = 0;
+        public static double totalPrice = 7;
         protected override CreateParams CreateParams
         {
             get

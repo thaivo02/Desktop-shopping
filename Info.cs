@@ -132,6 +132,7 @@ namespace Sneakerz
                     {
                         ct.Amount++;
                         t = false;
+                        Lanscape.totalPrice += item.Cash;
                         MessageBox.Show("Đã cập nhật giỏ hàng");
                     }
                 });
@@ -151,8 +152,8 @@ namespace Sneakerz
                             ItemId = item.Id,
                             Size = size
                         });
+                        Lanscape.totalPrice += Lanscape.cartDto.CartDetails[Lanscape.cartDto.CartDetails.Count - 1].Amount*item.Cash;
                         MessageBox.Show("Đã cập nhật giỏ hàng");
-
                     }
                 }
                 

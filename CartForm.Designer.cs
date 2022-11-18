@@ -79,7 +79,7 @@
             this.pic2 = new Guna.UI2.WinForms.Guna2PictureBox();
             this.itemInfo1 = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.pic1 = new Guna.UI2.WinForms.Guna2PictureBox();
-            this.guna2HtmlLabel15 = new Guna.UI2.WinForms.Guna2HtmlLabel();
+            this.txtTotal = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.txtTax = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.guna2HtmlLabel13 = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.guna2HtmlLabel8 = new Guna.UI2.WinForms.Guna2HtmlLabel();
@@ -161,7 +161,7 @@
             this.panelMain.Controls.Add(this.pic2);
             this.panelMain.Controls.Add(this.itemInfo1);
             this.panelMain.Controls.Add(this.pic1);
-            this.panelMain.Controls.Add(this.guna2HtmlLabel15);
+            this.panelMain.Controls.Add(this.txtTotal);
             this.panelMain.Controls.Add(this.txtTax);
             this.panelMain.Controls.Add(this.guna2HtmlLabel13);
             this.panelMain.Controls.Add(this.guna2HtmlLabel8);
@@ -224,6 +224,7 @@
             this.btnCheckout.Size = new System.Drawing.Size(225, 56);
             this.btnCheckout.TabIndex = 70;
             this.btnCheckout.Text = "CHECK OUT";
+            this.btnCheckout.Click += new System.EventHandler(this.btnCheckout_Click);
             // 
             // label2
             // 
@@ -823,16 +824,16 @@
             this.pic1.TabIndex = 66;
             this.pic1.TabStop = false;
             // 
-            // guna2HtmlLabel15
+            // txtTotal
             // 
-            this.guna2HtmlLabel15.BackColor = System.Drawing.Color.Transparent;
-            this.guna2HtmlLabel15.Font = new System.Drawing.Font("Segoe UI", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.guna2HtmlLabel15.ForeColor = System.Drawing.Color.White;
-            this.guna2HtmlLabel15.Location = new System.Drawing.Point(1554, 486);
-            this.guna2HtmlLabel15.Name = "guna2HtmlLabel15";
-            this.guna2HtmlLabel15.Size = new System.Drawing.Size(63, 43);
-            this.guna2HtmlLabel15.TabIndex = 65;
-            this.guna2HtmlLabel15.Text = "Free";
+            this.txtTotal.BackColor = System.Drawing.Color.Transparent;
+            this.txtTotal.Font = new System.Drawing.Font("Segoe UI", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.txtTotal.ForeColor = System.Drawing.Color.White;
+            this.txtTotal.Location = new System.Drawing.Point(1554, 486);
+            this.txtTotal.Name = "txtTotal";
+            this.txtTotal.Size = new System.Drawing.Size(63, 43);
+            this.txtTotal.TabIndex = 65;
+            this.txtTotal.Text = "Free";
             // 
             // txtTax
             // 
@@ -865,7 +866,7 @@
             this.guna2HtmlLabel8.Name = "guna2HtmlLabel8";
             this.guna2HtmlLabel8.Size = new System.Drawing.Size(62, 43);
             this.guna2HtmlLabel8.TabIndex = 65;
-            this.guna2HtmlLabel8.Text = "0.0$";
+            this.guna2HtmlLabel8.Text = "7.0$";
             // 
             // guna2HtmlLabel10
             // 
@@ -1148,7 +1149,7 @@
         private Guna.UI2.WinForms.Guna2HtmlLabel txtTax;
         private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel10;
         private Label label1;
-        private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel15;
+        private Guna.UI2.WinForms.Guna2HtmlLabel txtTotal;
         private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel13;
         private Label label2;
         private Guna.UI2.WinForms.Guna2Button btnCheckout;

@@ -1,6 +1,7 @@
 ﻿using Guna.UI2.WinForms;
 using Microsoft.Extensions.DependencyInjection;
 using Sneakerz.Entity;
+using Sneakerz.Model;
 using Sneakerz.Repository.Item;
 using System.Linq;
 using System.Reflection;
@@ -177,6 +178,7 @@ namespace Sneakerz
                 }
 
             }
+            txtTotal.Text = Lanscape.totalPrice.ToString() + "$";
             
         }
 
@@ -198,6 +200,7 @@ namespace Sneakerz
             frm.Show();
         }
 
+
         private void btnDown_Click(object sender, EventArgs e)
         {
             Guna2CircleButton btn = (Guna2CircleButton)sender;
@@ -208,16 +211,19 @@ namespace Sneakerz
                 var cart = Lanscape.cartDto.CartDetails[0];
                 cart.Amount = quantity;
                 txtQuantity1.Text = quantity.ToString();
-                txtPrice1.Text = (cart.Amount * _itemRepository.GetItemDetail(cart.ItemId).Cash).ToString() + "$";
-            }
-            else if (btn.Name[btn.Name.Length - 1] == '2')
+                var item = _itemRepository.GetItemDetail(Lanscape.cartDto.CartDetails[0].ItemId);
+                Lanscape.totalPrice -= item.Cash;
+                txtTotal.Text = Lanscape.totalPrice.ToString() + "$";
+            } else if (btn.Name[btn.Name.Length - 1] == '2')
             {
                 int quantity = Int32.Parse(txtQuantity2.Text);
                 if (quantity > 0) quantity--;
                 var cart = Lanscape.cartDto.CartDetails[1];
                 cart.Amount = quantity;
                 txtQuantity2.Text = quantity.ToString();
-                txtPrice2.Text = (cart.Amount * _itemRepository.GetItemDetail(cart.ItemId).Cash).ToString() + "$";
+                var item = _itemRepository.GetItemDetail(Lanscape.cartDto.CartDetails[1].ItemId);
+                Lanscape.totalPrice -= item.Cash;
+                txtTotal.Text = Lanscape.totalPrice.ToString() + "$";
             } else if (btn.Name[btn.Name.Length - 1] == '3')
             {
                 int quantity = Int32.Parse(txtQuantity3.Text);
@@ -225,7 +231,9 @@ namespace Sneakerz
                 var cart = Lanscape.cartDto.CartDetails[2];
                 cart.Amount = quantity;
                 txtQuantity3.Text = quantity.ToString();
-                txtPrice3.Text = (cart.Amount * _itemRepository.GetItemDetail(cart.ItemId).Cash).ToString() + "$";
+                var item = _itemRepository.GetItemDetail(Lanscape.cartDto.CartDetails[2].ItemId);
+                Lanscape.totalPrice -= item.Cash;
+                txtTotal.Text = Lanscape.totalPrice.ToString() + "$";
             } else if (btn.Name[btn.Name.Length - 1] == '4')
             {
                 int quantity = Int32.Parse(txtQuantity4.Text);
@@ -233,7 +241,9 @@ namespace Sneakerz
                 var cart = Lanscape.cartDto.CartDetails[3];
                 cart.Amount = quantity;
                 txtQuantity4.Text = quantity.ToString();
-                txtPrice4.Text = (cart.Amount * _itemRepository.GetItemDetail(cart.ItemId).Cash).ToString() + "$";
+                var item = _itemRepository.GetItemDetail(Lanscape.cartDto.CartDetails[3].ItemId);
+                Lanscape.totalPrice -= item.Cash;
+                txtTotal.Text = Lanscape.totalPrice.ToString() + "$";
             } else if (btn.Name[btn.Name.Length - 1] == '5')
             {
                 int quantity = Int32.Parse(txtQuantity5.Text);
@@ -241,7 +251,9 @@ namespace Sneakerz
                 var cart = Lanscape.cartDto.CartDetails[4];
                 cart.Amount = quantity;
                 txtQuantity5.Text = quantity.ToString();
-                txtPrice5.Text = (cart.Amount * _itemRepository.GetItemDetail(cart.ItemId).Cash).ToString() + "$";
+                var item = _itemRepository.GetItemDetail(Lanscape.cartDto.CartDetails[4].ItemId);
+                Lanscape.totalPrice -= item.Cash;
+                txtTotal.Text = Lanscape.totalPrice.ToString() + "$";
             }
 
         }
@@ -256,7 +268,9 @@ namespace Sneakerz
                 var cart = Lanscape.cartDto.CartDetails[0];
                 cart.Amount= quantity;
                 txtQuantity1.Text = quantity.ToString();
-                txtPrice1.Text = (cart.Amount * _itemRepository.GetItemDetail(cart.ItemId).Cash).ToString() + "$";
+                var item = _itemRepository.GetItemDetail(Lanscape.cartDto.CartDetails[0].ItemId);
+                Lanscape.totalPrice += item.Cash;
+                txtTotal.Text = Lanscape.totalPrice.ToString() + "$";
             }
             else if (btn.Name[btn.Name.Length - 1] == '2')
             {
@@ -265,7 +279,9 @@ namespace Sneakerz
                 var cart = Lanscape.cartDto.CartDetails[1];
                 cart.Amount = quantity;
                 txtQuantity2.Text = quantity.ToString();
-                txtPrice2.Text = (cart.Amount * _itemRepository.GetItemDetail(cart.ItemId).Cash).ToString() + "$";
+                var item = _itemRepository.GetItemDetail(Lanscape.cartDto.CartDetails[1].ItemId);
+                Lanscape.totalPrice += item.Cash;
+                txtTotal.Text = Lanscape.totalPrice.ToString() + "$";
             }
             else if (btn.Name[btn.Name.Length - 1] == '3')
             {
@@ -274,7 +290,9 @@ namespace Sneakerz
                 var cart = Lanscape.cartDto.CartDetails[2];
                 cart.Amount = quantity;
                 txtQuantity3.Text = quantity.ToString();
-                txtPrice3.Text = (cart.Amount * _itemRepository.GetItemDetail(cart.ItemId).Cash).ToString() + "$";
+                var item = _itemRepository.GetItemDetail(Lanscape.cartDto.CartDetails[2].ItemId);
+                Lanscape.totalPrice += item.Cash;
+                txtTotal.Text = Lanscape.totalPrice.ToString() + "$";
             }
             else if (btn.Name[btn.Name.Length - 1] == '4')
             {
@@ -283,7 +301,9 @@ namespace Sneakerz
                 var cart = Lanscape.cartDto.CartDetails[3];
                 cart.Amount = quantity;
                 txtQuantity4.Text = quantity.ToString();
-                txtPrice4.Text = (cart.Amount * _itemRepository.GetItemDetail(cart.ItemId).Cash).ToString() + "$";
+                var item = _itemRepository.GetItemDetail(Lanscape.cartDto.CartDetails[3].ItemId);
+                Lanscape.totalPrice += item.Cash;
+                txtTotal.Text = Lanscape.totalPrice.ToString() + "$";
             }
             else if (btn.Name[btn.Name.Length - 1] == '5')
             {
@@ -293,6 +313,9 @@ namespace Sneakerz
                 cart.Amount = quantity;
                 txtQuantity5.Text = quantity.ToString();
                 txtPrice5.Text = (cart.Amount * _itemRepository.GetItemDetail(cart.ItemId).Cash).ToString() + "$";
+                var item = _itemRepository.GetItemDetail(Lanscape.cartDto.CartDetails[1].ItemId);
+                Lanscape.totalPrice -= item.Cash;
+                txtTotal.Text = Lanscape.totalPrice.ToString() + "$";
             }
         }
 
@@ -333,6 +356,18 @@ namespace Sneakerz
             frm.TopLevel = false;
             frm.TopMost = true;
             frm.initComponent(item);
+            this.panelMain.Controls.Add(frm);
+            frm.BringToFront();
+            frm.Closed += (s, args) => this.Close();
+            frm.Show();
+        }
+
+        private void btnCheckout_Click(object sender, EventArgs e)
+        {
+            Report frm = Program._host.Services.GetRequiredService<Report>();
+            frm.Dock = DockStyle.Fill;
+            frm.TopLevel = false;
+            frm.TopMost = true;
             this.panelMain.Controls.Add(frm);
             frm.BringToFront();
             frm.Closed += (s, args) => this.Close();
