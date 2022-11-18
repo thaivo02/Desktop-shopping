@@ -14,14 +14,22 @@ namespace Sneakerz
             _itemRepository = itemRepository;
             InitializeComponent();
             var cartItems = Lanscape.cartDto;
-
-            if (cartItems.CartDetails.Count == 1)
+            if (cartItems.Cart is null)
+            {
+                
+            }
+            else if (cartItems.CartDetails.Count == 1)
             {
                 var cart = cartItems.CartDetails[0];
                 var item = _itemRepository.GetItemDetail(cart.ItemId);
                 pic1.Image = Image.FromFile(item.ImageUrl);
                 itemInfo1.Text = item.Name;
+                size1.Text = cart.Size.ToString();
+                sizeInfo1.Text = cart.Size.ToString();
+                txtQuantity1.Text = cart.Amount.ToString();
+                txtPrice1.Text = (cart.Amount * item.Cash).ToString();
             }
+            
         }
 
         private void btnExit_Click(object sender, EventArgs e)

@@ -33,12 +33,25 @@ namespace Sneakerz
             labelBrand.Text= item.Brand.Substring(0, space);
             if (labelBrand.Text == "Adidas") picLogo.Image = Image.FromFile(@"../img/icon-adidas-logo.png");
             else picLogo.Image = Image.FromFile(@"../img/logo.png");
-            var lenName = item.Name.Length - space;
             labelName.Text = item.Name.Substring(space + 1);
             picChange1.Image = Image.FromFile(first);
             picChange2.Image = Image.FromFile(second);
         }
 
+        public void initComponent(Item item)
+        {
+            String location = item.ImageUrl;
+            picDefault.Image = Image.FromFile(location);
+            String first = location.Insert(location.Length - 4, "(1)");
+            String second = location.Insert(location.Length - 4, "(2)");
+            int space = item.Name.IndexOf(" ", StringComparison.Ordinal);
+            labelBrand.Text = item.Brand.Substring(0, space);
+            if (labelBrand.Text == "Adidas") picLogo.Image = Image.FromFile(@"../img/icon-adidas-logo.png");
+            else picLogo.Image = Image.FromFile(@"../img/logo.png");
+            labelName.Text = item.Name.Substring(space + 1);
+            picChange1.Image = Image.FromFile(first);
+            picChange2.Image = Image.FromFile(second);
+        }
         private void btnExit_Click(object sender, EventArgs e)
         {
             this.Close();
