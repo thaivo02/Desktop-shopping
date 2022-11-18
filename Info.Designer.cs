@@ -58,13 +58,11 @@
             this.labelName = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.labelBrand = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.btnHome = new Guna.UI2.WinForms.Guna2Button();
-            this.btnNike = new Guna.UI2.WinForms.Guna2Button();
             this.btnSearch = new Guna.UI2.WinForms.Guna2Button();
-            this.btnAdidas = new Guna.UI2.WinForms.Guna2Button();
             this.btnCart = new Guna.UI2.WinForms.Guna2Button();
-            this.btnPuma = new Guna.UI2.WinForms.Guna2Button();
             this.picLogo = new Guna.UI2.WinForms.Guna2PictureBox();
             this.btnExit = new Guna.UI2.WinForms.Guna2Button();
+            this.txtSearch = new System.Windows.Forms.TextBox();
             this.panelMain.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.picDefault)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.picChange2)).BeginInit();
@@ -110,11 +108,8 @@
             this.panelMain.Controls.Add(this.labelName);
             this.panelMain.Controls.Add(this.labelBrand);
             this.panelMain.Controls.Add(this.btnHome);
-            this.panelMain.Controls.Add(this.btnNike);
             this.panelMain.Controls.Add(this.btnSearch);
-            this.panelMain.Controls.Add(this.btnAdidas);
             this.panelMain.Controls.Add(this.btnCart);
-            this.panelMain.Controls.Add(this.btnPuma);
             this.panelMain.Controls.Add(this.picLogo);
             this.panelMain.Controls.Add(this.btnExit);
             this.panelMain.Location = new System.Drawing.Point(0, 0);
@@ -570,22 +565,6 @@
             this.btnHome.Text = "HOME";
             this.btnHome.Click += new System.EventHandler(this.btnHome_Click);
             // 
-            // btnNike
-            // 
-            this.btnNike.BackColor = System.Drawing.Color.Transparent;
-            this.btnNike.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            this.btnNike.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.btnNike.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.btnNike.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.btnNike.FillColor = System.Drawing.Color.Transparent;
-            this.btnNike.Font = new System.Drawing.Font("Segoe UI Semibold", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.btnNike.ForeColor = System.Drawing.Color.White;
-            this.btnNike.Location = new System.Drawing.Point(626, 24);
-            this.btnNike.Name = "btnNike";
-            this.btnNike.Size = new System.Drawing.Size(160, 52);
-            this.btnNike.TabIndex = 64;
-            this.btnNike.Text = "NIKE";
-            // 
             // btnSearch
             // 
             this.btnSearch.BackColor = System.Drawing.Color.Transparent;
@@ -601,22 +580,7 @@
             this.btnSearch.Size = new System.Drawing.Size(160, 52);
             this.btnSearch.TabIndex = 40;
             this.btnSearch.Text = "SEARCH";
-            // 
-            // btnAdidas
-            // 
-            this.btnAdidas.BackColor = System.Drawing.Color.Transparent;
-            this.btnAdidas.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            this.btnAdidas.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.btnAdidas.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.btnAdidas.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.btnAdidas.FillColor = System.Drawing.Color.Transparent;
-            this.btnAdidas.Font = new System.Drawing.Font("Segoe UI Semibold", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.btnAdidas.ForeColor = System.Drawing.Color.White;
-            this.btnAdidas.Location = new System.Drawing.Point(794, 24);
-            this.btnAdidas.Name = "btnAdidas";
-            this.btnAdidas.Size = new System.Drawing.Size(160, 52);
-            this.btnAdidas.TabIndex = 39;
-            this.btnAdidas.Text = "ADIDAS";
+            this.btnSearch.Click += new System.EventHandler(this.btnSearch_Click);
             // 
             // btnCart
             // 
@@ -633,22 +597,7 @@
             this.btnCart.Name = "btnCart";
             this.btnCart.Size = new System.Drawing.Size(56, 52);
             this.btnCart.TabIndex = 41;
-            // 
-            // btnPuma
-            // 
-            this.btnPuma.BackColor = System.Drawing.Color.Transparent;
-            this.btnPuma.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            this.btnPuma.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.btnPuma.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.btnPuma.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.btnPuma.FillColor = System.Drawing.Color.Transparent;
-            this.btnPuma.Font = new System.Drawing.Font("Segoe UI Semibold", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.btnPuma.ForeColor = System.Drawing.Color.White;
-            this.btnPuma.Location = new System.Drawing.Point(962, 24);
-            this.btnPuma.Name = "btnPuma";
-            this.btnPuma.Size = new System.Drawing.Size(160, 52);
-            this.btnPuma.TabIndex = 38;
-            this.btnPuma.Text = "PUMA";
+            this.btnCart.Click += new System.EventHandler(this.btnCart_Click);
             // 
             // picLogo
             // 
@@ -680,12 +629,25 @@
             this.btnExit.Text = "EXIT";
             this.btnExit.Click += new System.EventHandler(this.btnExit_Click);
             // 
+            // txtSearch
+            // 
+            this.txtSearch.BackColor = System.Drawing.Color.Gainsboro;
+            this.txtSearch.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.txtSearch.Font = new System.Drawing.Font("Segoe UI Semibold", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.txtSearch.ForeColor = System.Drawing.Color.Black;
+            this.txtSearch.Location = new System.Drawing.Point(165, 36);
+            this.txtSearch.Name = "txtSearch";
+            this.txtSearch.Size = new System.Drawing.Size(305, 32);
+            this.txtSearch.TabIndex = 87;
+            this.txtSearch.Visible = false;
+            // 
             // Info
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(1707, 886);
+            this.Controls.Add(this.txtSearch);
             this.Controls.Add(this.panelMain);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "Info";
@@ -702,6 +664,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.picLogo)).EndInit();
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
@@ -709,11 +672,8 @@
 
         private Guna.UI2.WinForms.Guna2Panel panelMain;
         private Guna.UI2.WinForms.Guna2Button btnHome;
-        private Guna.UI2.WinForms.Guna2Button btnNike;
         private Guna.UI2.WinForms.Guna2Button btnSearch;
-        private Guna.UI2.WinForms.Guna2Button btnAdidas;
         private Guna.UI2.WinForms.Guna2Button btnCart;
-        private Guna.UI2.WinForms.Guna2Button btnPuma;
         private Guna.UI2.WinForms.Guna2PictureBox picLogo;
         private Guna.UI2.WinForms.Guna2Button btnExit;
         private Guna.UI2.WinForms.Guna2HtmlLabel labelBrand;
@@ -743,5 +703,6 @@
         private Guna.UI2.WinForms.Guna2PictureBox picChange1;
         private Guna.UI2.WinForms.Guna2PictureBox picChange2;
         private Guna.UI2.WinForms.Guna2PictureBox picDefault;
+        private TextBox txtSearch;
     }
 }

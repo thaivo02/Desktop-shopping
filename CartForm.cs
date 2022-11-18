@@ -8,6 +8,23 @@ namespace Sneakerz
         public CartForm()
         {
             InitializeComponent();
+            txtSearch.Visible = false;
+            pic1.Visible = false;
+            pic2.Visible = false;
+            pic3.Visible = false;
+            pic4.Visible = false;
+            pic5.Visible = false;
+            txtItem1.Visible = false;
+            txtItem2.Visible = false;
+            txtItem3.Visible = false;
+            txtItem4.Visible = false;
+            txtItem5.Visible = false;
+            txtPrice1.Visible = false;
+            txtPrice2.Visible = false;
+            txtPrice3.Visible = false;
+            txtPrice4.Visible = false;
+            txtPrice5.Visible = false;
+
         }
 
         private void btnExit_Click(object sender, EventArgs e)
@@ -93,6 +110,12 @@ namespace Sneakerz
                 quantity++;
                 txtQuantity5.Text = quantity.ToString();
             }
+        }
+
+        private void btnSearch_Click(object sender, EventArgs e)
+        {
+            txtSearch.Visible = true;
+            btnSearch.Visible = false;
         }
     }
 }

@@ -57,6 +57,7 @@ namespace Sneakerz
             currentCartId = _cartServices.GetCartMaxId() + 1;
             items = _itemServices.GetListItem(new ItemQuery());
             InitializeComponent();
+            txtSearch.Visible = false;
             this.Home();
         }
 

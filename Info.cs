@@ -19,6 +19,8 @@ namespace Sneakerz
             _itemServices = itemServices;
             _itemRepository = itemRepository;
             InitializeComponent();
+            txtSearch.Visible = false;
+
             // String brand = pressed.Name.Substring(0, space);
             // String name = pressed.Name.Substring(space + 1, pressed.Name.Length - space);
         }
@@ -140,6 +142,20 @@ namespace Sneakerz
                 }
                 
             }
+        }
+        private void btnSearch_Click(object sender, EventArgs e)
+        {
+            txtSearch.Visible = true;
+            btnSearch.Visible = false;
+        }
+
+        private void btnCart_Click(object sender, EventArgs e)
+        {
+            CartForm frm = new CartForm() { Dock = DockStyle.Fill, TopLevel = false, TopMost = true };
+            this.panelMain.Controls.Add(frm);
+            frm.BringToFront();
+            frm.Closed += (s, args) => this.Close();
+            frm.Show();
         }
     }
 }

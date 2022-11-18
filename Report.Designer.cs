@@ -37,8 +37,10 @@
             this.btnPuma = new Guna.UI2.WinForms.Guna2Button();
             this.picLogo = new Guna.UI2.WinForms.Guna2PictureBox();
             this.btnExit = new Guna.UI2.WinForms.Guna2Button();
+            this.data = new System.Windows.Forms.DataGridView();
             this.panelMain.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.picLogo)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.data)).BeginInit();
             this.SuspendLayout();
             // 
             // panelMain
@@ -46,6 +48,7 @@
             this.panelMain.BackColor = System.Drawing.Color.Transparent;
             this.panelMain.BackgroundImage = global::Sneakerz.Properties.Resources.bg;
             this.panelMain.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.panelMain.Controls.Add(this.data);
             this.panelMain.Controls.Add(this.btnHome);
             this.panelMain.Controls.Add(this.btnNike);
             this.panelMain.Controls.Add(this.btnSearch);
@@ -186,6 +189,18 @@
             this.btnExit.Text = "EXIT";
             this.btnExit.Click += new System.EventHandler(this.btnExit_Click);
             // 
+            // data
+            // 
+            this.data.BackgroundColor = System.Drawing.SystemColors.Control;
+            this.data.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.data.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.data.Location = new System.Drawing.Point(60, 109);
+            this.data.Name = "data";
+            this.data.ReadOnly = true;
+            this.data.RowHeadersWidth = 51;
+            this.data.Size = new System.Drawing.Size(1556, 750);
+            this.data.TabIndex = 65;
+            // 
             // Report
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
@@ -198,6 +213,7 @@
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.panelMain.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.picLogo)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.data)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -213,5 +229,6 @@
         private Guna.UI2.WinForms.Guna2Button btnPuma;
         private Guna.UI2.WinForms.Guna2PictureBox picLogo;
         private Guna.UI2.WinForms.Guna2Button btnExit;
+        private DataGridView data;
     }
 }
