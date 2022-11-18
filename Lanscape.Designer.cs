@@ -29,6 +29,7 @@
         private void InitializeComponent()
         {
             this.panelMain = new Guna.UI2.WinForms.Guna2Panel();
+            this.listBox1 = new System.Windows.Forms.ListBox();
             this.txtSearch = new System.Windows.Forms.TextBox();
             this.btnHome = new Guna.UI2.WinForms.Guna2Button();
             this.btnNike = new Guna.UI2.WinForms.Guna2Button();
@@ -134,6 +135,7 @@
             this.panelMain.BackColor = System.Drawing.Color.Transparent;
             this.panelMain.BackgroundImage = global::Sneakerz.Properties.Resources.landscape;
             this.panelMain.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.panelMain.Controls.Add(this.listBox1);
             this.panelMain.Controls.Add(this.txtSearch);
             this.panelMain.Controls.Add(this.btnHome);
             this.panelMain.Controls.Add(this.btnNike);
@@ -214,6 +216,16 @@
             this.panelMain.Size = new System.Drawing.Size(1707, 886);
             this.panelMain.TabIndex = 1;
             // 
+            // listBox1
+            // 
+            this.listBox1.FormattingEnabled = true;
+            this.listBox1.ItemHeight = 20;
+            this.listBox1.Location = new System.Drawing.Point(163, 74);
+            this.listBox1.Name = "listBox1";
+            this.listBox1.Size = new System.Drawing.Size(307, 124);
+            this.listBox1.TabIndex = 87;
+            this.listBox1.SelectedIndexChanged += new System.EventHandler(this.listBox1_SelectedIndexChanged);
+            // 
             // txtSearch
             // 
             this.txtSearch.BackColor = System.Drawing.Color.Gainsboro;
@@ -225,6 +237,7 @@
             this.txtSearch.Size = new System.Drawing.Size(305, 32);
             this.txtSearch.TabIndex = 86;
             this.txtSearch.Visible = false;
+            this.txtSearch.TextChanged += new System.EventHandler(this.txtSearch_TextChanged);
             // 
             // btnHome
             // 
@@ -1304,5 +1317,6 @@
         private Guna.UI2.WinForms.Guna2HtmlLabel txtName17;
         private Guna.UI2.WinForms.Guna2HtmlLabel txtName16;
         private Guna.UI2.WinForms.Guna2HtmlLabel txtName15;
+        private ListBox listBox1;
     }
 }
