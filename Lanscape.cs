@@ -308,7 +308,11 @@ namespace Sneakerz
 
         private void btnCart_Click(object sender, EventArgs e)
         {
-            CartForm frm = new CartForm() { Dock = DockStyle.Fill, TopLevel = false, TopMost = true };
+            // CartForm frm = new CartForm() { Dock = DockStyle.Fill, TopLevel = false, TopMost = true };
+            CartForm frm = Program._host.Services.GetRequiredService<CartForm>();
+            frm.Dock = DockStyle.Fill;
+            frm.TopLevel = false;
+            frm.TopMost = true;
             this.panelMain.Controls.Add(frm);
             frm.BringToFront();
             frm.Closed += (s, args) => this.Close();

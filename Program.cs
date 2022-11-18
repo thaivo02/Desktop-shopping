@@ -21,6 +21,7 @@ namespace Sneakerz
             services.AddServices();
             services.AddTransient<Lanscape>();
             services.AddTransient<Info>();
+            services.AddTransient<CartForm>();
         }).Build(); 
         
         /// <summary>

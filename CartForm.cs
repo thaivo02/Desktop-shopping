@@ -1,13 +1,27 @@
 ﻿using Guna.UI2.WinForms;
 using Microsoft.Extensions.DependencyInjection;
+using Sneakerz.Repository.Item;
+using System.Reflection;
+using Console = System.Console;
 
 namespace Sneakerz
 {
     public partial class CartForm : Form
     {
-        public CartForm()
+        private readonly IItemRepository _itemRepository;
+        public CartForm(IItemRepository itemRepository)
         {
+            _itemRepository = itemRepository;
             InitializeComponent();
+            var cartItems = Lanscape.cartDto;
+
+            if (cartItems.CartDetails.Count == 1)
+            {
+                var cart = cartItems.CartDetails[0];
+                var item = _itemRepository.GetItemDetail(cart.ItemId);
+                pic1.Image = Image.FromFile(item.ImageUrl);
+                itemInfo1.Text = item.Name;
+            }
         }
 
         private void btnExit_Click(object sender, EventArgs e)
